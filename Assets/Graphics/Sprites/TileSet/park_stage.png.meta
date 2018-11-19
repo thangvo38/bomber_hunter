@@ -423,18 +423,18 @@ TextureImporter:
       name: park_stage_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e54ec309192f6bd46b0fe6fcc9324006
+      spriteID: a44acb7ccce16d048b21c65d81611f2b
       vertices: []
       indices: 
       edges: []
@@ -443,18 +443,18 @@ TextureImporter:
       name: park_stage_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70d2c42094c323445b52f988802aeb41
+      spriteID: 2f28ec1e76644d74495e65b976fed9ed
       vertices: []
       indices: 
       edges: []
@@ -463,18 +463,18 @@ TextureImporter:
       name: park_stage_2
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6947a5143c62f4587cd100de749868
+      spriteID: fcc170bd5e157d74f856a114c5f54098
       vertices: []
       indices: 
       edges: []
@@ -483,18 +483,18 @@ TextureImporter:
       name: park_stage_3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c4427ae3b064394c8bf6ef2fd72ba6f
+      spriteID: ee9d3113c39ba5749a87933f9ae6335b
       vertices: []
       indices: 
       edges: []
@@ -503,18 +503,18 @@ TextureImporter:
       name: park_stage_4
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f3202dffc87f4541b56313591ce0ab9
+      spriteID: ea6252f8327f5fc4b9ec87f31aa976ac
       vertices: []
       indices: 
       edges: []
@@ -523,18 +523,18 @@ TextureImporter:
       name: park_stage_5
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4404fba2cdcc14fbc3852aa0c03a0d
+      spriteID: ef30431c22cc12944a8c561db24b8d6b
       vertices: []
       indices: 
       edges: []
@@ -543,18 +543,18 @@ TextureImporter:
       name: park_stage_6
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cedeb70be776b8241ab9174fe12514b8
+      spriteID: 8572b99ed3e8a414f9ab727c4e9997b5
       vertices: []
       indices: 
       edges: []
@@ -563,18 +563,18 @@ TextureImporter:
       name: park_stage_7
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878a8e82083ee574a8a78cce6fb10938
+      spriteID: 6aeefd08bb896a4438f07570399896a7
       vertices: []
       indices: 
       edges: []
@@ -583,18 +583,18 @@ TextureImporter:
       name: park_stage_8
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68e19588e294164ea8aae6f77849a21
+      spriteID: 5d53efff71de4ad4a99656b594ebbe2e
       vertices: []
       indices: 
       edges: []
@@ -603,18 +603,18 @@ TextureImporter:
       name: park_stage_9
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0ddbcf47d6daa48aeeb83e09f8dd0e
+      spriteID: 1755a4f4ffc9f3f4794e068a505d1187
       vertices: []
       indices: 
       edges: []
@@ -623,18 +623,18 @@ TextureImporter:
       name: park_stage_10
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc3a25fe80c885489cb9a50adeca730
+      spriteID: 8c33f0a3e255ecf49ae0f812ea4be14c
       vertices: []
       indices: 
       edges: []
@@ -643,18 +643,18 @@ TextureImporter:
       name: park_stage_11
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 111fe5c5515fc3a4b8b26669da7510e9
+      spriteID: e0f296cc7c1a7e446ae5fd373885c953
       vertices: []
       indices: 
       edges: []
@@ -663,18 +663,18 @@ TextureImporter:
       name: park_stage_12
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bee1f0d81295cf4c9a3b2ae77f00a63
+      spriteID: 183be6ad703aaa4489d3a10cc750735b
       vertices: []
       indices: 
       edges: []
@@ -683,18 +683,18 @@ TextureImporter:
       name: park_stage_13
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d9a36cc2595fab44a4be6908cab0259
+      spriteID: 68ef7f2cfcebbc04e80b88fedde80238
       vertices: []
       indices: 
       edges: []
@@ -703,18 +703,18 @@ TextureImporter:
       name: park_stage_14
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad18094fb42eff246aba8ef12f49e5c8
+      spriteID: c2fc0f41153e12c4bb0306d0d6bfa859
       vertices: []
       indices: 
       edges: []
@@ -723,18 +723,18 @@ TextureImporter:
       name: park_stage_15
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe5a8242bb960514baa0a8b20fb6dcde
+      spriteID: 41db433843a38374695667c934ea9517
       vertices: []
       indices: 
       edges: []
@@ -743,18 +743,18 @@ TextureImporter:
       name: park_stage_16
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f45d703c2d390f4682206a504e29341
+      spriteID: f8e008d541cbf004dabe9bc26382ab72
       vertices: []
       indices: 
       edges: []
@@ -763,18 +763,18 @@ TextureImporter:
       name: park_stage_17
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd0d8b94d9d604b9d99c0262f3526c
+      spriteID: 683ad1fc24417b44cb4509c6d318e708
       vertices: []
       indices: 
       edges: []
@@ -783,18 +783,18 @@ TextureImporter:
       name: park_stage_18
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1913a49cc0c28fa4299c152d0570094c
+      spriteID: a385571edc1aba2488ef88537fdd604a
       vertices: []
       indices: 
       edges: []
@@ -803,18 +803,18 @@ TextureImporter:
       name: park_stage_19
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5af48c9f83abdf74886b204b18408655
+      spriteID: 122944f7fd4af5d4f86ab7b5199eafbd
       vertices: []
       indices: 
       edges: []
@@ -823,18 +823,18 @@ TextureImporter:
       name: park_stage_20
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 256
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4882411ed840ecf419671cc21dc7d3ca
+      spriteID: f04a464711bae9e4f8fbdb6cc0f10047
       vertices: []
       indices: 
       edges: []
@@ -843,18 +843,18 @@ TextureImporter:
       name: park_stage_21
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e3306f7f1c0b94eb11c3ebbb51de5f
+      spriteID: bfe34f7ffa14377488e77b7ea4b98085
       vertices: []
       indices: 
       edges: []
@@ -863,18 +863,18 @@ TextureImporter:
       name: park_stage_22
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7cdde956cd19464586d4c4d87e74f5e
+      spriteID: 01838651cbe77a348b4b3277dd284b5d
       vertices: []
       indices: 
       edges: []
@@ -883,18 +883,18 @@ TextureImporter:
       name: park_stage_23
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcdd4c8a2da2634389b2a0ced293e31
+      spriteID: 289e5615a3afbe842bab9a3ddc990c97
       vertices: []
       indices: 
       edges: []
@@ -903,18 +903,18 @@ TextureImporter:
       name: park_stage_24
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f2ebfdf41ce4b4a8f10abb8d77d226
+      spriteID: 0746fa9194383c54b9c8a5bb43afd36c
       vertices: []
       indices: 
       edges: []
@@ -923,18 +923,18 @@ TextureImporter:
       name: park_stage_25
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa87db17cc791a74ebc6a231c53a5ef7
+      spriteID: 16ca7b9a02264f34290fac2f232987d8
       vertices: []
       indices: 
       edges: []
@@ -943,18 +943,18 @@ TextureImporter:
       name: park_stage_26
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b68e09b72fb0e40832794b45d7b0cb
+      spriteID: c4c636ce19e7bdd49b33d564845b5f48
       vertices: []
       indices: 
       edges: []
@@ -963,18 +963,18 @@ TextureImporter:
       name: park_stage_27
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e051cb455e49a542abcb759ee00624e
+      spriteID: 8be4fda96e665654eaeca4ff0c828142
       vertices: []
       indices: 
       edges: []
@@ -983,18 +983,18 @@ TextureImporter:
       name: park_stage_28
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efd1cd89684893e409bcc59710614937
+      spriteID: 15a0861a5e8ff6c4ca316331b58038fa
       vertices: []
       indices: 
       edges: []
@@ -1003,18 +1003,18 @@ TextureImporter:
       name: park_stage_29
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0f5ebc8ade5b840be126735aee5f3d
+      spriteID: 6f54c972c8e87bd4086702478406b5d8
       vertices: []
       indices: 
       edges: []
@@ -1023,18 +1023,18 @@ TextureImporter:
       name: park_stage_30
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2971bda6fea0cf941951692bbaca9dd8
+      spriteID: 717c53f2f2f0e0f41a35c570191f52d2
       vertices: []
       indices: 
       edges: []
@@ -1043,18 +1043,18 @@ TextureImporter:
       name: park_stage_31
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18394738f3231e24f98576f0580a88ee
+      spriteID: d80ec4545b62d124dae34ebeba58fbc1
       vertices: []
       indices: 
       edges: []
@@ -1063,18 +1063,18 @@ TextureImporter:
       name: park_stage_32
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70c035eb10f8774980acdce351de974
+      spriteID: 530c434552ab78447bd7031210d95ff2
       vertices: []
       indices: 
       edges: []
@@ -1083,18 +1083,18 @@ TextureImporter:
       name: park_stage_33
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15656ddeccd5070489846ca9d5c00298
+      spriteID: 3b99412bccafddf43a3d6115ec1452ea
       vertices: []
       indices: 
       edges: []
@@ -1103,18 +1103,18 @@ TextureImporter:
       name: park_stage_34
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca998e87c6eb6c4886140a0cdc6e0f9
+      spriteID: ccdba5e08686e9841be233f1b092f2f2
       vertices: []
       indices: 
       edges: []
@@ -1123,18 +1123,18 @@ TextureImporter:
       name: park_stage_35
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece887609cde0f944aedfa4be87a95d4
+      spriteID: 5736df070176b36429492df55605d522
       vertices: []
       indices: 
       edges: []
@@ -1143,18 +1143,18 @@ TextureImporter:
       name: park_stage_36
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8f8d59cbe6f90a46adb955860db21c9
+      spriteID: 05228c939d36d8347a811cc1abca31e1
       vertices: []
       indices: 
       edges: []
@@ -1163,18 +1163,18 @@ TextureImporter:
       name: park_stage_37
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e1fc95295b416f47878eb7cfe629621
+      spriteID: 9bdcda8605b97174080654d2a5bd44c4
       vertices: []
       indices: 
       edges: []
@@ -1183,18 +1183,18 @@ TextureImporter:
       name: park_stage_38
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b4d548eeb0d25249bbb4b1f836df2f0
+      spriteID: 9b8ba1e7dac477a4b9293bbc65faef4a
       vertices: []
       indices: 
       edges: []
@@ -1203,18 +1203,18 @@ TextureImporter:
       name: park_stage_39
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0881fccfcda1b1e4db060fcba8cb3de9
+      spriteID: 2122a2b7a672a214f94261cf726731c7
       vertices: []
       indices: 
       edges: []
@@ -1223,18 +1223,18 @@ TextureImporter:
       name: park_stage_40
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7daf6791354e142b6d1b8079922f6a
+      spriteID: 62f8d706f105dfc46a998b06807985c9
       vertices: []
       indices: 
       edges: []
@@ -1243,18 +1243,18 @@ TextureImporter:
       name: park_stage_41
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 239
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 368467142a1a706428ce8541b2316a23
+      spriteID: 7ee735e609ebba747818440f1abebfbc
       vertices: []
       indices: 
       edges: []
@@ -1263,18 +1263,18 @@ TextureImporter:
       name: park_stage_42
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee22dfca6862e64e80e439096dde9d1
+      spriteID: a0110af345835e84f97454cce8b33c15
       vertices: []
       indices: 
       edges: []
@@ -1283,18 +1283,18 @@ TextureImporter:
       name: park_stage_43
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ced793edbb37414a92cac77c8009ab5
+      spriteID: 05d477ce794d21e4eb0b6de69eaa2e62
       vertices: []
       indices: 
       edges: []
@@ -1303,18 +1303,18 @@ TextureImporter:
       name: park_stage_44
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 659042a5021879a48ab1bfcf5e1cb5ff
+      spriteID: 0431a5f434190b741bf0b4e4c8aa69f5
       vertices: []
       indices: 
       edges: []
@@ -1323,18 +1323,18 @@ TextureImporter:
       name: park_stage_45
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f284d1949abbab246ba019052e9d9e18
+      spriteID: 54655ace2aae15f4dbb583eb32358782
       vertices: []
       indices: 
       edges: []
@@ -1343,18 +1343,18 @@ TextureImporter:
       name: park_stage_46
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1324848f8595ae42b5f0ae73aa26007
+      spriteID: 3c9ad140ac8e014469ddcf9d8af301c0
       vertices: []
       indices: 
       edges: []
@@ -1363,18 +1363,18 @@ TextureImporter:
       name: park_stage_47
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df54a124f1a6be1468852db74c9fb49a
+      spriteID: 5a68fcc9085bb9b439b67febd9cb1b07
       vertices: []
       indices: 
       edges: []
@@ -1383,18 +1383,18 @@ TextureImporter:
       name: park_stage_48
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15d021e66645604fb865cb76c03647c
+      spriteID: 71a32ed84fc73e04e80c3f7c23c22fa9
       vertices: []
       indices: 
       edges: []
@@ -1403,18 +1403,18 @@ TextureImporter:
       name: park_stage_49
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10ee69907fcf4f14cbac552313fa3803
+      spriteID: 8a6dc78b2c688244c8aae3303ede58e3
       vertices: []
       indices: 
       edges: []
@@ -1423,18 +1423,18 @@ TextureImporter:
       name: park_stage_50
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e895a26d85f08164280e4b37193d8f26
+      spriteID: 92ac488376023434d91d9bb2c360d914
       vertices: []
       indices: 
       edges: []
@@ -1443,18 +1443,18 @@ TextureImporter:
       name: park_stage_51
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84cab79648208044289b1ad8c519b8c8
+      spriteID: ac2487553d180ea459bf6359a9e8e21c
       vertices: []
       indices: 
       edges: []
@@ -1463,18 +1463,18 @@ TextureImporter:
       name: park_stage_52
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e2314d9da8576b4080cde8d53e26788
+      spriteID: bdae0cb69b60e634d89f220dc77e5e55
       vertices: []
       indices: 
       edges: []
@@ -1483,18 +1483,18 @@ TextureImporter:
       name: park_stage_53
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c1ddabc9390fa945b4b3c683653ee3c
+      spriteID: e44fd570566860b478fc2ea02f654e6e
       vertices: []
       indices: 
       edges: []
@@ -1503,18 +1503,18 @@ TextureImporter:
       name: park_stage_54
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a53c4ac494b88a84d927cd943780365a
+      spriteID: 9becbe04be9979148ab8584af43980e6
       vertices: []
       indices: 
       edges: []
@@ -1523,18 +1523,18 @@ TextureImporter:
       name: park_stage_55
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1fe7f803b9d52b47854347db13ce993
+      spriteID: 482351c2b6659f442b113bb072fb4b44
       vertices: []
       indices: 
       edges: []
@@ -1543,18 +1543,18 @@ TextureImporter:
       name: park_stage_56
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94c89e0faa0d074ea5a8b11de16b406
+      spriteID: 11140c8ffb937324e9333bdbfc3c75e3
       vertices: []
       indices: 
       edges: []
@@ -1563,18 +1563,18 @@ TextureImporter:
       name: park_stage_57
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 787a0461c177e9e4ab72f5167b071054
+      spriteID: c402cc9c024827147ac2d88932249dce
       vertices: []
       indices: 
       edges: []
@@ -1583,18 +1583,18 @@ TextureImporter:
       name: park_stage_58
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d4140e9a77fdc144b2881072896cf08
+      spriteID: 421ccb53b327b944b8d3b7832c672397
       vertices: []
       indices: 
       edges: []
@@ -1603,18 +1603,18 @@ TextureImporter:
       name: park_stage_59
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 222
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9549c2b798d3b724b9b7a3c36cc021c5
+      spriteID: 255c68820cf908542ab89383eac6b9b0
       vertices: []
       indices: 
       edges: []
@@ -1623,18 +1623,18 @@ TextureImporter:
       name: park_stage_60
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 537382d2c9a9c9941978e4fb4c09bb7d
+      spriteID: 62d57ebcffb89ce409e99ea41452bcdb
       vertices: []
       indices: 
       edges: []
@@ -1643,18 +1643,18 @@ TextureImporter:
       name: park_stage_61
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a6001b0c4052584e83af2cd940e8d82
+      spriteID: ed37cea8c591886428de68c7309cab7a
       vertices: []
       indices: 
       edges: []
@@ -1663,18 +1663,18 @@ TextureImporter:
       name: park_stage_62
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffaef1ded73dce3479e62103d057b427
+      spriteID: 80d473fb1ecaa0d4ea515c1bb676d774
       vertices: []
       indices: 
       edges: []
@@ -1683,18 +1683,18 @@ TextureImporter:
       name: park_stage_63
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5351ca4788e04d044afb92f01cc9aa40
+      spriteID: db5d45d4396805545b04d9e51fd6b9b3
       vertices: []
       indices: 
       edges: []
@@ -1703,18 +1703,18 @@ TextureImporter:
       name: park_stage_64
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b323e8c62d3af940a6b253b3d63a6ae
+      spriteID: 4a73aca1f607c014baf59bdb2edff3b5
       vertices: []
       indices: 
       edges: []
@@ -1723,18 +1723,18 @@ TextureImporter:
       name: park_stage_65
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce7afde67582c647ae9c905ca8fe9e9
+      spriteID: 8e1da184f58ec1e48b332b8128433912
       vertices: []
       indices: 
       edges: []
@@ -1743,18 +1743,18 @@ TextureImporter:
       name: park_stage_66
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ed8336cc38842b458d6d999ec04a1ac
+      spriteID: e5f67d957f5766247809fbd54b57ef3a
       vertices: []
       indices: 
       edges: []
@@ -1763,18 +1763,18 @@ TextureImporter:
       name: park_stage_67
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeea1490f87816d4da21bbbb5bd4b2ed
+      spriteID: 993809e84e29f6b4695a9f4adcaed8c4
       vertices: []
       indices: 
       edges: []
@@ -1783,18 +1783,18 @@ TextureImporter:
       name: park_stage_68
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d59b86955ac494fb81262ff47bdb12
+      spriteID: 9f477c4e707ebd54f81f7b5fa2a56acf
       vertices: []
       indices: 
       edges: []
@@ -1803,18 +1803,18 @@ TextureImporter:
       name: park_stage_69
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d3dc5a78609ea42890dd2564921f92
+      spriteID: 2d6a46ddb116b6e4db5ecd8542f679c0
       vertices: []
       indices: 
       edges: []
@@ -1823,18 +1823,18 @@ TextureImporter:
       name: park_stage_70
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83e14a6e17e13b408b57ec74b831e97
+      spriteID: 19e0fe75a5c22d74ca0e0dac541270f0
       vertices: []
       indices: 
       edges: []
@@ -1843,18 +1843,18 @@ TextureImporter:
       name: park_stage_71
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bca4b07e74219143ab5646b6b04a59c
+      spriteID: 807f16bcfd231e7478e0e82fcd487762
       vertices: []
       indices: 
       edges: []
@@ -1863,18 +1863,18 @@ TextureImporter:
       name: park_stage_72
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 212499d256036f04fba6ad22e9a53651
+      spriteID: 950d96a843a65f1489b90f7d7dfc5990
       vertices: []
       indices: 
       edges: []
@@ -1883,18 +1883,18 @@ TextureImporter:
       name: park_stage_73
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b082557f70821d418c775c53ba1b0d8
+      spriteID: 3c55a7450e925a541891ee73ed288211
       vertices: []
       indices: 
       edges: []
@@ -1903,18 +1903,18 @@ TextureImporter:
       name: park_stage_74
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef86a465bc632944af5287c844284ce
+      spriteID: e12c8ab5550fb77408aa2502c566da15
       vertices: []
       indices: 
       edges: []
@@ -1923,18 +1923,18 @@ TextureImporter:
       name: park_stage_75
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5509ba9f5985ab04594764d08cadc781
+      spriteID: a85353d6ca2b3fd45984d79297299a8d
       vertices: []
       indices: 
       edges: []
@@ -1943,18 +1943,18 @@ TextureImporter:
       name: park_stage_76
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f2a31765411974a953295d8b655fba
+      spriteID: 5709318178f77fa409f8d17ac414b89f
       vertices: []
       indices: 
       edges: []
@@ -1963,18 +1963,18 @@ TextureImporter:
       name: park_stage_77
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d747e3e7ae318f445be39e79edd57d9a
+      spriteID: 069cee16b1b5d284085bc87408aff962
       vertices: []
       indices: 
       edges: []
@@ -1983,18 +1983,18 @@ TextureImporter:
       name: park_stage_78
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f681d83d25b9974ea6d82831f8dfaf9
+      spriteID: ca4132aa31882f147814d536e0d4cb3c
       vertices: []
       indices: 
       edges: []
@@ -2003,18 +2003,18 @@ TextureImporter:
       name: park_stage_79
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 417d94b2c92baad459bf47887ee69868
+      spriteID: 6ec8fa3c07c8fa14b94337392c39eadd
       vertices: []
       indices: 
       edges: []
@@ -2023,18 +2023,18 @@ TextureImporter:
       name: park_stage_80
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 523ae2a5ffd29944a89e82fd8da0bb2e
+      spriteID: 1f9215eca24f65d43aede877be4578b2
       vertices: []
       indices: 
       edges: []
@@ -2043,18 +2043,18 @@ TextureImporter:
       name: park_stage_81
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8257bd2beee52cc469b6621aef881e6a
+      spriteID: 68b51b8a5837ee9418beda776da58fa3
       vertices: []
       indices: 
       edges: []
@@ -2063,18 +2063,18 @@ TextureImporter:
       name: park_stage_82
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4ab941d82e2a5b4198ec1aba8695ff5
+      spriteID: ba2a415904ae91949943de6305361d44
       vertices: []
       indices: 
       edges: []
@@ -2083,18 +2083,18 @@ TextureImporter:
       name: park_stage_83
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 205
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e068ae65476082409fe8284c9efab7b
+      spriteID: 17f504cdae7918246ab5711333d95015
       vertices: []
       indices: 
       edges: []
@@ -2103,18 +2103,18 @@ TextureImporter:
       name: park_stage_84
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732042a21472ae24e8174cb771156a60
+      spriteID: fb082e34f765bb5488eee2ee793b22d8
       vertices: []
       indices: 
       edges: []
@@ -2123,18 +2123,18 @@ TextureImporter:
       name: park_stage_85
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204e0b7726f4011438c7f270182a4fd7
+      spriteID: 24d7128895404264e9b7a970150990da
       vertices: []
       indices: 
       edges: []
@@ -2143,18 +2143,18 @@ TextureImporter:
       name: park_stage_86
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f70360be9f4d94b919b2533bf68107
+      spriteID: 0d3fc115b07d87f4b90501aec827b353
       vertices: []
       indices: 
       edges: []
@@ -2163,18 +2163,18 @@ TextureImporter:
       name: park_stage_87
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2a7693c553db34099682c1d937a016
+      spriteID: 7802b9ff6d010a54eae5c4237e8f18bd
       vertices: []
       indices: 
       edges: []
@@ -2183,18 +2183,18 @@ TextureImporter:
       name: park_stage_88
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ec517138f1a88f45a4a43003125ea04
+      spriteID: a16ba3049109df246b54a04889f3f2d4
       vertices: []
       indices: 
       edges: []
@@ -2203,18 +2203,18 @@ TextureImporter:
       name: park_stage_89
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 990dac78539d9f94bb7131d12f737bdf
+      spriteID: 7b7b46e46ac9d084d8dabe3c5a243a57
       vertices: []
       indices: 
       edges: []
@@ -2223,18 +2223,18 @@ TextureImporter:
       name: park_stage_90
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2828f668d58c4be439135353b4c92527
+      spriteID: 9c7a48c6c04eba04da990e5f46d886f7
       vertices: []
       indices: 
       edges: []
@@ -2243,18 +2243,18 @@ TextureImporter:
       name: park_stage_91
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e282881ea1c9287449e8b0a6c60adffe
+      spriteID: ed77ffeddc5d59b43904f1f038d3708b
       vertices: []
       indices: 
       edges: []
@@ -2263,18 +2263,18 @@ TextureImporter:
       name: park_stage_92
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e93e3e4b91bc2a6458d8d1f74c3342d2
+      spriteID: b978fc73dbc823a4ba7af9dc847c4f86
       vertices: []
       indices: 
       edges: []
@@ -2283,18 +2283,18 @@ TextureImporter:
       name: park_stage_93
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa59c09c7d8ee6f4fa71437faa293fd8
+      spriteID: 4ecdb714b75d93a4faf76a755f3fea24
       vertices: []
       indices: 
       edges: []
@@ -2303,18 +2303,18 @@ TextureImporter:
       name: park_stage_94
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b666ddf0400720468f483fa1737cec5
+      spriteID: acb31e9574d922645865ca74b65210f0
       vertices: []
       indices: 
       edges: []
@@ -2323,18 +2323,18 @@ TextureImporter:
       name: park_stage_95
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5571b9ba924e0fa4bb52312bb74913c7
+      spriteID: 53d8f9c8841341348b3878c83da20ba4
       vertices: []
       indices: 
       edges: []
@@ -2343,18 +2343,18 @@ TextureImporter:
       name: park_stage_96
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 683ba9ae4f30f3e4687f2b6768fbae19
+      spriteID: 43985c62e144f4845b9b12dba17833e5
       vertices: []
       indices: 
       edges: []
@@ -2363,18 +2363,18 @@ TextureImporter:
       name: park_stage_97
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7421e34b074fcc4cbb23e898fc8871b
+      spriteID: 62ed20869f9fbd544963dfec784e7ddf
       vertices: []
       indices: 
       edges: []
@@ -2383,18 +2383,18 @@ TextureImporter:
       name: park_stage_98
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9763727a31fb184aa90d0cafcc56968
+      spriteID: 4b45cfa6ab200854cb9ccdd5b0487462
       vertices: []
       indices: 
       edges: []
@@ -2403,18 +2403,18 @@ TextureImporter:
       name: park_stage_99
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1d5e5a95db8aa4bb7e457fb2394606
+      spriteID: 81bd57c1c4bf9374f9ab42a746754a7f
       vertices: []
       indices: 
       edges: []
@@ -2423,18 +2423,18 @@ TextureImporter:
       name: park_stage_100
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e38e34099830942a34f0d3687ae6bf
+      spriteID: a8853c5cfea363e41934f03caeb35bea
       vertices: []
       indices: 
       edges: []
@@ -2443,18 +2443,18 @@ TextureImporter:
       name: park_stage_101
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b1217f7afbc3b439196d241b9bdd32
+      spriteID: cfe1598a7b4818c4387dbc3e33d9eb7a
       vertices: []
       indices: 
       edges: []
@@ -2463,18 +2463,18 @@ TextureImporter:
       name: park_stage_102
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30fe424f2d5fdd04589fdd3cf8d36e14
+      spriteID: a719ba39a88c88e43a61aa31bf8b0ba0
       vertices: []
       indices: 
       edges: []
@@ -2483,18 +2483,18 @@ TextureImporter:
       name: park_stage_103
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a63813831be11654cbca9b17dfac276a
+      spriteID: d903cc03c631a7445ad6aab787fc0aa2
       vertices: []
       indices: 
       edges: []
@@ -2503,18 +2503,18 @@ TextureImporter:
       name: park_stage_104
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5a75b88d5e5f9468a09505bd777906
+      spriteID: 8652bc3518ec040488051e79b631df34
       vertices: []
       indices: 
       edges: []
@@ -2523,18 +2523,18 @@ TextureImporter:
       name: park_stage_105
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 188
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a19981d82ffae45bdeb8cf0a0d3627
+      spriteID: 77a09050428e97949a2579a8830c1311
       vertices: []
       indices: 
       edges: []
@@ -2543,18 +2543,18 @@ TextureImporter:
       name: park_stage_106
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86fa8e552e635264dafcc210f23ec8a1
+      spriteID: fb48a7124dc854e4ebabc6851e3d9b57
       vertices: []
       indices: 
       edges: []
@@ -2563,18 +2563,18 @@ TextureImporter:
       name: park_stage_107
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90da95a8127bfda4aa47d6167bd7511f
+      spriteID: 6f76a7feccc67724f9d6275153e0c143
       vertices: []
       indices: 
       edges: []
@@ -2583,18 +2583,18 @@ TextureImporter:
       name: park_stage_108
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0b9c8ed3289e294982859994fa82938
+      spriteID: b41446e0d7f27874f920248c7a516232
       vertices: []
       indices: 
       edges: []
@@ -2603,18 +2603,18 @@ TextureImporter:
       name: park_stage_109
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aed873c4caa22e4cbe44f97e983952f
+      spriteID: 24c8760319ac7d445be16c38b188b221
       vertices: []
       indices: 
       edges: []
@@ -2623,18 +2623,18 @@ TextureImporter:
       name: park_stage_110
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcd72f2e2642eeb4bb0337cbc44afb1c
+      spriteID: 02c6c1fb28d0fa748b4ee880027e9f08
       vertices: []
       indices: 
       edges: []
@@ -2643,18 +2643,18 @@ TextureImporter:
       name: park_stage_111
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ff6d62693eddb43a26b0da5f0684e1
+      spriteID: 8c381784a886be64b83e2d812b313c4a
       vertices: []
       indices: 
       edges: []
@@ -2663,18 +2663,18 @@ TextureImporter:
       name: park_stage_112
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f72429c9e115dc54b8d47bea9afa028d
+      spriteID: 05604ec432930fb4a9cc48ea05327668
       vertices: []
       indices: 
       edges: []
@@ -2683,18 +2683,18 @@ TextureImporter:
       name: park_stage_113
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6549f487a273aee47a89bb6d43fcb1b3
+      spriteID: 87e0a3e1fb7d1b94494bd43b0a2d5ad3
       vertices: []
       indices: 
       edges: []
@@ -2703,18 +2703,18 @@ TextureImporter:
       name: park_stage_114
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf3448fd7e42754891645018b90201d
+      spriteID: 30571cc71f617e04da80902f16ecf3de
       vertices: []
       indices: 
       edges: []
@@ -2723,18 +2723,18 @@ TextureImporter:
       name: park_stage_115
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10507724a6f3d2b428c2ffda3c5ae9fc
+      spriteID: d3550362a596a814c8f3b900d885db3b
       vertices: []
       indices: 
       edges: []
@@ -2743,18 +2743,18 @@ TextureImporter:
       name: park_stage_116
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751d2d6fdf5ce7f45a831fb0667c57e3
+      spriteID: 6f251299d8ac4524689d46c938b91246
       vertices: []
       indices: 
       edges: []
@@ -2763,18 +2763,18 @@ TextureImporter:
       name: park_stage_117
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b881345e4bb0a344866e32f83b31964
+      spriteID: a010169a76f80bc489589848c97442fa
       vertices: []
       indices: 
       edges: []
@@ -2783,18 +2783,18 @@ TextureImporter:
       name: park_stage_118
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4f18187a61049141b6f4b06b8126cbe
+      spriteID: 89235f0fc29d694419c28b182b63c8e4
       vertices: []
       indices: 
       edges: []
@@ -2803,18 +2803,18 @@ TextureImporter:
       name: park_stage_119
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a89669c6608714d869fea693b9b86c
+      spriteID: fcde4920306e90d4dbf4cb4aa57494c2
       vertices: []
       indices: 
       edges: []
@@ -2823,18 +2823,18 @@ TextureImporter:
       name: park_stage_120
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a71c336a61e508419b2a9fc7a283720
+      spriteID: 0caa3b47721f7f640a0ac3503534417f
       vertices: []
       indices: 
       edges: []
@@ -2843,18 +2843,18 @@ TextureImporter:
       name: park_stage_121
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e55c51a31f8e0aa428168515b1c21bd7
+      spriteID: d62631fafe3921d41853750ea0367728
       vertices: []
       indices: 
       edges: []
@@ -2863,18 +2863,18 @@ TextureImporter:
       name: park_stage_122
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1275bf1016f21a43918c08083854e66
+      spriteID: fe5a971f95ca7d048b6370045eaa45d7
       vertices: []
       indices: 
       edges: []
@@ -2883,18 +2883,18 @@ TextureImporter:
       name: park_stage_123
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7f2c67150333934e9acf7f1b790c9fb
+      spriteID: c47852398455ec048b7aea7249f130b9
       vertices: []
       indices: 
       edges: []
@@ -2903,18 +2903,18 @@ TextureImporter:
       name: park_stage_124
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c948f793be3b74b8ec60e902212f71
+      spriteID: 9ddbf448952e27948925a449076f1308
       vertices: []
       indices: 
       edges: []
@@ -2923,18 +2923,18 @@ TextureImporter:
       name: park_stage_125
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 171
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692bca358f3d65641a31e682cec1d6e2
+      spriteID: 37534d3774e7c9b4e9a721d19919a0a0
       vertices: []
       indices: 
       edges: []
@@ -2943,18 +2943,18 @@ TextureImporter:
       name: park_stage_126
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9333f906e5e12742ba2cb3c64f57377
+      spriteID: c2e0cc3a171a80146b79c9a97e52e408
       vertices: []
       indices: 
       edges: []
@@ -2963,18 +2963,18 @@ TextureImporter:
       name: park_stage_127
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc579481157df24cad396deb31331d6
+      spriteID: c0a56bfe53e620647abc0a5e22dc6d3d
       vertices: []
       indices: 
       edges: []
@@ -2983,18 +2983,18 @@ TextureImporter:
       name: park_stage_128
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df084111ecdf6949a4566d9c26c710d
+      spriteID: 1dad5358c977abe47b8e27c0ce704467
       vertices: []
       indices: 
       edges: []
@@ -3003,18 +3003,18 @@ TextureImporter:
       name: park_stage_129
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90f61025fec4aec4a889e365c78c73b3
+      spriteID: 56e89865b21e78c47bc106e3100ab658
       vertices: []
       indices: 
       edges: []
@@ -3023,18 +3023,18 @@ TextureImporter:
       name: park_stage_130
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9632e55a629827d4a9a951471bbcaa34
+      spriteID: e4a86b6ebaec7b54ba20ab783b8d2f3b
       vertices: []
       indices: 
       edges: []
@@ -3043,18 +3043,18 @@ TextureImporter:
       name: park_stage_131
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6216702221051624da05bf118e8de088
+      spriteID: 82e004fe09c20a14fa57cccfccf65bea
       vertices: []
       indices: 
       edges: []
@@ -3063,18 +3063,18 @@ TextureImporter:
       name: park_stage_132
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56cc2911456cd944187273b40dc799ce
+      spriteID: f6e80a604942ac84a86e685b538a98bf
       vertices: []
       indices: 
       edges: []
@@ -3083,18 +3083,18 @@ TextureImporter:
       name: park_stage_133
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 535e50fcee9a9a242b3ead09452ed040
+      spriteID: 7b516660f41534b4b8cfdd033785467b
       vertices: []
       indices: 
       edges: []
@@ -3103,18 +3103,18 @@ TextureImporter:
       name: park_stage_134
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b9540464b80fe43b5b238be2e4edae
+      spriteID: dd1c620f55ed3454c8fe8efe86d67b35
       vertices: []
       indices: 
       edges: []
@@ -3123,18 +3123,18 @@ TextureImporter:
       name: park_stage_135
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e559a3392bc83594fab9684fb7d2e2d4
+      spriteID: fdffc10dc0745794fbf8230808db4cbf
       vertices: []
       indices: 
       edges: []
@@ -3143,18 +3143,18 @@ TextureImporter:
       name: park_stage_136
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a354e01f0725d41b48fb307d13d5c3
+      spriteID: 9074f81ffdd6f9543bf17e826b6e65ad
       vertices: []
       indices: 
       edges: []
@@ -3163,18 +3163,18 @@ TextureImporter:
       name: park_stage_137
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e6e62da84f0f24aa2b728f9657a84c
+      spriteID: a7a021086eeb4444ca248e63cf201da9
       vertices: []
       indices: 
       edges: []
@@ -3183,18 +3183,18 @@ TextureImporter:
       name: park_stage_138
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2752cc92e4249344fb18bb927a15f893
+      spriteID: 190d17c9a4f6a6c479189a85c2db6d5a
       vertices: []
       indices: 
       edges: []
@@ -3203,18 +3203,18 @@ TextureImporter:
       name: park_stage_139
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69388c6a5154adf42bb7e740d5570f79
+      spriteID: d9d54a007cf8b2240bfb69f70be03ab5
       vertices: []
       indices: 
       edges: []
@@ -3223,18 +3223,18 @@ TextureImporter:
       name: park_stage_140
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62416ef3f651afc489ce6c56f888d76d
+      spriteID: 75b28a0bc5c83b9409107e06e133bba8
       vertices: []
       indices: 
       edges: []
@@ -3243,18 +3243,18 @@ TextureImporter:
       name: park_stage_141
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ecfb2b228b46bd48a9b0abf3b6b109d
+      spriteID: e1438cbfa80d6724c961fa21517253dc
       vertices: []
       indices: 
       edges: []
@@ -3263,18 +3263,18 @@ TextureImporter:
       name: park_stage_142
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2b35d65e86cc964ab514b2432360c76
+      spriteID: a6b3df68b71aa31459591967561771b1
       vertices: []
       indices: 
       edges: []
@@ -3283,18 +3283,18 @@ TextureImporter:
       name: park_stage_143
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5730b8fc33335a94398ccd1271301549
+      spriteID: 826de1bf4a5d98b4498f53a8973fa478
       vertices: []
       indices: 
       edges: []
@@ -3303,18 +3303,18 @@ TextureImporter:
       name: park_stage_144
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 154
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c200981652bce40be6daf2ff61310a
+      spriteID: ebbcdf938ae70eb46a4a5fd8f7cf7e58
       vertices: []
       indices: 
       edges: []
@@ -3323,18 +3323,18 @@ TextureImporter:
       name: park_stage_145
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d713a548550766f4282452d72bb61880
+      spriteID: 8688b8db9e186654fa8d6e379209d948
       vertices: []
       indices: 
       edges: []
@@ -3343,18 +3343,18 @@ TextureImporter:
       name: park_stage_146
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f683c11e017a4fd449f97240ff5849d8
+      spriteID: 2f40a9cc486075d40bccc1be83da559a
       vertices: []
       indices: 
       edges: []
@@ -3363,18 +3363,18 @@ TextureImporter:
       name: park_stage_147
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c53de33cc10ff143b4a2133aa862f85
+      spriteID: 501cc5b05c2bf874a994981e73f7459b
       vertices: []
       indices: 
       edges: []
@@ -3383,18 +3383,18 @@ TextureImporter:
       name: park_stage_148
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b42507fd19c464945bba6931ad40505d
+      spriteID: 79b92ee2cc21ab34ab5111a6ff79d418
       vertices: []
       indices: 
       edges: []
@@ -3403,18 +3403,18 @@ TextureImporter:
       name: park_stage_149
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c31c4dc49199d498e1cb1497d9c2df
+      spriteID: be65381f4bcecad4cb29191c1f766e65
       vertices: []
       indices: 
       edges: []
@@ -3423,18 +3423,18 @@ TextureImporter:
       name: park_stage_150
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65310f8626c99c9499583b42eb025fca
+      spriteID: 3b0230a3edb92e847b79b7ab4d9ff710
       vertices: []
       indices: 
       edges: []
@@ -3443,18 +3443,18 @@ TextureImporter:
       name: park_stage_151
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8c2bf4e6936ff42a2f259d9bfcc021
+      spriteID: 863d71d68042db247b3ccd702e764f49
       vertices: []
       indices: 
       edges: []
@@ -3463,18 +3463,18 @@ TextureImporter:
       name: park_stage_152
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f2f42399e7ab545bd2f6bb10fb73a1
+      spriteID: c075b374447e37a408dcdad95ede9205
       vertices: []
       indices: 
       edges: []
@@ -3483,18 +3483,18 @@ TextureImporter:
       name: park_stage_153
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98238c5b92f66f1459d8bae77a7da635
+      spriteID: c62cfbcb085f8214abbea57a736768a0
       vertices: []
       indices: 
       edges: []
@@ -3503,18 +3503,18 @@ TextureImporter:
       name: park_stage_154
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0661d0034a5a914eaf4e4e25e2519a6
+      spriteID: 2329d5403866ffd4db1b153d659eb588
       vertices: []
       indices: 
       edges: []
@@ -3523,18 +3523,18 @@ TextureImporter:
       name: park_stage_155
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd2f131cf1b13d4499da66476aec016
+      spriteID: 68908c3a07be09b448b8874e85aa467c
       vertices: []
       indices: 
       edges: []
@@ -3543,18 +3543,18 @@ TextureImporter:
       name: park_stage_156
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8970b0297d170134fb943e5cebf9a7e2
+      spriteID: c197b6a3a9f01684794b1e67a90537a7
       vertices: []
       indices: 
       edges: []
@@ -3563,18 +3563,18 @@ TextureImporter:
       name: park_stage_157
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b88dd1794f1457641bf10f12fbd61e9e
+      spriteID: b7fad7ca0b0d37a42870b741c810ac71
       vertices: []
       indices: 
       edges: []
@@ -3583,18 +3583,18 @@ TextureImporter:
       name: park_stage_158
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97722c753bea2df4783d6907154af6a4
+      spriteID: 3b0eab244800c214282520588bbc85d2
       vertices: []
       indices: 
       edges: []
@@ -3603,18 +3603,18 @@ TextureImporter:
       name: park_stage_159
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad4fd694b87bed4b864dee186ec1b1a
+      spriteID: f09a813c6a3aae44eb4a23b85983948b
       vertices: []
       indices: 
       edges: []
@@ -3623,18 +3623,18 @@ TextureImporter:
       name: park_stage_160
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b980bcd844e31a4f957b3403e3f1970
+      spriteID: 5f160764915953742a382a50a4d49c20
       vertices: []
       indices: 
       edges: []
@@ -3643,18 +3643,18 @@ TextureImporter:
       name: park_stage_161
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159e047e9a5e42048a7bba2a19fdf4bd
+      spriteID: 0d657f95ed582a34e8d24879df11d814
       vertices: []
       indices: 
       edges: []
@@ -3663,18 +3663,18 @@ TextureImporter:
       name: park_stage_162
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 137
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be2a46169d47ea545ab59ca0aed9fbd4
+      spriteID: fbf1b2240cc2ae948a99a1c243f9f0c0
       vertices: []
       indices: 
       edges: []
@@ -3683,18 +3683,18 @@ TextureImporter:
       name: park_stage_163
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 636abb18bdf4ff94bb492cd2140a10aa
+      spriteID: e30bfe9fc2a3a034f876df7d287c74e2
       vertices: []
       indices: 
       edges: []
@@ -3703,18 +3703,18 @@ TextureImporter:
       name: park_stage_164
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef3cf3f89b063d4e82b8fd4cbb92c15
+      spriteID: aa950b2433ccf434f9a6886ca47907b3
       vertices: []
       indices: 
       edges: []
@@ -3723,18 +3723,18 @@ TextureImporter:
       name: park_stage_165
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32eb87ec6b759b54eb96cfef172d2895
+      spriteID: 8bf698707f2f064488e207fea65e8d84
       vertices: []
       indices: 
       edges: []
@@ -3743,18 +3743,18 @@ TextureImporter:
       name: park_stage_166
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7417da80758857a468461e4fae9f7366
+      spriteID: 869e7d7cbf99bd74181b1295976a9616
       vertices: []
       indices: 
       edges: []
@@ -3763,18 +3763,18 @@ TextureImporter:
       name: park_stage_167
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d116a72a820ece4790577f5d82217ae
+      spriteID: 769eb479a5e7acb48a5c84918d4201ac
       vertices: []
       indices: 
       edges: []
@@ -3783,18 +3783,18 @@ TextureImporter:
       name: park_stage_168
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82fafc25afe2da04ba1babd8ceffdfa8
+      spriteID: fbecbe1793de24a41933245b56297da5
       vertices: []
       indices: 
       edges: []
@@ -3803,18 +3803,18 @@ TextureImporter:
       name: park_stage_169
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4d2af7d577d14469155cf935b764de
+      spriteID: f5108130705a82547b1d013d8df9c361
       vertices: []
       indices: 
       edges: []
@@ -3823,18 +3823,18 @@ TextureImporter:
       name: park_stage_170
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ceac6d0f25dfc4d8c55c8f04fa732d
+      spriteID: 4026a6d03e42d674d837b6553c978480
       vertices: []
       indices: 
       edges: []
@@ -3843,18 +3843,18 @@ TextureImporter:
       name: park_stage_171
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ad2950d9ebf8a43b4d4541a5e36648
+      spriteID: 154adc2e74a38534fa80c611f2c710f1
       vertices: []
       indices: 
       edges: []
@@ -3863,18 +3863,18 @@ TextureImporter:
       name: park_stage_172
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f826680c7ca38429066beb2a27220b
+      spriteID: 8034117ef55c16f4d89aac2587f94721
       vertices: []
       indices: 
       edges: []
@@ -3883,18 +3883,18 @@ TextureImporter:
       name: park_stage_173
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b80097d0ce0d749b4f743d9f811fc1
+      spriteID: e460bd3b324546e4b92ac6544eb96141
       vertices: []
       indices: 
       edges: []
@@ -3903,18 +3903,18 @@ TextureImporter:
       name: park_stage_174
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f81cf576525c35458c3fa62a336684b
+      spriteID: 1b75d74d3572ba24e94330bfac730a5f
       vertices: []
       indices: 
       edges: []
@@ -3923,18 +3923,18 @@ TextureImporter:
       name: park_stage_175
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed919c6ae7ddb264499102a038d8aa70
+      spriteID: aa1ef7a57de01564e93d46ce7c4a1b1d
       vertices: []
       indices: 
       edges: []
@@ -3943,18 +3943,18 @@ TextureImporter:
       name: park_stage_176
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1fb859af11081e4682afab799a2714f
+      spriteID: dbea846d1fc81f847adcdf26408e4892
       vertices: []
       indices: 
       edges: []
@@ -3963,18 +3963,18 @@ TextureImporter:
       name: park_stage_177
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e29422e9b4e3cf40a81a42597f82347
+      spriteID: a84f54cec3e915b4988f1567d0fae280
       vertices: []
       indices: 
       edges: []
@@ -3983,18 +3983,18 @@ TextureImporter:
       name: park_stage_178
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1ddaf2c46c8b434c9a255c070bc046d
+      spriteID: 07b58d4527258554f8d041391e3e139a
       vertices: []
       indices: 
       edges: []
@@ -4003,18 +4003,18 @@ TextureImporter:
       name: park_stage_179
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269c7be6dcee3bf4dad7e1f94ee46087
+      spriteID: 3ef1a5d4a51267446af461e5da4fb17c
       vertices: []
       indices: 
       edges: []
@@ -4023,18 +4023,18 @@ TextureImporter:
       name: park_stage_180
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 974d027cf1faeb942aed0fe5fc15afa8
+      spriteID: 53cac1e433b087b47ab57bf1f27996b1
       vertices: []
       indices: 
       edges: []
@@ -4043,18 +4043,18 @@ TextureImporter:
       name: park_stage_181
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8278fa407a74ab42bfcb72d5af475a7
+      spriteID: 0bcf41e71da0619448c71fd249dd34ed
       vertices: []
       indices: 
       edges: []
@@ -4063,18 +4063,18 @@ TextureImporter:
       name: park_stage_182
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbc5f28a71a67d242ae9e6734f4c5bf4
+      spriteID: 8e42117334e3157409bee6f66b5ef613
       vertices: []
       indices: 
       edges: []
@@ -4083,18 +4083,18 @@ TextureImporter:
       name: park_stage_183
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc90d3ad1269c854b8c817ffe21302c8
+      spriteID: aa3a345b52567f048bb34fa84f30e3fb
       vertices: []
       indices: 
       edges: []
@@ -4103,18 +4103,18 @@ TextureImporter:
       name: park_stage_184
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d0d34a1954fc94eae10adef460a5a2
+      spriteID: 9e01dbba31735f94d8c4e3f2ef1f2e9f
       vertices: []
       indices: 
       edges: []
@@ -4123,18 +4123,18 @@ TextureImporter:
       name: park_stage_185
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aa2e8e497acc6d4891055ff8b246909
+      spriteID: 5e8d6ab889a498043a9660f1fe118aea
       vertices: []
       indices: 
       edges: []
@@ -4143,18 +4143,18 @@ TextureImporter:
       name: park_stage_186
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72498218e21325b4aa73f206220f069c
+      spriteID: a10bda5bf1f7edc4f8af961900338b29
       vertices: []
       indices: 
       edges: []
@@ -4163,18 +4163,18 @@ TextureImporter:
       name: park_stage_187
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c8ce2c3cd21004c84bb29b7ffd719c
+      spriteID: 13b2657dc3f8f384d89777396d157ff7
       vertices: []
       indices: 
       edges: []
@@ -4183,18 +4183,18 @@ TextureImporter:
       name: park_stage_188
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5125bca7edcf181468a33b7110088718
+      spriteID: 4996c37a5122b4c46a79b9d16ebf389f
       vertices: []
       indices: 
       edges: []
@@ -4203,18 +4203,18 @@ TextureImporter:
       name: park_stage_189
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafbe8915c003bf4695d48d0719a1a1f
+      spriteID: 53983ca84acf8b245b04cae6f4fabc1a
       vertices: []
       indices: 
       edges: []
@@ -4223,18 +4223,18 @@ TextureImporter:
       name: park_stage_190
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d698dfe8e0e5454ea24f7380e32ae0a
+      spriteID: 39b1cb9bebba9df48b2d44d8e9e0efcd
       vertices: []
       indices: 
       edges: []
@@ -4243,18 +4243,18 @@ TextureImporter:
       name: park_stage_191
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4946e881cca667c40aef90625c9766f4
+      spriteID: b78befd71ef70eb4f8a513a20ed2de36
       vertices: []
       indices: 
       edges: []
@@ -4263,18 +4263,18 @@ TextureImporter:
       name: park_stage_192
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d7f546090f7b9048b5720e4878d6e9d
+      spriteID: 86f3e71c9a61a8b4a9f4ef1470bcc278
       vertices: []
       indices: 
       edges: []
@@ -4283,18 +4283,18 @@ TextureImporter:
       name: park_stage_193
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17306b4f122b52a43b0a4c72c3db8457
+      spriteID: 25fbc16f81d36194b95ac03c9e7d3e83
       vertices: []
       indices: 
       edges: []
@@ -4303,18 +4303,18 @@ TextureImporter:
       name: park_stage_194
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef59c56e5898dcf4baf198048b454891
+      spriteID: fec5e7d590979dd42a477460ea404296
       vertices: []
       indices: 
       edges: []
@@ -4323,18 +4323,18 @@ TextureImporter:
       name: park_stage_195
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 278cab4d40c9ea74abb51ca6725c11ff
+      spriteID: 03c2c8c6770ab8e40a758e7de3663367
       vertices: []
       indices: 
       edges: []
@@ -4343,18 +4343,18 @@ TextureImporter:
       name: park_stage_196
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f16e27a68e1076478d35dc3d1a32d19
+      spriteID: 91bd608e79284f042a18dbecb94f27e9
       vertices: []
       indices: 
       edges: []
@@ -4363,18 +4363,18 @@ TextureImporter:
       name: park_stage_197
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c64e882118501141a9ea621b2e35e9e
+      spriteID: e0b4e25a89fd0a44bb92cb459e86178c
       vertices: []
       indices: 
       edges: []
@@ -4383,18 +4383,18 @@ TextureImporter:
       name: park_stage_198
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bddcdbe15df77044b1e75af782bbda1
+      spriteID: 4ef7abe992367fd4793f02ee8b5687bf
       vertices: []
       indices: 
       edges: []
@@ -4403,18 +4403,18 @@ TextureImporter:
       name: park_stage_199
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8f32196b6803d9498312ef2c7380d50
+      spriteID: 5001494ff4f32ee4b90c2317732a2562
       vertices: []
       indices: 
       edges: []
@@ -4423,18 +4423,18 @@ TextureImporter:
       name: park_stage_200
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a732ee98071399e41adbf7a6cb1dc589
+      spriteID: 240bd3c56a71e1447a3d3fc4cc529f51
       vertices: []
       indices: 
       edges: []
@@ -4443,18 +4443,18 @@ TextureImporter:
       name: park_stage_201
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ca8de1fa74e7954aaccda6802427f61
+      spriteID: 31b8fdd41acf666438c9864796853646
       vertices: []
       indices: 
       edges: []
@@ -4463,18 +4463,18 @@ TextureImporter:
       name: park_stage_202
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fe193fb885a69242935ab285274d499
+      spriteID: 3d68bd4ada53c324a8e012b86cabf096
       vertices: []
       indices: 
       edges: []
@@ -4483,18 +4483,18 @@ TextureImporter:
       name: park_stage_203
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18acc90e663854a4797e87b50b473474
+      spriteID: 080d73324e1d6ec4b8efc46bbce13e37
       vertices: []
       indices: 
       edges: []
@@ -4503,18 +4503,18 @@ TextureImporter:
       name: park_stage_204
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4ccb77faab97ab42bbe35a7f36b5443
+      spriteID: ff4106174b1dea842b41f760ecfa756d
       vertices: []
       indices: 
       edges: []
@@ -4523,18 +4523,18 @@ TextureImporter:
       name: park_stage_205
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bdd2b90fb212a44ca080b699adbc595
+      spriteID: 6de2deea38dd23046a149ff09c257bb8
       vertices: []
       indices: 
       edges: []
@@ -4543,18 +4543,18 @@ TextureImporter:
       name: park_stage_206
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb4918f92a62be41bfa4e5886e80c4f
+      spriteID: 5adc1ec8c00888e46985c32065c7373c
       vertices: []
       indices: 
       edges: []
@@ -4563,18 +4563,18 @@ TextureImporter:
       name: park_stage_207
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 103
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7349e7139bc72834a837a8854a095dd2
+      spriteID: 4e26cf1758bc1194e85564566e7bc271
       vertices: []
       indices: 
       edges: []
@@ -4583,18 +4583,18 @@ TextureImporter:
       name: park_stage_208
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68d240d0573065f4380edc3ad9086ecf
+      spriteID: ed9937ff6329d4f4ab246eee26d39245
       vertices: []
       indices: 
       edges: []
@@ -4603,18 +4603,18 @@ TextureImporter:
       name: park_stage_209
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605380a5bf5b51c4286d1ac1e8e17a86
+      spriteID: b08ddfa9a54b0054d88a26ccf090c397
       vertices: []
       indices: 
       edges: []
@@ -4623,18 +4623,18 @@ TextureImporter:
       name: park_stage_210
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76f07863db7805747b8a3a2399e61e48
+      spriteID: 52c26c43557efcd409bb7acb72de2128
       vertices: []
       indices: 
       edges: []
@@ -4643,18 +4643,18 @@ TextureImporter:
       name: park_stage_211
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b6b274743c6c1b48adb62884d00224d
+      spriteID: 4995e839b6dafbc48ab5ed8e1febe125
       vertices: []
       indices: 
       edges: []
@@ -4663,18 +4663,18 @@ TextureImporter:
       name: park_stage_212
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663f64ea02b166246b88cef55ea585ec
+      spriteID: d98a9403dc7508c49abde70c338e3313
       vertices: []
       indices: 
       edges: []
@@ -4683,18 +4683,18 @@ TextureImporter:
       name: park_stage_213
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cd134e834670db4d984315adaeca163
+      spriteID: 16812f882a80fca4e9bf1ea453fbc153
       vertices: []
       indices: 
       edges: []
@@ -4703,18 +4703,18 @@ TextureImporter:
       name: park_stage_214
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ed90a930cf63143ab152a2ef923cf3
+      spriteID: 03dbf299d2bdbfc48a76f5ef741f05d2
       vertices: []
       indices: 
       edges: []
@@ -4723,18 +4723,18 @@ TextureImporter:
       name: park_stage_215
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a28865f2419f648ae771f68998280d
+      spriteID: 3d8b0cd769b259b42835499b96e2e79b
       vertices: []
       indices: 
       edges: []
@@ -4743,18 +4743,18 @@ TextureImporter:
       name: park_stage_216
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d829ba556000cea438a0cf5469730b9f
+      spriteID: d36028150ec67fe44b71a169d3239b73
       vertices: []
       indices: 
       edges: []
@@ -4763,18 +4763,18 @@ TextureImporter:
       name: park_stage_217
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ac036e4b4455b4f9eee0c42818b936
+      spriteID: 176a8ce35a00a4b4e824f0a0ef887dfd
       vertices: []
       indices: 
       edges: []
@@ -4783,18 +4783,18 @@ TextureImporter:
       name: park_stage_218
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfb8c413de8778d44a298e15fdc99343
+      spriteID: c2b9c501f6084d94f89b680ffd2188f6
       vertices: []
       indices: 
       edges: []
@@ -4803,18 +4803,18 @@ TextureImporter:
       name: park_stage_219
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f99bc8b3b4320140ad327c5cfca5dd8
+      spriteID: e34950e9923fe0a4e9ee9b2eb4e0f805
       vertices: []
       indices: 
       edges: []
@@ -4823,18 +4823,18 @@ TextureImporter:
       name: park_stage_220
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb167a0e93251f4f8d3fb8cbaf37fa9
+      spriteID: d18517734e2079c41bf3977eb93acb91
       vertices: []
       indices: 
       edges: []
@@ -4843,18 +4843,18 @@ TextureImporter:
       name: park_stage_221
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978d48c7b2eb8bb4a8068b3c76ed72f1
+      spriteID: 041123d4c8fc90a4db97c1f1fe72e541
       vertices: []
       indices: 
       edges: []
@@ -4863,18 +4863,18 @@ TextureImporter:
       name: park_stage_222
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afaa3e1d5c75d4c49a960107669db8a5
+      spriteID: ac3088a844c100f45acdea1757fc5262
       vertices: []
       indices: 
       edges: []
@@ -4883,18 +4883,18 @@ TextureImporter:
       name: park_stage_223
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c536fd7515c6f1a41a66dab076dc643c
+      spriteID: e7a165b077f517845b0d1fa91ed1395d
       vertices: []
       indices: 
       edges: []
@@ -4903,18 +4903,18 @@ TextureImporter:
       name: park_stage_224
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 064b2e2236dc20c45bbca7ee3b194bbd
+      spriteID: 02ddef0174cfeb04aa51572103adbaa7
       vertices: []
       indices: 
       edges: []
@@ -4923,18 +4923,18 @@ TextureImporter:
       name: park_stage_225
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd47f68257cd54448a320a3dc1ef36cf
+      spriteID: 24508cf258a727d409c8e485183f81e7
       vertices: []
       indices: 
       edges: []
@@ -4943,18 +4943,18 @@ TextureImporter:
       name: park_stage_226
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69513099dbd08f749acc3be502321fb5
+      spriteID: 64c02288bf3049341aefb79f56c522a1
       vertices: []
       indices: 
       edges: []
@@ -4963,18 +4963,18 @@ TextureImporter:
       name: park_stage_227
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eef1496aa002bc458eb0685612fed0e
+      spriteID: 1912170460a850146ac11495bd6d2219
       vertices: []
       indices: 
       edges: []
@@ -4983,18 +4983,18 @@ TextureImporter:
       name: park_stage_228
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd64f55177ef86948b8eb0cae0482ec1
+      spriteID: b25f205cfe7c5b54cbb45063986118c9
       vertices: []
       indices: 
       edges: []
@@ -5003,18 +5003,18 @@ TextureImporter:
       name: park_stage_229
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e74894594053294a978d23579663174
+      spriteID: f90ae9aadbd74ad48aca98eecb093635
       vertices: []
       indices: 
       edges: []
@@ -5023,18 +5023,18 @@ TextureImporter:
       name: park_stage_230
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 86
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d90bb6a3beaf04b955bbba9b55050a
+      spriteID: fda58060e495c844781e09bde292ea07
       vertices: []
       indices: 
       edges: []
@@ -5043,18 +5043,18 @@ TextureImporter:
       name: park_stage_231
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 669b62a0d7f147b4d9fdb2d7945846aa
+      spriteID: b54f153f5d01e884d93efe61716b65ae
       vertices: []
       indices: 
       edges: []
@@ -5063,18 +5063,18 @@ TextureImporter:
       name: park_stage_232
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120802584db02114db7862e3f3eb534f
+      spriteID: 510cc9cba74b7fc4b8356706958b0216
       vertices: []
       indices: 
       edges: []
@@ -5083,18 +5083,18 @@ TextureImporter:
       name: park_stage_233
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e2d101f1a5c1e488130e8da598e085
+      spriteID: 1878426ae88cd53488b34bec036d0a54
       vertices: []
       indices: 
       edges: []
@@ -5103,18 +5103,18 @@ TextureImporter:
       name: park_stage_234
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 165ad27ca0beaef43a81ed6810c25c7b
+      spriteID: 23947f2d612ada5498ba59cdc199e41d
       vertices: []
       indices: 
       edges: []
@@ -5123,18 +5123,18 @@ TextureImporter:
       name: park_stage_235
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a39e7ac72221f484d96f67b74136cbae
+      spriteID: c4002c40e6ae2974282efc47ac857742
       vertices: []
       indices: 
       edges: []
@@ -5143,18 +5143,18 @@ TextureImporter:
       name: park_stage_236
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01a0577c8d738540af6c0f1731968c1
+      spriteID: 5ba628fa928923e47b259f2a9878e89e
       vertices: []
       indices: 
       edges: []
@@ -5163,18 +5163,18 @@ TextureImporter:
       name: park_stage_237
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66c8795b9fe3a0e4f83c597b931b17a7
+      spriteID: a33b355790b7b2749b346ce19ec2c83a
       vertices: []
       indices: 
       edges: []
@@ -5183,18 +5183,18 @@ TextureImporter:
       name: park_stage_238
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c128a605e31b9e409d59b1f3ee922f0
+      spriteID: 811781a0924842a4bbfb27e201ea409b
       vertices: []
       indices: 
       edges: []
@@ -5203,18 +5203,18 @@ TextureImporter:
       name: park_stage_239
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c12c38348a5502247bfdc422b6a18176
+      spriteID: 4df10872b5932d04db2821af75040328
       vertices: []
       indices: 
       edges: []
@@ -5223,18 +5223,18 @@ TextureImporter:
       name: park_stage_240
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000d56925b3f48f4096c4a5c33adf429
+      spriteID: 2895c2b74deff5f43b7ad59ed66fd215
       vertices: []
       indices: 
       edges: []
@@ -5243,18 +5243,18 @@ TextureImporter:
       name: park_stage_241
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a1719e443146614783e94e90fdbdeb1
+      spriteID: 462e28569204ddd46befe7977c7f000f
       vertices: []
       indices: 
       edges: []
@@ -5263,18 +5263,18 @@ TextureImporter:
       name: park_stage_242
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d6647178e72854b88e386945247ec4
+      spriteID: ab64121dbf493d646abe5cda988d23cf
       vertices: []
       indices: 
       edges: []
@@ -5283,18 +5283,18 @@ TextureImporter:
       name: park_stage_243
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95e6698d5a7e5b0468409451c5065a1d
+      spriteID: 6b281ac26ca246b48a3d5efc99199a33
       vertices: []
       indices: 
       edges: []
@@ -5303,18 +5303,18 @@ TextureImporter:
       name: park_stage_244
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 522611448f4f351428e1632b81f7997b
+      spriteID: 2a6b55f1b1da2c14ebf56d7af4e59808
       vertices: []
       indices: 
       edges: []
@@ -5323,18 +5323,18 @@ TextureImporter:
       name: park_stage_245
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a69ac868f20ca14890032a4e6bff322
+      spriteID: ce3b3de05635a354196d2e187108a07f
       vertices: []
       indices: 
       edges: []
@@ -5343,18 +5343,18 @@ TextureImporter:
       name: park_stage_246
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4de286643992f458d6c944f6dc7d3e
+      spriteID: 27094a12743444b43a073c0148839e7d
       vertices: []
       indices: 
       edges: []
@@ -5363,18 +5363,18 @@ TextureImporter:
       name: park_stage_247
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cddfde6af1f6e146a96a505d18aedc1
+      spriteID: a11ae2b82bd64cd42b36b34a4084fdf8
       vertices: []
       indices: 
       edges: []
@@ -5383,18 +5383,18 @@ TextureImporter:
       name: park_stage_248
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e5b0fe9c63c224dbd9d327b4c40051
+      spriteID: a8379ad6d2704774ab52d0cadd672a34
       vertices: []
       indices: 
       edges: []
@@ -5403,18 +5403,18 @@ TextureImporter:
       name: park_stage_249
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97c8277d23ee7c4a8b9a309d462aaa5
+      spriteID: b644516e2f9316e40a9e095e810eb4d1
       vertices: []
       indices: 
       edges: []
@@ -5423,18 +5423,18 @@ TextureImporter:
       name: park_stage_250
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f35709c7ec70a04690ce449dd9ffa7d
+      spriteID: 358fb1e75fd4e6f40984da2ec712cd4d
       vertices: []
       indices: 
       edges: []
@@ -5443,18 +5443,18 @@ TextureImporter:
       name: park_stage_251
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10e3b424c9cb0ee409ec825a02ac6d32
+      spriteID: 0a9878c9888e85446bee997d4d94c897
       vertices: []
       indices: 
       edges: []
@@ -5463,18 +5463,18 @@ TextureImporter:
       name: park_stage_252
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 901f220a1199b1241919b16641ac72f8
+      spriteID: dcf0519a175bf81448fecfb48583fb76
       vertices: []
       indices: 
       edges: []
@@ -5483,18 +5483,18 @@ TextureImporter:
       name: park_stage_253
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 69
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dab2046744317b40a8edb4452087ada
+      spriteID: c6a04e0e346cdf04bb8a9dced357c20d
       vertices: []
       indices: 
       edges: []
@@ -5503,18 +5503,18 @@ TextureImporter:
       name: park_stage_254
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 066fb898f2d936f48b0f8418d1a70a15
+      spriteID: 4cbd0ad7d90109c49a3bad9549e65106
       vertices: []
       indices: 
       edges: []
@@ -5523,18 +5523,18 @@ TextureImporter:
       name: park_stage_255
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c72bab829870540a4ca6007582bc1a
+      spriteID: 4e3a8e43a77e61844bc1d1ec1d8e3c60
       vertices: []
       indices: 
       edges: []
@@ -5543,18 +5543,18 @@ TextureImporter:
       name: park_stage_256
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 346c4227ae2bdbf42b4f71211f2b3293
+      spriteID: 61f389409fe7be140a4aed7a8c9f160d
       vertices: []
       indices: 
       edges: []
@@ -5563,18 +5563,18 @@ TextureImporter:
       name: park_stage_257
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4596397846325f74191ea2f00cca3221
+      spriteID: dda1dbdee72522340982fd9a82adb925
       vertices: []
       indices: 
       edges: []
@@ -5583,18 +5583,18 @@ TextureImporter:
       name: park_stage_258
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b4d2bc6c06e5942984d35fea4566fd
+      spriteID: a92a5c8428a25fb4f965f9cd428ab4ed
       vertices: []
       indices: 
       edges: []
@@ -5603,18 +5603,18 @@ TextureImporter:
       name: park_stage_259
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d669880d45f158a48b8a0489e9c936f2
+      spriteID: a14a89a9099b09a4699ae1c16f6dce8a
       vertices: []
       indices: 
       edges: []
@@ -5623,18 +5623,18 @@ TextureImporter:
       name: park_stage_260
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ba03324eb82f254a9ef57d020d22692
+      spriteID: 8df31d412217688439d162ebc5a85f03
       vertices: []
       indices: 
       edges: []
@@ -5643,18 +5643,18 @@ TextureImporter:
       name: park_stage_261
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d0e5efc9326ae41bd48bc60849c74a
+      spriteID: 9e41e8ee92dbbb14aa068b439be8d1c7
       vertices: []
       indices: 
       edges: []
@@ -5663,18 +5663,18 @@ TextureImporter:
       name: park_stage_262
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75cede8f076b29143a4f21ad6bba870d
+      spriteID: 5aefd3aaf735a574f96fcbd47693b2e1
       vertices: []
       indices: 
       edges: []
@@ -5683,18 +5683,18 @@ TextureImporter:
       name: park_stage_263
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0100c07742f0f4a83b8bf453168ef4
+      spriteID: 8fe1c658544001d4bb67ee42eebda32d
       vertices: []
       indices: 
       edges: []
@@ -5703,18 +5703,18 @@ TextureImporter:
       name: park_stage_264
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d3ec0455b7de2345a164cae92710b33
+      spriteID: 72650736341a6444ca0521a8fe8c962f
       vertices: []
       indices: 
       edges: []
@@ -5723,18 +5723,18 @@ TextureImporter:
       name: park_stage_265
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22252f2516678b242b550c29dfece1e8
+      spriteID: 9fbedad8eca758d4b8d8065a1d7f51ed
       vertices: []
       indices: 
       edges: []
@@ -5743,18 +5743,18 @@ TextureImporter:
       name: park_stage_266
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce10325d1c0b8f14b949bb5d52f7502a
+      spriteID: d879582162d34584f9cf6eeef8c98169
       vertices: []
       indices: 
       edges: []
@@ -5763,18 +5763,18 @@ TextureImporter:
       name: park_stage_267
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca14a09fa686a5a4e8dcc520e68ff089
+      spriteID: 5ee9b6f3784ca1b4e9a7e13867699bda
       vertices: []
       indices: 
       edges: []
@@ -5783,18 +5783,18 @@ TextureImporter:
       name: park_stage_268
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f048ba8341806c74391c20e266918d23
+      spriteID: 00090230221024745b9942cd304f4618
       vertices: []
       indices: 
       edges: []
@@ -5803,18 +5803,18 @@ TextureImporter:
       name: park_stage_269
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 52
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dce3ff1be75ed24db5ebc3a443ebc1b
+      spriteID: d6b1c22539f34b7408aa35eeab4377ef
       vertices: []
       indices: 
       edges: []
@@ -5823,18 +5823,18 @@ TextureImporter:
       name: park_stage_270
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 646e1e839f958764a867218d3d07c19b
+      spriteID: bd01137e549cc5a4b8cae248314b1068
       vertices: []
       indices: 
       edges: []
@@ -5843,18 +5843,18 @@ TextureImporter:
       name: park_stage_271
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b5e8ccd41f56844b8e59e303a102ff8
+      spriteID: de43e0de065f6ad4f9daa58787bf184c
       vertices: []
       indices: 
       edges: []
@@ -5863,18 +5863,18 @@ TextureImporter:
       name: park_stage_272
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19e8d55515b0a5b4c9cec2ed6d0dfb42
+      spriteID: 6bfc1320afcc54549a159c081cf66652
       vertices: []
       indices: 
       edges: []
@@ -5883,18 +5883,18 @@ TextureImporter:
       name: park_stage_273
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 702109f7a34ed35489433da698ad4023
+      spriteID: c711358ab8975a14b85e4d2217800346
       vertices: []
       indices: 
       edges: []
@@ -5903,18 +5903,18 @@ TextureImporter:
       name: park_stage_274
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ed412ad04b02da449365dc0bdd0af46
+      spriteID: 11680603dd4d15e4fb8afbd31c79c018
       vertices: []
       indices: 
       edges: []
@@ -5923,18 +5923,18 @@ TextureImporter:
       name: park_stage_275
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f25dd070466f1409b1a6afc19aca0f
+      spriteID: 243c0fc1862551042b416d8ed256db37
       vertices: []
       indices: 
       edges: []
@@ -5943,18 +5943,18 @@ TextureImporter:
       name: park_stage_276
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996a4865702fefa4fbb26a59eae3b726
+      spriteID: 9c71332df7a090c4ba2b809ab09dcea0
       vertices: []
       indices: 
       edges: []
@@ -5963,18 +5963,18 @@ TextureImporter:
       name: park_stage_277
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c472dbb7aadbce0459c8d8298b38a799
+      spriteID: 40fbde3597a759e439593ee5353ed38d
       vertices: []
       indices: 
       edges: []
@@ -5983,18 +5983,18 @@ TextureImporter:
       name: park_stage_278
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6979a3b167a1d564e96b54456c792433
+      spriteID: db3467c3336991f47965d2a94c4ba90b
       vertices: []
       indices: 
       edges: []
@@ -6003,18 +6003,18 @@ TextureImporter:
       name: park_stage_279
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7ecee8c3a273654ba838e8463917f88
+      spriteID: b51e2fb81eb304e4994c545d4058e44c
       vertices: []
       indices: 
       edges: []
@@ -6023,18 +6023,18 @@ TextureImporter:
       name: park_stage_280
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c613576e966c3cb40bb4bf0a7f98b8c6
+      spriteID: 2ff16228916192c4cb88d4e11f1c7c2c
       vertices: []
       indices: 
       edges: []
@@ -6043,18 +6043,18 @@ TextureImporter:
       name: park_stage_281
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c108ae5ff8fea16488be22b942603f71
+      spriteID: 92335e1852ca218419ba223e394a5a29
       vertices: []
       indices: 
       edges: []
@@ -6063,18 +6063,18 @@ TextureImporter:
       name: park_stage_282
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a17b75cfff8d140995796ca4b20c3e
+      spriteID: 706cb4d25abfbb2499b19cdc754282dc
       vertices: []
       indices: 
       edges: []
@@ -6083,18 +6083,18 @@ TextureImporter:
       name: park_stage_283
       rect:
         serializedVersion: 2
-        x: 392
+        x: 393
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f04c56d272c4f498ee5f0a7c4e5ace
+      spriteID: 1e83310ac7d3ae44e96789a9673e31f8
       vertices: []
       indices: 
       edges: []
@@ -6103,18 +6103,18 @@ TextureImporter:
       name: park_stage_284
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 35
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a02760027a1938e45898c7d77ed4c625
+      spriteID: f910aab4ee042f644b0cb932e232e403
       vertices: []
       indices: 
       edges: []
@@ -6123,18 +6123,18 @@ TextureImporter:
       name: park_stage_285
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72810eab1ce08cf4e84f0a33ee354094
+      spriteID: 4e7a18050f41076408ae79917943f11f
       vertices: []
       indices: 
       edges: []
@@ -6143,18 +6143,18 @@ TextureImporter:
       name: park_stage_286
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0034cc2c481eef74aad86b84b1a04513
+      spriteID: 33541895d10985443850ec24a79dbcd0
       vertices: []
       indices: 
       edges: []
@@ -6163,18 +6163,18 @@ TextureImporter:
       name: park_stage_287
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d54dfaa59c5b4041b435ef9c5454b3a
+      spriteID: 8d24d816338424b488ae62117cde8732
       vertices: []
       indices: 
       edges: []
@@ -6183,18 +6183,18 @@ TextureImporter:
       name: park_stage_288
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddca73524eb1b8742be4716915fc44fa
+      spriteID: 2ebe53a9abc95914b959a716d4a7ccc8
       vertices: []
       indices: 
       edges: []
@@ -6203,18 +6203,18 @@ TextureImporter:
       name: park_stage_289
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d51ecd4f5a29c6449b3ef85a2404cc47
+      spriteID: 6dc523574ea349e44a1691f55df01d1a
       vertices: []
       indices: 
       edges: []
@@ -6223,18 +6223,18 @@ TextureImporter:
       name: park_stage_290
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a5924f6ea1eb6c43be498b87c202a22
+      spriteID: feb7db8721f003b42bfee68de999c11b
       vertices: []
       indices: 
       edges: []
@@ -6243,18 +6243,18 @@ TextureImporter:
       name: park_stage_291
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba02419a35f74b54583d9803d0234c89
+      spriteID: 3031e596f80cad04b989472aa67abfb6
       vertices: []
       indices: 
       edges: []
@@ -6263,18 +6263,18 @@ TextureImporter:
       name: park_stage_292
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc081cf0dba81754c91bd37a4c8b881b
+      spriteID: 3b03e6652a42fd540be4134d9968db84
       vertices: []
       indices: 
       edges: []
@@ -6283,18 +6283,18 @@ TextureImporter:
       name: park_stage_293
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf420a6b62939c44ba6ec795f25ba3cb
+      spriteID: ca32b449ea967f94b827ad148f9d434d
       vertices: []
       indices: 
       edges: []
@@ -6303,18 +6303,18 @@ TextureImporter:
       name: park_stage_294
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb586fa23f2c6034babd08684fef012d
+      spriteID: 24614e8b1dd5bc74e91398aa73641ec5
       vertices: []
       indices: 
       edges: []
@@ -6323,18 +6323,18 @@ TextureImporter:
       name: park_stage_295
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c8e02bf40cb2b40952f74fc7e989fc
+      spriteID: df528d3b37aca1049803b4ff261904db
       vertices: []
       indices: 
       edges: []
@@ -6343,18 +6343,18 @@ TextureImporter:
       name: park_stage_296
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1315f1e33ab0d149925bc1cf1747c91
+      spriteID: 53e7f9adcc3dbd54dad40773459ee21c
       vertices: []
       indices: 
       edges: []
@@ -6363,18 +6363,18 @@ TextureImporter:
       name: park_stage_297
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7be889b07afb71542b3e35c6e41342e2
+      spriteID: 9bae3e73a7eaaba46b543a78308457f4
       vertices: []
       indices: 
       edges: []
@@ -6383,18 +6383,18 @@ TextureImporter:
       name: park_stage_298
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0ec998d012cad48891376b88312de1
+      spriteID: 98c9addc9a7c7db4f803a4fd0d9fb952
       vertices: []
       indices: 
       edges: []
@@ -6403,18 +6403,18 @@ TextureImporter:
       name: park_stage_299
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d03fe32ae2180428bd3f0537ede785
+      spriteID: b24277de7a97b1341b23dfed49021057
       vertices: []
       indices: 
       edges: []
@@ -6423,18 +6423,18 @@ TextureImporter:
       name: park_stage_300
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 625b4ac27c523014591bd4f2faeed883
+      spriteID: 0120baa80ff33bc45b40a3b229a1aaaa
       vertices: []
       indices: 
       edges: []
@@ -6443,18 +6443,18 @@ TextureImporter:
       name: park_stage_301
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c9f0642f5efcc478010c02b5dcdb84
+      spriteID: 02d5410e4a926544eb2cc2d725f18dc6
       vertices: []
       indices: 
       edges: []
@@ -6463,18 +6463,18 @@ TextureImporter:
       name: park_stage_302
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f4045507c1657c45b59e2048db55b97
+      spriteID: d197c2824e194ca4d83605ee452135a4
       vertices: []
       indices: 
       edges: []
@@ -6483,18 +6483,18 @@ TextureImporter:
       name: park_stage_303
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576a6416ad7ddc14a95a9dd1e50ad465
+      spriteID: c715a633f51f9b8499720494ccebdc19
       vertices: []
       indices: 
       edges: []
@@ -6503,18 +6503,18 @@ TextureImporter:
       name: park_stage_304
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 18
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57896b429120276408899c162e2dcab8
+      spriteID: 33eb24aa304902b4e84b0ceabdbd0911
       vertices: []
       indices: 
       edges: []
@@ -6523,18 +6523,18 @@ TextureImporter:
       name: park_stage_305
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 490e310e907676b428effb2329d0cda7
+      spriteID: 0a5a0a14fcca98f409d6fb925997289e
       vertices: []
       indices: 
       edges: []
@@ -6543,18 +6543,18 @@ TextureImporter:
       name: park_stage_306
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8625d2ffe92b14e45806602cec45f88c
+      spriteID: 371f3e9ffd5f201449266f57096922a3
       vertices: []
       indices: 
       edges: []
@@ -6563,18 +6563,18 @@ TextureImporter:
       name: park_stage_307
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa605d904c556f94d9d40d380a89a91d
+      spriteID: 5cef0d92452372043aaefbd9798ccaa4
       vertices: []
       indices: 
       edges: []
@@ -6583,18 +6583,18 @@ TextureImporter:
       name: park_stage_308
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b79ab6adc18594580bc7455ff0a7f7
+      spriteID: e1dd1bcf184481f4facab08a6453f62a
       vertices: []
       indices: 
       edges: []
@@ -6603,18 +6603,18 @@ TextureImporter:
       name: park_stage_309
       rect:
         serializedVersion: 2
-        x: 69
+        x: 70
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d57290415f2f913448d83646e71dcf0f
+      spriteID: b220ace98d41c8b4c9043270666e153d
       vertices: []
       indices: 
       edges: []
@@ -6623,18 +6623,18 @@ TextureImporter:
       name: park_stage_310
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f9c108570c78b4ab0ab2987ef91034
+      spriteID: 50382bfc7a19be54895c5f7409b0156f
       vertices: []
       indices: 
       edges: []
@@ -6643,18 +6643,18 @@ TextureImporter:
       name: park_stage_311
       rect:
         serializedVersion: 2
-        x: 154
+        x: 155
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ecd6c3888c79940bc08395466e515a
+      spriteID: 3425d7b28f2e6ff4090f09a7b298aa9e
       vertices: []
       indices: 
       edges: []
@@ -6663,18 +6663,18 @@ TextureImporter:
       name: park_stage_312
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1dc87ee71fa6941af808d91f709a82
+      spriteID: d0879b94beb2b6448be5014c4ae44709
       vertices: []
       indices: 
       edges: []
@@ -6683,18 +6683,18 @@ TextureImporter:
       name: park_stage_313
       rect:
         serializedVersion: 2
-        x: 188
+        x: 189
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 328b3177fbe666645871bc5256355567
+      spriteID: 938cb487281390143ac289e2a8b245ca
       vertices: []
       indices: 
       edges: []
@@ -6703,18 +6703,18 @@ TextureImporter:
       name: park_stage_314
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a78958d31d4837f498e19282cba7b56b
+      spriteID: ec2d5046f7335724e86584f768dd3a13
       vertices: []
       indices: 
       edges: []
@@ -6723,18 +6723,18 @@ TextureImporter:
       name: park_stage_315
       rect:
         serializedVersion: 2
-        x: 222
+        x: 223
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6f8269fce5652498a4d0e004919ee9
+      spriteID: 46c6650bdbef09642a969fc44070c09f
       vertices: []
       indices: 
       edges: []
@@ -6743,18 +6743,18 @@ TextureImporter:
       name: park_stage_316
       rect:
         serializedVersion: 2
-        x: 239
+        x: 240
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 855dbb27d3943d740a1950450f32a92e
+      spriteID: ef8dacfeb8b32ff4089b14115a71a136
       vertices: []
       indices: 
       edges: []
@@ -6763,18 +6763,18 @@ TextureImporter:
       name: park_stage_317
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c35b46ae525331b4d8bb9768e59ed1cf
+      spriteID: 0b53dcdea2ec9b84eb3e9d932b40786a
       vertices: []
       indices: 
       edges: []
@@ -6783,18 +6783,18 @@ TextureImporter:
       name: park_stage_318
       rect:
         serializedVersion: 2
-        x: 273
+        x: 274
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17d583772bb5f94ebf4abc98acffcb6
+      spriteID: 629e54e690ca2614387bb87c4c6024bb
       vertices: []
       indices: 
       edges: []
@@ -6803,18 +6803,18 @@ TextureImporter:
       name: park_stage_319
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317a2bd10267d1942b750fa01e4594e1
+      spriteID: ff8426d41e8a0c94ba24f5e19b333dac
       vertices: []
       indices: 
       edges: []
@@ -6823,18 +6823,18 @@ TextureImporter:
       name: park_stage_320
       rect:
         serializedVersion: 2
-        x: 307
+        x: 308
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90dd42daa4a8e0d4b9c1d1952a5ea353
+      spriteID: ec7dbeb151374c44793d9ffd74918d3e
       vertices: []
       indices: 
       edges: []
@@ -6843,18 +6843,18 @@ TextureImporter:
       name: park_stage_321
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 677220e987a2cca4493cce2c5d71f03d
+      spriteID: 83cf7aae506a6614c94d5baf4ef68ba2
       vertices: []
       indices: 
       edges: []
@@ -6863,18 +6863,18 @@ TextureImporter:
       name: park_stage_322
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24ac4c5ef632d24b83f35d28ff6a7f3
+      spriteID: dab66f9335c5a67498af6faa9155d534
       vertices: []
       indices: 
       edges: []
@@ -6883,18 +6883,18 @@ TextureImporter:
       name: park_stage_323
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d17fef49cf61d54fae6c74d13351821
+      spriteID: efb9851e0340b1b49be73254c92f36f0
       vertices: []
       indices: 
       edges: []
@@ -6903,18 +6903,18 @@ TextureImporter:
       name: park_stage_324
       rect:
         serializedVersion: 2
-        x: 375
+        x: 376
         y: 1
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0c0c373fb522754bad0d0b795d2ed33
+      spriteID: d2174599d97f7fb4f84062644e20e802
       vertices: []
       indices: 
       edges: []
