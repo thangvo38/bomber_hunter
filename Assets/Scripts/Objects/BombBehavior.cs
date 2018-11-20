@@ -48,4 +48,12 @@ public class BombBehavior : MonoBehaviour {
 	protected virtual void Explode(Vector2 position)
 	{
 	}
+
+	void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Player")
+    {
+      GetComponent<BoxCollider2D>().isTrigger = false;
+    }
+	}
 }

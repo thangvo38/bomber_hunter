@@ -157,6 +157,10 @@ Prefab:
       propertyPath: tilemap
       value: 
       objectReference: {fileID: 1457420127}
+    - target: {fileID: 1885024120653596, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}
   m_IsPrefabAsset: 0
@@ -246,6 +250,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
         type: 2}
+      propertyPath: groundTiles
+      value: 
+      objectReference: {fileID: 1675941578}
+    - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
+        type: 2}
       propertyPath: blockTiles
       value: 
       objectReference: {fileID: 1995686727}
@@ -256,17 +265,58 @@ Prefab:
       objectReference: {fileID: 1273757148}
     - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
         type: 2}
-      propertyPath: groundTiles
+      propertyPath: bombTiles
       value: 
-      objectReference: {fileID: 1675941578}
-    - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
+      objectReference: {fileID: 1457420127}
+    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
         type: 2}
-      propertyPath: moveSpeed
-      value: 6
+      propertyPath: m_Size.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
+        type: 2}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136619774103918, guid: a689958d4c634ea429597a314cc5033f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a689958d4c634ea429597a314cc5033f, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &754205450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1136619774103918, guid: a689958d4c634ea429597a314cc5033f,
+    type: 2}
+  m_PrefabInternal: {fileID: 754205449}
+--- !u!114 &754205451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 754205450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81c284ead05b1645b05b79b98add599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollided: 0
 --- !u!4 &882581933 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939180096495614, guid: 45000eeded28d3341b59f98b35cf4720,
@@ -534,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1457420125
 Transform:
   m_ObjectHideFlags: 0
@@ -1553,6 +1603,10 @@ Prefab:
       propertyPath: tilemap
       value: 
       objectReference: {fileID: 1457420127}
+    - target: {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
   m_IsPrefabAsset: 0
