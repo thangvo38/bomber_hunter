@@ -23,6 +23,9 @@ public class PlayerCheckCollide : MonoBehaviour {
 			case "Bomb":
 				isCollided = true;
 				break;
+			case "Explosion":
+				isCollided = false;
+				break;
 			default:
 				break;
 		}
@@ -34,6 +37,9 @@ public class PlayerCheckCollide : MonoBehaviour {
 		{
 			case "Bomb":
 				isCollided = true;
+				break;
+			case "Explosion":
+				isCollided = false;
 				break;
 			default:
 				break;

@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class BombBehavior : MonoBehaviour {
-	public Tilemap tilemap;
 	public GameObject explosionPrefab;
 	public float countDown = 2f;
 	public int damage = 1;
@@ -22,38 +21,80 @@ public class BombBehavior : MonoBehaviour {
 		{
 			isTriggered = true;
 			Explode(this.transform.position);
-			Destroy(gameObject);
+			this.transform.gameObject.GetComponent<Collider2D>().enabled = false;
+			this.transform.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+			// Destroy(gameObject);
 		}
 
 		countDown -= Time.deltaTime;
 	}
 
-	protected bool ExplodeCell(Vector3Int cellPos, Vector3Int direction, int currentLength = 1)
+	protected bool ExplodeCell(Vector3Int direction, int currentLength = 1)
 	{
 		if (currentLength >= this.maxLength)
 		{
 			return false;
 		}
 
-		Vector3 pos = tilemap.GetCellCenterWorld(cellPos + direction);
-		GameObject explosion = (GameObject)Instantiate(explosionPrefab, pos, Quaternion.identity);
+		Vector3 pos = this.transform.position + direction;
+		GameObject explosion = (GameObject)Instantiate(explosionPrefab, pos, Quaternion.identity, this.transform);
 		bool isBlocked = explosion.GetComponent<Explosion>().isBlocked;
 		if (isBlocked || currentLength == 0)
 		{
 			return false;
 		} else {
-			return ExplodeCell(cellPos, new Services().ToVectorOne(direction) * (currentLength + 1), currentLength + 1);
+			return ExplodeCell(new Services().ToVectorOne(direction) * (currentLength + 1), currentLength + 1);
 		}
 	}
-	protected virtual void Explode(Vector2 position)
+	public virtual void Explode(Vector2 position)
 	{
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		// Debug.Log(other);
+		if (other.gameObject.tag == "Explosion")
+		{
+			Debug.Log("BBBB");
+			countDown = 0f;
+			return;
+		}
+	}
+
+	void OnCollisionStay2D(Collision2D other)
+	{
+		Debug.Log(other);
+		if (other.gameObject.tag == "Explosion")
+		{
+			Debug.Log("BBBB");
+			countDown = 0f;
+			return;
+		}
 	}
 
 	void OnTriggerExit2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Player")
-    {
-      GetComponent<BoxCollider2D>().isTrigger = false;
-    }
+		{
+			GetComponent<BoxCollider2D>().isTrigger = false;
+			other.gameObject.GetComponent<Player>().canAttack = true;
+			return;
+		}
+	}
+
+	void OnTriggerStay2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Player")
+		{
+			other.gameObject.GetComponent<Player>().canAttack = false;
+			// return;
+		}
+
+		if (other.gameObject.tag == "Explosion")
+		{
+			Debug.Log("AAAAA");
+			countDown = 0f;
+			// return;
+		}
 	}
 }

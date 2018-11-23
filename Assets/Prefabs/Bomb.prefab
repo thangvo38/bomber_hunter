@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98ca36844088ef242aaf3d73f4ab40bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 0}
   explosionPrefab: {fileID: 1804159802538502, guid: 2d9f434e7d53e5c4e9e9277581e9a7ae,
     type: 2}
   countDown: 2
@@ -118,7 +117,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 4c3d1f9f2d3aaed48b4ec7d7c40bc6e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

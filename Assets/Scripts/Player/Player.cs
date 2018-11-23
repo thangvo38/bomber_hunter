@@ -3,49 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class Player : MonoBehaviour {
-	public Tilemap groundTiles;
-	public Tilemap blockTiles;
-	public Tilemap objectTiles;
-  public Tilemap bombTiles;
-
-	public bool isInvisible = false;
-	public int lives = 3;
-
-	public bool isMoving = false;
-
-  public float moveSpeed = 2f;
-	
+public class Player : UnitStatus {
+  GameObject checkAhead;
   public List<GameObject> bombs = new List<GameObject>();
   public int curerntBombId = 0;
-
-  Vector3 curPos;
   Coroutine moveCoroutine;
-
-  int xDir = 0, yDir = 1;
-
-  GameObject checkAhead;
 
   // Use this for initialization
 	void Start () {
-		curPos = transform.position;
+    lives = 3;
     checkAhead = transform.Find("CheckCollide").gameObject;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+    AttackControl();
 		if (isMoving)
 		{
 			return;
 		}
     MovementControl();
-    AttackControl();
 	}
 
-  void MovementControl()
+  protected override void MovementControl()
   {
-    // int horizontal = 0;
-    // int vertical = 0;
     xDir = (int)(Input.GetAxisRaw("Horizontal"));
     yDir = (int)(Input.GetAxisRaw("Vertical"));
 
@@ -54,14 +35,15 @@ public class Player : MonoBehaviour {
   
     if (xDir != 0 || yDir != 0)
     {
+        direction = new Vector2Int(xDir, yDir);
         Move(xDir, yDir);
     }
   }
 
-  void AttackControl()
+  protected override void AttackControl()
   {
     bool attackButtonDown = Input.GetButtonDown("A");
-    if (attackButtonDown)
+    if (canAttack && attackButtonDown)
     {
       bool isOnGround = getCell(groundTiles, transform.position) != null;
       if (isOnGround && curerntBombId <= bombs.Count && bombs[curerntBombId] != null)
@@ -75,7 +57,7 @@ public class Player : MonoBehaviour {
   void Move(int x, int y)
   {
     checkAhead.GetComponent<BoxCollider2D>().offset = new Vector2(x, y);
-    Vector2 currentCell = curPos;
+    Vector2 currentCell = transform.position;
     Vector2 targetCell = currentCell + new Vector2(x, y);
 
     bool isOnGround = getCell(groundTiles, currentCell) != null;
@@ -102,17 +84,18 @@ public class Player : MonoBehaviour {
 
       yield return null;
     }
-    curPos = transform.position;
-    Debug.Log("Exit");
     isMoving = false;
   }
   void OnCollisionEnter2D(Collision2D other)
   {
     if (other.gameObject.tag == "Bomb")
     {
-      StopCoroutine(moveCoroutine);
-      isMoving = false;
-      Move(0, 0);
+      if(!other.gameObject.GetComponent<Collider2D>().isTrigger)
+      {
+        StopCoroutine(moveCoroutine);
+        isMoving = false;
+        Move(0, 0);
+      }
     }
   }
 
