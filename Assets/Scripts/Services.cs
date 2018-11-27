@@ -1,14 +1,22 @@
 using UnityEngine;
 
 public class Services {
-    public Vector3Int ToVectorOne(Vector3Int vector)
+    public static Vector3Int ToVectorOne(Vector3Int vector)
     {
-        return new Vector3Int(vector.x / ReplacceIfZero(vector.x),
-        vector.y / ReplacceIfZero(vector.y),
-        vector.z / ReplacceIfZero(vector.z));
+        return new Vector3Int(vector.x / ReplaceIfZero(vector.x),
+        vector.y / ReplaceIfZero(vector.y),
+        vector.z / ReplaceIfZero(vector.z));
     }
 
-    int ReplacceIfZero(int value)
+    public static void IgnoreCollisionByTag(GameObject gameObject, Collision2D collision, string tag)
+    {
+        if (collision.gameObject.tag == tag)
+       {
+           Physics2D.IgnoreCollision(collision.collider, gameObject.GetComponent<Collider2D>());
+       }
+    }
+
+    public static int ReplaceIfZero(int value)
     {
         if (value == 0)
         {
@@ -16,4 +24,5 @@ public class Services {
         }
         return Mathf.Abs(value);
     }
+
 }

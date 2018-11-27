@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class Player : UnitStatus {
-  GameObject checkAhead;
+  
   public List<GameObject> bombs = new List<GameObject>();
   public int curerntBombId = 0;
   Coroutine moveCoroutine;

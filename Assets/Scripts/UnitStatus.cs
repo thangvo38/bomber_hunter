@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class UnitStatus : MonoBehaviour {
+    protected GameObject checkAhead;
     public int lives = 1;
     public bool isInvisible = false;
 

@@ -43,7 +43,7 @@ public class BombBehavior : MonoBehaviour {
 		{
 			return false;
 		} else {
-			return ExplodeCell(new Services().ToVectorOne(direction) * (currentLength + 1), currentLength + 1);
+			return ExplodeCell(Services.ToVectorOne(direction) * (currentLength + 1), currentLength + 1);
 		}
 	}
 	public virtual void Explode(Vector2 position)
