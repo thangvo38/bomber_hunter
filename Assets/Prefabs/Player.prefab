@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4617931691282184}
   - component: {fileID: 61561217238442816}
+  - component: {fileID: 114713991833957580}
   m_Layer: 8
   m_Name: CheckCollide
   m_TagString: Untagged
@@ -36,9 +37,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4592154089706720}
   - component: {fileID: 212314621690296006}
+  - component: {fileID: 114755569174043496}
   - component: {fileID: 61203916740173414}
   - component: {fileID: 50889171501091402}
-  - component: {fileID: 114755569174043496}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -53,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1874128071541196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 4.5, z: 0}
+  m_LocalPosition: {x: 15.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4617931691282184}
@@ -92,7 +93,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &61203916740173414
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -105,7 +106,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.009826899}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.25}
@@ -116,7 +117,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9375, y: 0.9328332}
+  m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
 --- !u!61 &61561217238442816
 BoxCollider2D:
@@ -130,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
+  m_Offset: {x: 0, y: -1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -141,8 +142,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
+--- !u!114 &114713991833957580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136619774103918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81c284ead05b1645b05b79b98add599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollided: 0
 --- !u!114 &114755569174043496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,14 +167,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e70d4f3f51dfd4d955fadb4cb04a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundTiles: {fileID: 0}
-  blockTiles: {fileID: 0}
-  objectTiles: {fileID: 0}
-  bombTiles: {fileID: 0}
-  isInvisible: 0
   lives: 3
+  isInvisible: 0
+  xDir: 0
+  yDir: 1
+  direction: {x: 0, y: -1}
   isMoving: 0
   moveSpeed: 6
+  canAttack: 1
   bombs:
   - {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
   - {fileID: 1885024120653596, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}

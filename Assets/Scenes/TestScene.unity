@@ -203,11 +203,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114283372222460880, guid: 8a6e3471310f4554e8a748c1c8759594,
-        type: 2}
-      propertyPath: stopChance
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a6e3471310f4554e8a748c1c8759594, type: 2}
   m_IsPrefabAsset: 0
@@ -310,60 +305,9 @@ Prefab:
       propertyPath: objectTiles
       value: 
       objectReference: {fileID: 1273757148}
-    - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: bombTiles
-      value: 
-      objectReference: {fileID: 1457420127}
-    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 61561217238442816, guid: a689958d4c634ea429597a314cc5033f,
-        type: 2}
-      propertyPath: m_AutoTiling
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1136619774103918, guid: a689958d4c634ea429597a314cc5033f, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a689958d4c634ea429597a314cc5033f, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &754205450 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1136619774103918, guid: a689958d4c634ea429597a314cc5033f,
-    type: 2}
-  m_PrefabInternal: {fileID: 754205449}
---- !u!114 &754205451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 754205450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b81c284ead05b1645b05b79b98add599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCollided: 0
 --- !u!4 &777355719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4901317731785316, guid: 8a6e3471310f4554e8a748c1c8759594,
@@ -1672,6 +1616,7 @@ GameObject:
   - component: {fileID: 1800895511}
   - component: {fileID: 1800895513}
   - component: {fileID: 1800895512}
+  - component: {fileID: 1800895514}
   m_Layer: 0
   m_Name: NPCs
   m_TagString: Untagged
@@ -1772,6 +1717,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1800895514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1800895510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa96b420194829a4ab26a1eb17911076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTiles: {fileID: 1675941578}
+  blockTiles: {fileID: 1995686727}
+  objectTiles: {fileID: 1273757148}
 --- !u!1 &1995686724
 GameObject:
   m_ObjectHideFlags: 0
