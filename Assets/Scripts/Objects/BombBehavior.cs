@@ -7,7 +7,7 @@ public class BombBehavior : MonoBehaviour {
     public GameObject explosionPrefab;
     public float countDown = 2f;
     public int damage = 1;
-    protected int maxLength = 0;
+    protected int maxLength = 2;
     bool isTriggered = false;
     // Use this for initialization
     protected void Start () {
@@ -43,6 +43,10 @@ public class BombBehavior : MonoBehaviour {
         }
     }
     public virtual void Explode (Vector2 position) { }
+
+    public virtual void SetLength (int newLength) {
+        maxLength = newLength;
+    }
 
     void OnTriggerEnter2D (Collider2D other) {
         // Debug.Log(other);

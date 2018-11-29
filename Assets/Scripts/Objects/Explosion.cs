@@ -19,7 +19,7 @@ public class Explosion : MonoBehaviour {
                     return;
                 case "Destructable":
                     isDestroyWhenHit = true;
-                    Destroy (hitCollider.gameObject);
+                    hitCollider.gameObject.GetComponent<Destructable> ().Damaged ();
                     break;
             }
         }
@@ -51,15 +51,12 @@ public class Explosion : MonoBehaviour {
         return !isBlocked && !isDestroyWhenHit;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-    	if(!isBlocked)
-        {
-            switch(other.gameObject.tag)
-            {
+    void OnTriggerEnter2D (Collider2D other) {
+        if (!isBlocked) {
+            switch (other.gameObject.tag) {
                 case "Player":
                 case "Enemy":
-                    other.transform.GetComponent<UnitStatus>().Damage();
+                    other.transform.GetComponent<UnitStatus> ().Damage ();
                     break;
             }
         }

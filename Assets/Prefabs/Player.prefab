@@ -175,6 +175,7 @@ MonoBehaviour:
   isMoving: 0
   moveSpeed: 6
   canAttack: 1
+  bombLength: 1
   bombs:
   - {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
   - {fileID: 1885024120653596, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}

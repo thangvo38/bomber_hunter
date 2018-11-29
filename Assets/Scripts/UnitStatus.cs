@@ -51,7 +51,7 @@ public class UnitStatus : MonoBehaviour {
 
     protected virtual void AttackControl () { }
 
-    public virtual void Damage() { 
+    public virtual void Damage () {
         lives = lives <= 0 ? 0 : lives - 1;
     }
 

@@ -16,10 +16,9 @@ public class StraightEnemy : UnitStatus {
     protected override void Update () {
         base.Update ();
 
-        if (lives <= 0)
-        {
+        if (lives <= 0) {
             //Add animation here
-            Destroy(this.gameObject);
+            Destroy (this.gameObject);
         }
 
         if (isMoving || Random.Range (0, stopChance) > 0) {
@@ -47,7 +46,7 @@ public class StraightEnemy : UnitStatus {
         switch (other.gameObject.tag) {
             case "Enemy":
                 if (!isInvisible) {
-                    Damage();
+                    Damage ();
                 }
                 break;
         }

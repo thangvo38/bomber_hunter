@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class Player : UnitStatus {
-    public List<GameObject> bombs = new List<GameObject> ();
 
+    public int bombLength = 3;
+    public List<GameObject> bombs = new List<GameObject> ();
     public int curerntBombId = 1;
     protected override void Awake () {
         base.Awake ();
@@ -43,24 +44,26 @@ public class Player : UnitStatus {
             bool isOnGround = base.isOnGround (this.transform.position);
             if (isOnGround && curerntBombId <= bombs.Count && bombs[curerntBombId] != null) {
                 Vector3Int bombCell = groundTiles.WorldToCell (transform.position);
-                Instantiate (bombs[curerntBombId], groundTiles.GetCellCenterWorld (bombCell), Quaternion.identity);
+                GameObject bomb = Instantiate (bombs[curerntBombId], groundTiles.GetCellCenterWorld (bombCell), Quaternion.identity);
+                bomb.GetComponent<BombBehavior> ().SetLength (bombLength);
             }
         }
     }
 
+    public override void Damage () {
+        if (!isInvisible) {
+            isInvisible = true;
+            base.Damage ();
+            StartCoroutine (Flash ());
+        }
+    }
     protected override void OnCollisionEnter2D (Collision2D other) {
         base.OnCollisionEnter2D (other);
-
         switch (other.gameObject.tag) {
             case "Enemy":
-                if (!isInvisible) {
-                    isInvisible = true;
-                    Damage();
-                    StartCoroutine (Flash ());
-                }
+                Damage ();
                 break;
         }
-
     }
     IEnumerator Flash () {
         for (int i = 0; i < 5; i++) {
