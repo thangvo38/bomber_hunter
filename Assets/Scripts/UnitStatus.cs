@@ -39,7 +39,7 @@ public class UnitStatus : MonoBehaviour {
     protected virtual void OnCollisionEnter2D (Collision2D other) {
         switch (other.gameObject.tag) {
             case "Bomb":
-                StopCoroutine (moveCoroutine);
+                stopMoving ();
                 isMoving = false;
                 Move (0, 0);
                 break;
@@ -69,9 +69,8 @@ public class UnitStatus : MonoBehaviour {
                 isMoving = true;
                 moveCoroutine = StartCoroutine (Moving (targetCell));
             } else {
-                StopCoroutine (moveCoroutine);
+                stopMoving();
                 isMoving = false;
-                direction *= -1;
             }
         }
     }

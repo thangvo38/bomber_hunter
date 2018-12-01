@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1874128071541196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: -12.5, y: 6.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4617931691282184}
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: 1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -170,12 +170,12 @@ MonoBehaviour:
   lives: 3
   isInvisible: 0
   xDir: 0
-  yDir: 1
-  direction: {x: 0, y: -1}
+  yDir: 0
+  direction: {x: 0, y: 1}
   isMoving: 0
   moveSpeed: 6
   canAttack: 1
-  bombLength: 1
+  bombLength: 2
   bombs:
   - {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
   - {fileID: 1885024120653596, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}

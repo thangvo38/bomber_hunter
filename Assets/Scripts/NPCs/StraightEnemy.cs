@@ -37,19 +37,16 @@ public class StraightEnemy : UnitStatus {
         if (xDir != 0 || yDir != 0) {
             direction = new Vector2Int (xDir, yDir);
             Move (xDir, yDir);
+
+            if (!isMoving)
+            {
+                direction *= -1;
+            }
         }
     }
 
     protected override void OnCollisionEnter2D (Collision2D other) {
         Services.IgnoreCollisionByTag (this.gameObject, other, "Enemy");
-
-        switch (other.gameObject.tag) {
-            case "Enemy":
-                if (!isInvisible) {
-                    Damage ();
-                }
-                break;
-        }
 
         base.OnCollisionEnter2D (other);
     }

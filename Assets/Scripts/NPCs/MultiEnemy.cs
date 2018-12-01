@@ -1,0 +1,89 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Tilemaps;
+
+public class MultiEnemy : UnitStatus {
+    public int stopChance = 0;
+
+    List<Vector2Int> availableDirections;
+    int previousDir;
+    int failAttempt = 0;
+
+    protected override void Awake () {
+        base.Awake ();
+        checkAhead = transform.Find ("CheckCollide").gameObject;
+
+        availableDirections = new List<Vector2Int>{
+            new Vector2Int(1, 0),
+            new Vector2Int(-1, 0),
+            new Vector2Int(0, 1),
+            new Vector2Int(0, -1),
+        };
+
+        previousDir = availableDirections.IndexOf(direction * -1);
+        Debug.Log("Awake:" + previousDir);
+    }
+    protected override void Start () {
+        base.Start ();
+    }
+
+    protected override void Update () {
+        base.Update ();
+
+        if (lives <= 0) {
+            //Add animation here
+            Destroy (this.gameObject);
+        }
+
+        if (isMoving || Random.Range (0, stopChance) > 0) {
+            return;
+        }
+        isMoving = true;
+        MovementControl ();
+    }
+
+    protected override void MovementControl () {
+        // direction = new Vector2Int(Random.Range(-1, 2), Random.Range(-1, 2));
+        xDir = direction.x;
+        yDir = direction.y;
+
+        if (xDir != 0)
+            yDir = 0;
+
+        if (xDir != 0 || yDir != 0) {
+            direction = new Vector2Int (xDir, yDir);
+            Move (xDir, yDir);
+
+            //If can't move 
+            if (!isMoving)
+            {
+                failAttempt++;
+                Debug.Log("FailAttempt:" + failAttempt);
+
+                if (failAttempt > 3)
+                {
+                    direction = availableDirections[previousDir];
+                    previousDir = availableDirections.IndexOf(direction * -1);  
+                    Debug.Log("Fail 3 times: " + direction);
+                } else {
+                    // Debug.Log(previousDir);
+                    int newDir = Services.RandomExcept(0, 4, previousDir);
+                    direction = availableDirections[newDir];
+                    // Debug.Log("Fail " + failAttempt + " times: " + direction + " Previous: " + previousDir);
+                } 
+            } else {
+                failAttempt = 0;
+                Debug.Log("FailAttempt:" + failAttempt);
+                previousDir = availableDirections.IndexOf(direction * -1);
+                // Debug.Log("Previos: " + availableDirections[previousDir]);
+            }
+        }
+    }
+
+    protected override void OnCollisionEnter2D (Collision2D other) {
+        Services.IgnoreCollisionByTag (this.gameObject, other, "Enemy");
+        base.OnCollisionEnter2D (other);
+    }
+
+}

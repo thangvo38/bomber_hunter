@@ -75,14 +75,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1768391296584416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98ca36844088ef242aaf3d73f4ab40bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 42f39516fc67cc04581bfda8f345b812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 1804159802538502, guid: 2d9f434e7d53e5c4e9e9277581e9a7ae,
     type: 2}
   countDown: 2
   damage: 1
-  fireLength: 3
 --- !u!212 &212294292546521356
 SpriteRenderer:
   m_ObjectHideFlags: 1
