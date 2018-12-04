@@ -9,6 +9,7 @@ TagManager:
   - Explosion
   - Destructable
   - Enemy
+  - Lives
   layers:
   - Default
   - TransparentFX
