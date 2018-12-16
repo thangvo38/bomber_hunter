@@ -21,7 +21,6 @@ public class ItemBase : MonoBehaviour {
     protected virtual void OnTriggerEnter2D (Collider2D other) {
         if (other.gameObject.tag == "Player") {
             GainEffect (other.transform);
-            Destroy (this.gameObject);
         }
     }
 

@@ -1,7 +1,6 @@
 using UnityEngine;
 
 public class BombBlast : BombBehavior {
-    public GameObject specialExplosionPrefab;
     public override void Explode (Vector2 position) {
         this.maxLength = Constants.BOMB_BLAST_LEN;
         ExplodeCell (Vector3Int.zero, 0);
@@ -21,7 +20,7 @@ public class BombBlast : BombBehavior {
         }
 
         Vector3 pos = this.transform.position + direction;
-        GameObject explosion = (GameObject) Instantiate (specialExplosionPrefab, pos, Quaternion.identity, this.transform);
+        GameObject explosion = (GameObject) Instantiate (explosionPrefab, pos, Quaternion.identity, this.transform);
         if (currentLength == 0) {
             return false;
         } else {

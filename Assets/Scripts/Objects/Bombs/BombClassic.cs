@@ -8,5 +8,4 @@ public class BombClassic : BombBehavior {
         ExplodeCell (new Vector3Int (-1, 0, 0));
         ExplodeCell (new Vector3Int (0, -1, 0));
     }
-
 }

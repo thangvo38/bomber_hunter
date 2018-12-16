@@ -116,4 +116,5 @@ public class UnitStatus : MonoBehaviour {
             StopCoroutine (moveCoroutine);
         }
     }
+    
 }
