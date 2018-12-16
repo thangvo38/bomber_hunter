@@ -83,7 +83,15 @@ public class MultiEnemy : UnitStatus {
 
     protected override void OnCollisionEnter2D (Collision2D other) {
         Services.IgnoreCollisionByTag (this.gameObject, other, "Enemy");
-        base.OnCollisionEnter2D (other);
+        
+        switch (other.gameObject.tag) {
+            case "Bomb":
+                stopMoving ();
+                isMoving = false;
+                direction *= -1;
+                Move (direction.x, direction.y);
+                break;
+        }
     }
 
 }

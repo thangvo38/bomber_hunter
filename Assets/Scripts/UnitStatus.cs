@@ -69,8 +69,8 @@ public class UnitStatus : MonoBehaviour {
                 isMoving = true;
                 moveCoroutine = StartCoroutine (Moving (targetCell));
             } else {
-                stopMoving();
                 isMoving = false;
+                stopMoving();
             }
         }
     }

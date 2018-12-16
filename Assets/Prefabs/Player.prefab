@@ -179,6 +179,7 @@ MonoBehaviour:
   bombs:
   - {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
   - {fileID: 1885024120653596, guid: 45000eeded28d3341b59f98b35cf4720, type: 2}
+  - {fileID: 1278133825149596, guid: 0cda4e60c02ae3e41997c96e306d68f3, type: 2}
   curerntBombId: 0
 --- !u!212 &212314621690296006
 SpriteRenderer:

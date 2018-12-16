@@ -7,6 +7,7 @@ public class Player : UnitStatus {
 
     public int bombLength = 3;
     public List<GameObject> bombs = new List<GameObject> ();
+    [Range(0, 2)]
     public int curerntBombId = 1;
     protected override void Awake () {
         base.Awake ();
@@ -18,7 +19,7 @@ public class Player : UnitStatus {
     }
     protected override void Update () {
         base.Update ();
-
+        SwitchBombControl();
         AttackControl ();
         if (isMoving) {
             return;
@@ -47,6 +48,15 @@ public class Player : UnitStatus {
                 GameObject bomb = Instantiate (bombs[curerntBombId], groundTiles.GetCellCenterWorld (bombCell), Quaternion.identity);
                 bomb.GetComponent<BombBehavior> ().SetLength (bombLength);
             }
+        }
+    }
+
+    void SwitchBombControl()
+    {
+        bool switchButtonDown = Input.GetButtonDown("B");
+        if (switchButtonDown)
+        {
+            curerntBombId = curerntBombId == 2 ? 0 : curerntBombId + 1;
         }
     }
 

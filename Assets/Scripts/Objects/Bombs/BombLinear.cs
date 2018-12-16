@@ -3,18 +3,26 @@ using UnityEngine;
 public class BombLinear : BombBehavior {
 
     GameObject player;
+    Vector3Int playerDirection;
+    protected override void Awake()
+    {
+        player = GameObject.Find("Player");
+        playerDirection = new Vector3Int(player.GetComponent<UnitStatus>().direction.x,
+            player.GetComponent<UnitStatus>().direction.y,
+            0);
+    }
 
     public void setPlayer (GameObject value) {
         player = value;
     }
+
     public override void Explode (Vector2 position) {
-        //Vector3Int playerDirection = player.GetDirection();
+        
+
         this.maxLength = Constants.BOMB_LINEAR_LEN;
 
-        // ExplodeCell(originCell, 0);
-        for (int i = 1; i < this.maxLength; i++) {
-            // ExplodeCell(originCell + playerDirection, i);
-        }
+        ExplodeCell (Vector3Int.zero, 0);
+        ExplodeCell (playerDirection);
     }
 
 }

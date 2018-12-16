@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour {
     public LayerMask layerMask;
-    bool isBlocked = false;
-    bool isDestroyWhenHit = false;
     public float duration = 0.75f;
+    protected bool isBlocked = false;
+    protected bool isDestroyWhenHit = false;
 
-    void Awake () {
+    protected virtual void Awake () {
         Collider2D hitCollider = Physics2D.OverlapBox (gameObject.transform.position, transform.localScale / 2, 0f, layerMask);
         //Check when there is a new collider coming into contact with the box
         if (hitCollider != null) {
@@ -32,12 +32,12 @@ public class Explosion : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start () {
+    protected virtual void Start () {
 
     }
 
     // Update is called once per frame
-    void Update () {
+    protected virtual void Update () {
         if (!isBlocked) {
             duration -= Time.deltaTime;
             if (duration <= 0f) {
@@ -47,11 +47,11 @@ public class Explosion : MonoBehaviour {
         }
     }
 
-    public bool allowNextExplosion () {
+    public virtual bool allowNextExplosion () {
         return !isBlocked && !isDestroyWhenHit;
     }
 
-    void OnTriggerEnter2D (Collider2D other) {
+    protected virtual void OnTriggerEnter2D (Collider2D other) {
         if (!isBlocked) {
             switch (other.gameObject.tag) {
                 case "Player":

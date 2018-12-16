@@ -10,6 +10,8 @@ public class BombBehavior : MonoBehaviour {
     protected int maxLength = 2;
     bool isTriggered = false;
     // Use this for initialization
+
+    protected virtual void Awake() {  }
     protected void Start () {
         isTriggered = false;
     }
@@ -28,7 +30,7 @@ public class BombBehavior : MonoBehaviour {
         countDown -= Time.deltaTime;
     }
 
-    protected bool ExplodeCell (Vector3Int direction, int currentLength = 1) {
+    protected virtual bool ExplodeCell (Vector3Int direction, int currentLength = 1) {
         if (currentLength >= this.maxLength) {
             return false;
         }
