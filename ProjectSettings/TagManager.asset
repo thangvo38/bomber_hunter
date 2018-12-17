@@ -10,6 +10,8 @@ TagManager:
   - Destructable
   - Enemy
   - Lives
+  - BombOnly
+  - EnemyWall
   layers:
   - Default
   - TransparentFX
@@ -24,7 +26,7 @@ TagManager:
   - Floor
   - Destructable
   - Bomnb
-  - 
+  - BombOnly
   - 
   - 
   - 

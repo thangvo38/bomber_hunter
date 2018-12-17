@@ -1,18 +1,21 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class SemiFinalBoss : UnitStatus {
-    
+
     GameObject player = null;
-    protected override void Awake()
-    {
-        base.Awake();
-        player = GameObject.Find("Player");  
+    bool findOtherWay = false;
+
+    protected override void Awake () {
+        base.Awake ();
+        player = GameObject.Find ("Player");
+        blockTiles = new List<Tilemap>();
     }
 
-    protected override void Update()
-    {
-        base.Update();
+    protected override void Update () {
+        base.Update ();
 
         if (lives <= 0) {
             //Add animation here
@@ -27,8 +30,14 @@ public class SemiFinalBoss : UnitStatus {
     }
 
     protected override void MovementControl () {
-        Vector3Int newDir = Services.ToVectorOne((Vector3Int.FloorToInt(player.transform.position - this.transform.position)));
-        Debug.Log(newDir);
+
+        Vector3Int newDir;
+        if (!findOtherWay)
+            newDir = Services.ToVectorOne ((Vector3Int.FloorToInt (player.transform.position - this.transform.position)));
+        else {
+            newDir = new Vector3Int(Random.Range(-1, 2),Random.Range(-1, 2), 0);
+            findOtherWay = false;
+        }
         xDir = newDir.x;
         yDir = newDir.y;
 
@@ -51,16 +60,16 @@ public class SemiFinalBoss : UnitStatus {
             case Constants.ENEMY_WALL:
                 stopMoving ();
                 isMoving = false;
-                direction *= -1;
+                // direction *= -1;
                 Move (direction.x, direction.y);
+                findOtherWay = true;
                 break;
         }
     }
 
     protected override bool containCellInList (Vector2 pos) {
         for (int i = 0; i < blockTiles.Count; i++) {
-            if (blockTiles[i].gameObject.tag != Constants.DESTRUTABLE_TAG)
-            {
+            if (blockTiles[i].gameObject.tag != Constants.DESTRUTABLE_TAG) {
                 if (getCell (blockTiles[i], pos) != null || Services.GetObjectInCell (blockTiles[i], pos) != null) {
                     return true;
                 }
@@ -85,8 +94,7 @@ public class SemiFinalBoss : UnitStatus {
         }
         isInvisible = false;
 
-        if (lives <= 0)
-        {
+        if (lives <= 0) {
             Destroy (this.gameObject);
         }
     }

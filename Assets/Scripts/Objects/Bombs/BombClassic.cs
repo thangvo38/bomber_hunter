@@ -4,8 +4,7 @@ public class BombClassic : BombBehavior {
 
     public int length = 0;
     public override void Explode (Vector2 position) {
-        if (length > 0)
-        {
+        if (length > 0) {
             maxLength = length;
         }
         ExplodeCell (Vector3Int.zero, 0);

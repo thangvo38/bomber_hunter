@@ -11,17 +11,13 @@ public class ItemSlowPlayer : ItemBase {
     protected override void Update () {
         base.Update ();
 
-        if (isTriggered)
-        {
-            if (effectCount >= 5f)
-            {
-                if (player != null)
-                {
-                    player.GetComponent<Player>().moveSpeed = baseSpeed;
+        if (isTriggered) {
+            if (effectCount >= 5f) {
+                if (player != null) {
+                    player.GetComponent<Player> ().moveSpeed = baseSpeed;
                 }
                 Destroy (this.gameObject);
-            } else if (player.GetComponent<Player>().moveSpeed > 2f)
-            {
+            } else if (player.GetComponent<Player> ().moveSpeed > 2f) {
                 Destroy (this.gameObject);
             }
             effectCount += Time.deltaTime;
@@ -32,19 +28,17 @@ public class ItemSlowPlayer : ItemBase {
         player = target;
         float speed = player.GetComponent<Player> ().moveSpeed;
 
-        if (speed != 2f && !isTriggered)
-        {
+        if (speed != 2f && !isTriggered) {
             speed = 2f;
             player.GetComponent<Player> ().moveSpeed = speed;
             isTriggered = true;
 
-            this.GetComponent<Collider2D>().enabled = false;
-            this.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<Collider2D> ().enabled = false;
+            this.GetComponent<SpriteRenderer> ().enabled = false;
         } else {
             Destroy (this.gameObject);
         }
 
-       
     }
 
 }

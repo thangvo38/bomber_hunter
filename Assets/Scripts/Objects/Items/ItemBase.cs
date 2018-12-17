@@ -9,7 +9,7 @@ public class ItemBase : MonoBehaviour {
     void OnValidate () {
         turnSpeed = Mathf.Max (turnSpeed, 0f);
     }
-    
+
     protected virtual void Update () {
 
     }

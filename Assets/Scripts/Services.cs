@@ -35,17 +35,14 @@ public class Services {
         return null;
     }
 
-    public static int RandomExcept(int min, int max, int except)
-    {
-        if (min == except && except == max - 1)
-        {
+    public static int RandomExcept (int min, int max, int except) {
+        if (min == except && except == max - 1) {
             return except;
         }
 
         int num = except;
-        do
-        {
-            num = Random.Range(min, max);
+        do {
+            num = Random.Range (min, max);
         } while (num == except);
 
         return num;

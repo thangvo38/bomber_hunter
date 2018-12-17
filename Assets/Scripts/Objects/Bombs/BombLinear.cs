@@ -4,11 +4,10 @@ public class BombLinear : BombBehavior {
 
     GameObject player;
     Vector3Int playerDirection;
-    protected override void Awake()
-    {
-        player = GameObject.Find("Player");
-        playerDirection = new Vector3Int(player.GetComponent<UnitStatus>().direction.x,
-            player.GetComponent<UnitStatus>().direction.y,
+    protected override void Awake () {
+        player = GameObject.Find ("Player");
+        playerDirection = new Vector3Int (player.GetComponent<UnitStatus> ().direction.x,
+            player.GetComponent<UnitStatus> ().direction.y,
             0);
     }
 
@@ -17,7 +16,6 @@ public class BombLinear : BombBehavior {
     }
 
     public override void Explode (Vector2 position) {
-        
 
         this.maxLength = Constants.BOMB_LINEAR_LEN;
 

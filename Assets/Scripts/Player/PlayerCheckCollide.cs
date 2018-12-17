@@ -26,6 +26,10 @@ public class PlayerCheckCollide : MonoBehaviour {
 
     void checkEnterStay (string tag) {
         switch (tag) {
+            case Constants.ENEMY_WALL:
+                if (this.transform.parent.tag == "Enemy")
+                    isCollided = true;
+                break;
             case Constants.BOMB_TAG:
                 isCollided = true;
                 break;
@@ -39,6 +43,10 @@ public class PlayerCheckCollide : MonoBehaviour {
 
     void checkExit (string tag) {
         switch (tag) {
+            case Constants.ENEMY_WALL:
+                if (this.transform.parent.tag == "Enemy")
+                    isCollided = false;
+                break;
             case Constants.BOMB_TAG:
                 isCollided = false;
                 break;

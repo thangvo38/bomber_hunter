@@ -11,9 +11,8 @@ public class BombBehavior : MonoBehaviour {
     public bool isTriggered = false;
     // Use this for initialization
 
-    protected virtual void Awake() {  }
-    protected void Start () {
-    }
+    protected virtual void Awake () { }
+    protected void Start () { }
 
     // Update is called once per frame
     protected void Update () {
@@ -61,7 +60,7 @@ public class BombBehavior : MonoBehaviour {
     void OnCollisionStay2D (Collision2D other) {
         Debug.Log (other);
         if (other.gameObject.tag == "Explosion") {
-            isTriggered = false;            
+            isTriggered = false;
             countDown = 0f;
             return;
         }

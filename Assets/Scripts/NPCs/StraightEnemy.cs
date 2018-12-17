@@ -38,8 +38,7 @@ public class StraightEnemy : UnitStatus {
             direction = new Vector2Int (xDir, yDir);
             Move (xDir, yDir);
 
-            if (!isMoving)
-            {
+            if (!isMoving) {
                 direction *= -1;
             }
         }
@@ -50,6 +49,7 @@ public class StraightEnemy : UnitStatus {
 
         switch (other.gameObject.tag) {
             case Constants.BOMB_TAG:
+            case Constants.ENEMY_WALL:
                 stopMoving ();
                 isMoving = false;
                 direction *= -1;

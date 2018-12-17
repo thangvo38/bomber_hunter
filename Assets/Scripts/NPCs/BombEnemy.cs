@@ -15,15 +15,15 @@ public class BombEnemy : UnitStatus {
         base.Awake ();
         checkAhead = transform.Find ("CheckCollide").gameObject;
 
-        availableDirections = new List<Vector2Int>{
-            new Vector2Int(1, 0),
-            new Vector2Int(-1, 0),
-            new Vector2Int(0, 1),
-            new Vector2Int(0, -1),
+        availableDirections = new List<Vector2Int> {
+            new Vector2Int (1, 0),
+            new Vector2Int (-1, 0),
+            new Vector2Int (0, 1),
+            new Vector2Int (0, -1),
         };
 
-        previousDir = availableDirections.IndexOf(direction * -1);
-        Debug.Log("Awake:" + previousDir);
+        previousDir = availableDirections.IndexOf (direction * -1);
+        Debug.Log ("Awake:" + previousDir);
     }
     protected override void Start () {
         base.Start ();
@@ -38,19 +38,17 @@ public class BombEnemy : UnitStatus {
         }
 
         if (isMoving || Random.Range (0, stopChance) > 0) {
-            AttackControl();
+            AttackControl ();
             return;
         }
         isMoving = true;
         MovementControl ();
     }
 
-    protected override void AttackControl()
-    {
-        int triggered = Random.Range(0, 100);
+    protected override void AttackControl () {
+        int triggered = Random.Range (0, 100);
 
-        if (triggered >= 99)
-        {
+        if (triggered >= 99) {
             bool isOnGround = base.isOnGround (this.transform.position);
             if (isOnGround) {
                 Vector3Int bombCell = groundTiles.WorldToCell (transform.position);
@@ -58,7 +56,7 @@ public class BombEnemy : UnitStatus {
                 bomb.GetComponent<BombBehavior> ().SetLength (3);
             }
         }
-            
+
     }
 
     protected override void MovementControl () {
@@ -74,26 +72,24 @@ public class BombEnemy : UnitStatus {
             Move (xDir, yDir);
 
             //If can't move 
-            if (!isMoving)
-            {
+            if (!isMoving) {
                 failAttempt++;
-                Debug.Log("FailAttempt:" + failAttempt);
+                Debug.Log ("FailAttempt:" + failAttempt);
 
-                if (failAttempt > 3)
-                {
+                if (failAttempt > 3) {
                     direction = availableDirections[previousDir];
-                    previousDir = availableDirections.IndexOf(direction * -1);  
-                    Debug.Log("Fail 3 times: " + direction);
+                    previousDir = availableDirections.IndexOf (direction * -1);
+                    Debug.Log ("Fail 3 times: " + direction);
                 } else {
                     // Debug.Log(previousDir);
-                    int newDir = Services.RandomExcept(0, 4, previousDir);
+                    int newDir = Services.RandomExcept (0, 4, previousDir);
                     direction = availableDirections[newDir];
                     // Debug.Log("Fail " + failAttempt + " times: " + direction + " Previous: " + previousDir);
-                } 
+                }
             } else {
                 failAttempt = 0;
-                Debug.Log("FailAttempt:" + failAttempt);
-                previousDir = availableDirections.IndexOf(direction * -1);
+                Debug.Log ("FailAttempt:" + failAttempt);
+                previousDir = availableDirections.IndexOf (direction * -1);
                 // Debug.Log("Previos: " + availableDirections[previousDir]);
             }
         }
@@ -101,9 +97,10 @@ public class BombEnemy : UnitStatus {
 
     protected override void OnCollisionEnter2D (Collision2D other) {
         Services.IgnoreCollisionByTag (this.gameObject, other, Constants.ENEMY_TAG);
-        
+
         switch (other.gameObject.tag) {
             case Constants.BOMB_TAG:
+            case Constants.ENEMY_WALL:
                 stopMoving ();
                 isMoving = false;
                 direction *= -1;

@@ -20,17 +20,17 @@ public class UnitStatus : MonoBehaviour {
 
     //Monobehavior functions
     protected virtual void Awake () {
-        groundTiles = transform.parent.GetComponent<NpcControl> ().groundTiles;
-        blockTiles = transform.parent.GetComponent<NpcControl> ().blockTiles;
+        groundTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().groundTiles;
+        blockTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().blockTiles;
         correctPos = this.transform.position;
         checkAhead = transform.Find ("CheckCollide").gameObject;
     }
 
     protected virtual void Start () {
-
     }
 
     protected virtual void Update () {
+
         FixPosition ();
     }
 
@@ -71,7 +71,7 @@ public class UnitStatus : MonoBehaviour {
                 moveCoroutine = StartCoroutine (Moving (targetCell));
             } else {
                 isMoving = false;
-                stopMoving();
+                stopMoving ();
             }
         }
     }
@@ -117,5 +117,5 @@ public class UnitStatus : MonoBehaviour {
             StopCoroutine (moveCoroutine);
         }
     }
-    
+
 }
