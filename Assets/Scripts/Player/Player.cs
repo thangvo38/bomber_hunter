@@ -70,7 +70,7 @@ public class Player : UnitStatus {
     protected override void OnCollisionEnter2D (Collision2D other) {
         base.OnCollisionEnter2D (other);
         switch (other.gameObject.tag) {
-            case "Enemy":
+            case Constants.ENEMY_TAG:
                 Damage ();
                 break;
         }

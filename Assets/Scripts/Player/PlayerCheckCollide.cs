@@ -26,7 +26,7 @@ public class PlayerCheckCollide : MonoBehaviour {
 
     void checkEnterStay (string tag) {
         switch (tag) {
-            case "Bomb":
+            case Constants.BOMB_TAG:
                 isCollided = true;
                 break;
             case "Explosion":
@@ -39,7 +39,7 @@ public class PlayerCheckCollide : MonoBehaviour {
 
     void checkExit (string tag) {
         switch (tag) {
-            case "Bomb":
+            case Constants.BOMB_TAG:
                 isCollided = false;
                 break;
             default:

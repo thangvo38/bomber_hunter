@@ -23,6 +23,7 @@ public class UnitStatus : MonoBehaviour {
         groundTiles = transform.parent.GetComponent<NpcControl> ().groundTiles;
         blockTiles = transform.parent.GetComponent<NpcControl> ().blockTiles;
         correctPos = this.transform.position;
+        checkAhead = transform.Find ("CheckCollide").gameObject;
     }
 
     protected virtual void Start () {
@@ -38,7 +39,7 @@ public class UnitStatus : MonoBehaviour {
     }
     protected virtual void OnCollisionEnter2D (Collision2D other) {
         switch (other.gameObject.tag) {
-            case "Bomb":
+            case Constants.BOMB_TAG:
                 stopMoving ();
                 isMoving = false;
                 Move (0, 0);
@@ -99,7 +100,7 @@ public class UnitStatus : MonoBehaviour {
     protected bool isOnGround (Vector2 pos) {
         return getCell (groundTiles, pos) != null;
     }
-    protected bool containCellInList (Vector2 pos) {
+    protected virtual bool containCellInList (Vector2 pos) {
         for (int i = 0; i < blockTiles.Count; i++) {
             if (getCell (blockTiles[i], pos) != null || Services.GetObjectInCell (blockTiles[i], pos) != null) {
                 return true;

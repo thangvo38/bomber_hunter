@@ -6,7 +6,7 @@ public class ExplosionEnemy : Explosion {
     protected override void OnTriggerEnter2D (Collider2D other) {
         if (!isBlocked) {
             switch (other.gameObject.tag) {
-                case "Player":
+                case Constants.PLAYER_TAG:
                     other.transform.GetComponent<UnitStatus> ().Damage ();
                     break;
             }

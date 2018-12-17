@@ -8,12 +8,11 @@ public class BombBehavior : MonoBehaviour {
     public float countDown = 2f;
     public int damage = 1;
     protected int maxLength = 2;
-    bool isTriggered = false;
+    public bool isTriggered = false;
     // Use this for initialization
 
     protected virtual void Awake() {  }
     protected void Start () {
-        isTriggered = false;
     }
 
     // Update is called once per frame
@@ -53,7 +52,7 @@ public class BombBehavior : MonoBehaviour {
     void OnTriggerEnter2D (Collider2D other) {
         // Debug.Log(other);
         if (other.gameObject.tag == "Explosion") {
-            Debug.Log ("BBBB");
+            isTriggered = false;
             countDown = 0f;
             return;
         }
@@ -62,14 +61,14 @@ public class BombBehavior : MonoBehaviour {
     void OnCollisionStay2D (Collision2D other) {
         Debug.Log (other);
         if (other.gameObject.tag == "Explosion") {
-            Debug.Log ("BBBB");
+            isTriggered = false;            
             countDown = 0f;
             return;
         }
     }
 
     void OnTriggerExit2D (Collider2D other) {
-        if (other.gameObject.tag == "Player") {
+        if (other.gameObject.tag == Constants.PLAYER_TAG) {
             GetComponent<BoxCollider2D> ().isTrigger = false;
             other.gameObject.GetComponent<Player> ().canAttack = true;
             return;
@@ -77,7 +76,7 @@ public class BombBehavior : MonoBehaviour {
     }
 
     void OnTriggerStay2D (Collider2D other) {
-        if (other.gameObject.tag == "Player") {
+        if (other.gameObject.tag == Constants.PLAYER_TAG) {
             other.gameObject.GetComponent<Player> ().canAttack = false;
             // return;
         }

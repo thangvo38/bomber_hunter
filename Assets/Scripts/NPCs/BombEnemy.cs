@@ -100,10 +100,10 @@ public class BombEnemy : UnitStatus {
     }
 
     protected override void OnCollisionEnter2D (Collision2D other) {
-        Services.IgnoreCollisionByTag (this.gameObject, other, "Enemy");
+        Services.IgnoreCollisionByTag (this.gameObject, other, Constants.ENEMY_TAG);
         
         switch (other.gameObject.tag) {
-            case "Bomb":
+            case Constants.BOMB_TAG:
                 stopMoving ();
                 isMoving = false;
                 direction *= -1;

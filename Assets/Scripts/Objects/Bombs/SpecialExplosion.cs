@@ -8,7 +8,7 @@ public class SpecialExplosion : Explosion {
         //Check when there is a new collider coming into contact with the box
         if (hitCollider != null) {
             switch (hitCollider.tag) {
-                case "Destructable":
+                case Constants.DESTRUTABLE_TAG:
                     isDestroyWhenHit = true;
                     hitCollider.gameObject.GetComponent<Destructable> ().Damaged ();
                     break;

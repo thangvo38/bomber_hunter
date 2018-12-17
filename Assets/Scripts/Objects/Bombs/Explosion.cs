@@ -13,11 +13,11 @@ public class Explosion : MonoBehaviour {
         //Check when there is a new collider coming into contact with the box
         if (hitCollider != null) {
             switch (hitCollider.tag) {
-                case "Block":
+                case Constants.WALL_TAG:
                     isBlocked = true;
                     Destroy (gameObject);
                     return;
-                case "Destructable":
+                case Constants.DESTRUTABLE_TAG:
                     isDestroyWhenHit = true;
                     hitCollider.gameObject.GetComponent<Destructable> ().Damaged ();
                     break;
@@ -54,8 +54,8 @@ public class Explosion : MonoBehaviour {
     protected virtual void OnTriggerEnter2D (Collider2D other) {
         if (!isBlocked) {
             switch (other.gameObject.tag) {
-                case "Player":
-                case "Enemy":
+                case Constants.PLAYER_TAG:
+                case Constants.ENEMY_TAG:
                     other.transform.GetComponent<UnitStatus> ().Damage ();
                     break;
             }
