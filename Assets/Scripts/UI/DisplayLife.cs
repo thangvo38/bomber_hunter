@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayLife : MonoBehaviour {
-    public Player player;
-    public Text lives;
-    void Start () {
+    Player player;
+    Text lives;
+
+    void Awake() 
+    {
+        player = GameObject.Find("Player").GetComponent<Player>();
         lives = GameObject.FindGameObjectWithTag ("Lives").GetComponent<Text> ();
     }
-
+    
     // Update is called once per frame
     void Update () {
         setText(player.lives.ToString());

@@ -58,13 +58,6 @@ public class Player : UnitStatus {
         }
     }
 
-    public override void Damage () {
-        if (!isInvisible) {
-            isInvisible = true;
-            base.Damage ();
-            StartCoroutine (Flash ());
-        }
-    }
     protected override void OnCollisionEnter2D (Collision2D other) {
         base.OnCollisionEnter2D (other);
         switch (other.gameObject.tag) {
@@ -73,14 +66,6 @@ public class Player : UnitStatus {
                 break;
         }
     }
-    IEnumerator Flash () {
-        for (int i = 0; i < 5; i++) {
-            GetComponent<SpriteRenderer> ().material.color = Color.clear;
-            yield return new WaitForSeconds (0.05f);
-            GetComponent<SpriteRenderer> ().material.color = Color.white;
-            yield return new WaitForSeconds (0.05f);
-        }
-        isInvisible = false;
-    }
+
 
 }

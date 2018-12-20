@@ -53,7 +53,10 @@ public class UnitStatus : MonoBehaviour {
     protected virtual void AttackControl () { }
 
     public virtual void Damage () {
-        lives = lives <= 0 ? 0 : lives - 1;
+        if (!isInvisible)
+            lives = lives <= 0 ? 0 : lives - 1;
+        isInvisible = true;
+        StartCoroutine (Flash ());
     }
 
     protected void Move (int x, int y) {
@@ -116,6 +119,16 @@ public class UnitStatus : MonoBehaviour {
         if (moveCoroutine != null) {
             StopCoroutine (moveCoroutine);
         }
+    }
+
+    IEnumerator Flash () {
+        for (int i = 0; i < 5; i++) {
+            GetComponent<SpriteRenderer> ().material.color = Color.clear;
+            yield return new WaitForSeconds (0.05f);
+            GetComponent<SpriteRenderer> ().material.color = Color.white;
+            yield return new WaitForSeconds (0.05f);
+        }
+        isInvisible = false;
     }
 
 }

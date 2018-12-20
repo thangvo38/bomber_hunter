@@ -5,7 +5,7 @@ public class CameraBehavior : MonoBehaviour {
     public bool shouldRotate = true;
 
     // The target we are following
-    public Transform target;
+    Transform target;
     // The distance in the x-z plane to the target
     public float distance = 10.0f;
     // the height we want the camera to be above the target
@@ -18,7 +18,11 @@ public class CameraBehavior : MonoBehaviour {
     float currentRotationAngle;
     float currentHeight;
     Quaternion currentRotation;
-
+    
+    void Start()
+    {
+        target = GameObject.Find("Player").transform;
+    }
     void LateUpdate () {
         if (target) {
             // Calculate the current rotation angles
