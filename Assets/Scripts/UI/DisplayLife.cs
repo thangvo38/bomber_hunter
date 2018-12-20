@@ -4,30 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayLife : MonoBehaviour {
-    Image myImageComponent;
-    public Sprite Image0;
-    public Sprite Image1;
-    public Sprite Image2;
-    public Sprite Image3;
     public Player player;
+    public Text lives;
     void Start () {
-        myImageComponent = GameObject.FindGameObjectWithTag ("Lives").GetComponent<Image> ();
+        lives = GameObject.FindGameObjectWithTag ("Lives").GetComponent<Text> ();
     }
 
     // Update is called once per frame
     void Update () {
-        if (player.lives == 3) {
-            SetImage (Image3);
-        } else if (player.lives == 2) {
-            SetImage (Image2);
-        } else if (player.lives == 1) {
-            SetImage (Image1);
-        } else SetImage (Image0);
-
+        setText(player.lives.ToString());
     }
 
-    public void SetImage (Sprite image) //method to set our first image
+    public void setText (string txt) //method to set our first image
     {
-        myImageComponent.sprite = image;
+        lives.text = txt;
     }
 }
