@@ -22,7 +22,6 @@ public class MultiEnemy : UnitStatus {
         };
 
         previousDir = availableDirections.IndexOf (direction * -1);
-        Debug.Log ("Awake:" + previousDir);
     }
     protected override void Start () {
         base.Start ();
@@ -58,23 +57,18 @@ public class MultiEnemy : UnitStatus {
             //If can't move 
             if (!isMoving) {
                 failAttempt++;
-                Debug.Log ("FailAttempt:" + failAttempt);
 
                 if (failAttempt > 3) {
                     direction = availableDirections[previousDir];
                     previousDir = availableDirections.IndexOf (direction * -1);
-                    Debug.Log ("Fail 3 times: " + direction);
                 } else {
                     // Debug.Log(previousDir);
                     int newDir = Services.RandomExcept (0, 4, previousDir);
                     direction = availableDirections[newDir];
-                    // Debug.Log("Fail " + failAttempt + " times: " + direction + " Previous: " + previousDir);
                 }
             } else {
                 failAttempt = 0;
-                Debug.Log ("FailAttempt:" + failAttempt);
                 previousDir = availableDirections.IndexOf (direction * -1);
-                // Debug.Log("Previos: " + availableDirections[previousDir]);
             }
         }
     }
