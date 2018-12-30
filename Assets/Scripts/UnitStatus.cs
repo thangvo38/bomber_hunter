@@ -17,9 +17,11 @@ public class UnitStatus : MonoBehaviour {
     public float moveSpeed = 2f;
     public bool canAttack = true;
     Vector3 correctPos;
+    protected Animator anim;
 
     //Monobehavior functions
     protected virtual void Awake () {
+		anim = GetComponent<Animator>();
         groundTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().groundTiles;
         blockTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().blockTiles;
         correctPos = this.transform.position;
@@ -30,7 +32,9 @@ public class UnitStatus : MonoBehaviour {
     }
 
     protected virtual void Update () {
-
+        anim.SetFloat("Y", direction.y);
+        anim.SetFloat("X", direction.x);
+        anim.SetBool("isMoving", isMoving);
         FixPosition ();
     }
 

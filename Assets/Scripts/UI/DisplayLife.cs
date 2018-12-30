@@ -7,7 +7,7 @@ public class DisplayLife : MonoBehaviour {
     Player player;
     Text lives;
 
-    void Awake() 
+    void Start() 
     {
         player = GameObject.Find("Player").GetComponent<Player>();
         lives = GameObject.FindGameObjectWithTag ("Lives").GetComponent<Text> ();

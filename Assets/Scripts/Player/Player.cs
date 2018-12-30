@@ -12,7 +12,6 @@ public class Player : UnitStatus {
     protected override void Awake () {
         base.Awake ();
         checkAhead = transform.Find ("CheckCollide").gameObject;
-        lives = 3;
     }
     protected override void Start () {
         base.Start ();
@@ -29,13 +28,16 @@ public class Player : UnitStatus {
     protected override void MovementControl () {
         xDir = (int) (Input.GetAxisRaw ("Horizontal"));
         yDir = (int) (Input.GetAxisRaw ("Vertical"));
-
+        
         if (xDir != 0)
             yDir = 0;
 
         if (xDir != 0 || yDir != 0) {
+            anim.SetInteger("dir", 1); 
             direction = new Vector2Int (xDir, yDir);
             Move (xDir, yDir);
+        } else {
+            anim.SetInteger("dir", 0); 
         }
     }
 

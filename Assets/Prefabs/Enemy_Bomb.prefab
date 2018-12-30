@@ -82,6 +82,8 @@ MonoBehaviour:
     type: 2}
   countDown: 2
   damage: 1
+  isTriggered: 0
+  length: 2
 --- !u!212 &212358443665882124
 SpriteRenderer:
   m_ObjectHideFlags: 1

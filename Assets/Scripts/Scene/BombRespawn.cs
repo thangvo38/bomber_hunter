@@ -6,16 +6,19 @@ public class BombRespawn : MonoBehaviour {
     public Transform parent;
     public GameObject bombPrefab;
     public float respawnTime = 5f;
-    List<Vector2> childrenPositions;
+    protected List<Vector2> childrenPositions;
 
-    float countDown = 0;
+    public bool waitUntilEmpty = true;
 
-    int childCount = 0;
+    protected float countDown = 0;
+    protected int initialCount = 0;
+    protected int childCount = 0;
 
-    bool isRespawing = false;
+    protected bool isRespawing = false;
 
-    void Awake () {
+    protected virtual void Awake () {
         childCount = parent.childCount;
+        initialCount = childCount;
         childrenPositions = new List<Vector2> ();
 
         for (int i = 0; i < childCount; i++) {
@@ -24,17 +27,30 @@ public class BombRespawn : MonoBehaviour {
         }
     }
 
-    void Update () {
-        if (parent.childCount == 0) {
-            isRespawing = true;
+    protected virtual void Update () {
+
+        if(waitUntilEmpty)
+        {
+            if (parent.childCount == 0) {
+                isRespawing = true;
+            }
+        } else {
+            if (parent.childCount < initialCount) {
+                isRespawing = true;
+            }
         }
+
 
         if (isRespawing) {
             if (countDown >= respawnTime) {
-                for (int i = 0; i < childCount; i++) {
+                for (int i = 0; i < childCount && parent.childCount < childCount; i++) {
                     var newBomb = Instantiate (bombPrefab, childrenPositions[i], Quaternion.identity);
                     newBomb.transform.parent = parent;
                     newBomb.SetActive (true);
+                    if (newBomb.GetComponent<UnitStatus>() != null)
+                    {
+                        newBomb.GetComponent<UnitStatus>().enabled = true;
+                    }
                 }
 
                 isRespawing = false;

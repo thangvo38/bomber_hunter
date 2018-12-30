@@ -16,7 +16,7 @@ public class UnlockDoorLogic : MonoBehaviour {
 	protected virtual void Update () {
 		if (!clearFirstPhrase 
 			&& initialEnemies > 0 
-			&& (ToUnlockDoor.Count == 0 || CheckListAllNull(ToUnlockDoor))) 
+			&& (ToUnlockDoor.Count == 0 || Services.CheckListAllNull(ToUnlockDoor))) 
 		{
 			clearFirstPhrase = true;
 			foreach(Transform door in Doors)
@@ -26,16 +26,4 @@ public class UnlockDoorLogic : MonoBehaviour {
 		}
 	}
 
-	protected bool CheckListAllNull(List<GameObject> list)
-	{
-		for(int i = 0; i < list.Count; i++)
-		{
-			if (list[i] != null)
-			{
-				Debug.Log(list[i]);
-				return false;
-			}
-		}
-		return true;
-	}
 }
