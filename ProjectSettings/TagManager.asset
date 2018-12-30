@@ -9,6 +9,11 @@ TagManager:
   - Explosion
   - Destructable
   - Enemy
+  - NewGame
+  - Load
+  - Options
+  - About
+  - Exit
   layers:
   - Default
   - TransparentFX
