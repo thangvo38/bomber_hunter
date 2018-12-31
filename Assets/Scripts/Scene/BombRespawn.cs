@@ -7,7 +7,7 @@ public class BombRespawn : MonoBehaviour {
     public GameObject bombPrefab;
     public float respawnTime = 5f;
     protected List<Vector2> childrenPositions;
-
+    public int defaultBombLength = -1;
     public bool waitUntilEmpty = true;
 
     protected float countDown = 0;
@@ -50,6 +50,11 @@ public class BombRespawn : MonoBehaviour {
                     if (newBomb.GetComponent<UnitStatus>() != null)
                     {
                         newBomb.GetComponent<UnitStatus>().enabled = true;
+                    }
+
+                    if (defaultBombLength > 0)
+                    {
+                        newBomb.GetComponent<BombClassic>().length = defaultBombLength;
                     }
                 }
 

@@ -1014,6 +1014,7 @@ MonoBehaviour:
   parent: {fileID: 1273131415}
   bombPrefab: {fileID: 1703535828364072, guid: 542f084b39c8be24bb489912572dc33b, type: 2}
   respawnTime: 3
+  defaultBombLength: -1
   waitUntilEmpty: 0
 --- !u!4 &683955773 stripped
 Transform:
@@ -4986,15 +4987,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1703535828364072, guid: 542f084b39c8be24bb489912572dc33b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212901304259315968, guid: 542f084b39c8be24bb489912572dc33b,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 542f084b39c8be24bb489912572dc33b, type: 2}
   m_IsPrefabAsset: 0
@@ -5016,7 +5008,7 @@ GameObject:
   - component: {fileID: 1867489924}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

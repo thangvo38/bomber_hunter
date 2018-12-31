@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114283372222460880}
   - component: {fileID: 61299159551000190}
   - component: {fileID: 50058078087671624}
+  - component: {fileID: 95130733623153704}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -110,7 +111,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.0625}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,6 +145,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
+--- !u!95 &95130733623153704
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774045033060258}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1303ce6b27103ad4788b299ea526c430, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114007567820205692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,7 +230,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 78fdc35b0071f0b45882ee12bb8319b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f79c00baf64e424882a1538e537d63f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

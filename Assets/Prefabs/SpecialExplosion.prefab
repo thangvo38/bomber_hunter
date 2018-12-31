@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61709562186947698}
   - component: {fileID: 114533643485269006}
   - component: {fileID: 50630527797203942}
+  - component: {fileID: 95829213196965632}
   m_Layer: 0
   m_Name: SpecialExplosion
   m_TagString: Explosion
@@ -88,6 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
+--- !u!95 &95829213196965632
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434286902890276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f17a9e21e8851042870c649aa5ec826, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114533643485269006
 MonoBehaviour:
   m_ObjectHideFlags: 1

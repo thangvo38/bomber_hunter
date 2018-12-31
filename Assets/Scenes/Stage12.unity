@@ -4006,6 +4006,8 @@ MonoBehaviour:
   parent: {fileID: 374663587}
   bombPrefab: {fileID: 1990528826818538, guid: 426f4312a6622bc4999d107d07236199, type: 2}
   respawnTime: 5
+  defaultBombLength: -1
+  waitUntilEmpty: 1
 --- !u!114 &1091004108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4020,6 +4022,8 @@ MonoBehaviour:
   parent: {fileID: 1119820535}
   bombPrefab: {fileID: 1661155056481514, guid: 7cba75da7737d9840bd2c8028c6bc897, type: 2}
   respawnTime: 5
+  defaultBombLength: -1
+  waitUntilEmpty: 1
 --- !u!1001 &1093196238
 Prefab:
   m_ObjectHideFlags: 0

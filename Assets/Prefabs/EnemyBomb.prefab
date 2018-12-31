@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114373187436133756}
   - component: {fileID: 61051008351741630}
   - component: {fileID: 50354345266182174}
+  - component: {fileID: 95611122217966560}
   m_Layer: 0
   m_Name: EnemyBomb
   m_TagString: Enemy
@@ -109,8 +110,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.0625}
+    pivot: {x: 0.5, y: 0.25}
+    oldSize: {x: 1, y: 1.375}
     newSize: {x: 1, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,6 +145,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
+--- !u!95 &95611122217966560
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1720686999848998}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff65b279de9275c4e975a003a7f04229, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114373187436133756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,9 +230,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 78fdc35b0071f0b45882ee12bb8319b6, type: 3}
-  m_Color: {r: 0, g: 0.14043522, b: 1, a: 1}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 04ae813651a0f7543811b55f463775c7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
