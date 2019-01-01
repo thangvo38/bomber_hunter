@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114642837721779192}
   - component: {fileID: 61224233534476734}
   - component: {fileID: 50993772486347384}
+  - component: {fileID: 95879136452655052}
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: Enemy
@@ -67,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1438800011252336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: 9.5, y: 27.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4162262060314912}
@@ -109,8 +110,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.25}
-    oldSize: {x: 0.9375, y: 1.625}
+    pivot: {x: 0.5, y: 0.35}
+    oldSize: {x: 0.82857144, y: 1.3714286}
     newSize: {x: 1, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,6 +145,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!95 &95879136452655052
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438800011252336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0695bd52c42e47f45a65d3a60a1104df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114541734672980302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,9 +192,9 @@ MonoBehaviour:
   yDir: 1
   direction: {x: 0, y: -1}
   isMoving: 0
-  moveSpeed: 25
+  moveSpeed: 6
   canAttack: 1
-  stopChance: 0
+  stopChance: 9
   bombPrefab: {fileID: 1997631914295364, guid: 89081c5c26c268540b562140dd4381b0, type: 2}
 --- !u!212 &212685116298396684
 SpriteRenderer:
