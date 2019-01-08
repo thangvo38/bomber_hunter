@@ -9,9 +9,20 @@ TagManager:
   - Explosion
   - Destructable
   - Enemy
+<<<<<<< HEAD
   - Lives
   - BombOnly
   - EnemyWall
+=======
+  - NewGame
+  - Load
+  - Options
+  - About
+  - Exit
+  - Exit_yes
+  - Exit_no
+  - Exit_menu
+>>>>>>> thanhtran/thanh
   layers:
   - Default
   - TransparentFX
