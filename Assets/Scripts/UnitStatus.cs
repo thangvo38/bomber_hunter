@@ -21,20 +21,19 @@ public class UnitStatus : MonoBehaviour {
 
     //Monobehavior functions
     protected virtual void Awake () {
-		anim = GetComponent<Animator>();
+        anim = GetComponent<Animator> ();
         groundTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().groundTiles;
         blockTiles = transform.parent.GetComponent<NpcControl> () == null ? null : transform.parent.GetComponent<NpcControl> ().blockTiles;
         correctPos = this.transform.position;
         checkAhead = transform.Find ("CheckCollide").gameObject;
     }
 
-    protected virtual void Start () {
-    }
+    protected virtual void Start () { }
 
     protected virtual void Update () {
-        anim.SetFloat("Y", direction.y);
-        anim.SetFloat("X", direction.x);
-        anim.SetBool("isMoving", isMoving);
+        anim.SetFloat ("Y", direction.y);
+        anim.SetFloat ("X", direction.x);
+        anim.SetBool ("isMoving", isMoving);
         FixPosition ();
     }
 

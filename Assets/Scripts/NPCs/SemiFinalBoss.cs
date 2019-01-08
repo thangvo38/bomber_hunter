@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class SemiFinalBoss : UnitStatus {
 
-    public Vector3 startPos = new Vector3(0.5f, 3.5f, 0f);
+    public Vector3 startPos = new Vector3 (0.5f, 3.5f, 0f);
     GameObject player = null;
     private Rigidbody2D rb2D;
     bool returnToStart = false;
@@ -14,9 +14,9 @@ public class SemiFinalBoss : UnitStatus {
     protected override void Awake () {
         base.Awake ();
         player = GameObject.Find ("Player");
-        blockTiles = new List<Tilemap>();
-                rb2D = gameObject.AddComponent<Rigidbody2D>();
-                targetPos = player.transform.position;
+        blockTiles = new List<Tilemap> ();
+        rb2D = gameObject.AddComponent<Rigidbody2D> ();
+        targetPos = player.transform.position;
     }
 
     protected override void Update () {
@@ -24,44 +24,39 @@ public class SemiFinalBoss : UnitStatus {
             //Add animation here
         }
 
-        if (returnToStart && this.transform.position == startPos)
-        {
+        if (returnToStart && this.transform.position == startPos) {
             returnToStart = false;
         }
 
-        if (!returnToStart && this.transform.position == player.transform.position)
-        {
+        if (!returnToStart && this.transform.position == player.transform.position) {
             returnToStart = true;
         }
-        
-        if (!isMoving)
-        {
+
+        if (!isMoving) {
             isMoving = true;
             MovementControl ();
         }
     }
 
     protected override void MovementControl () {
-        if (returnToStart)
-        {
+        if (returnToStart) {
             targetPos = startPos;
         } else {
             targetPos = player.transform.position;
         }
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards (transform.position, targetPos, moveSpeed * Time.deltaTime);
         isMoving = false;
     }
 
     protected override void OnCollisionEnter2D (Collision2D other) {
-        Services.IgnoreCollisionByTag(gameObject,other ,Constants.WALL_TAG);
+        Services.IgnoreCollisionByTag (gameObject, other, Constants.WALL_TAG);
         Services.IgnoreCollisionByTag (this.gameObject, other, Constants.ENEMY_TAG);
         Services.IgnoreCollisionByTag (this.gameObject, other, Constants.DESTRUTABLE_TAG);
         Services.IgnoreCollisionByTag (this.gameObject, other, Constants.BOMB_TAG);
         Services.IgnoreCollisionByTag (this.checkAhead, other, Constants.BOMB_TAG);
 
-        if (other.gameObject.tag == Constants.ENEMY_WALL)
-        {
-             returnToStart = true;
+        if (other.gameObject.tag == Constants.ENEMY_WALL) {
+            returnToStart = true;
         }
     }
 
@@ -78,8 +73,8 @@ public class SemiFinalBoss : UnitStatus {
 
     public override void Damage () {
         if (!isInvisible) {
-            isInvisible = true;
             base.Damage ();
+            isInvisible = true;
             StartCoroutine (Flash ());
         }
     }

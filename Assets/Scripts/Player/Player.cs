@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class Player : UnitStatus {
-
+    public int bombLimit = 3;
+    public int bombPlaced = 0;
     public int bombLength = 3;
     public List<GameObject> bombs = new List<GameObject> ();
     [Range (0, 2)]
@@ -28,16 +29,16 @@ public class Player : UnitStatus {
     protected override void MovementControl () {
         xDir = (int) (Input.GetAxisRaw ("Horizontal"));
         yDir = (int) (Input.GetAxisRaw ("Vertical"));
-        
+
         if (xDir != 0)
             yDir = 0;
 
         if (xDir != 0 || yDir != 0) {
-            anim.SetInteger("dir", 1); 
+            anim.SetInteger ("dir", 1);
             direction = new Vector2Int (xDir, yDir);
             Move (xDir, yDir);
         } else {
-            anim.SetInteger("dir", 0); 
+            anim.SetInteger ("dir", 0);
         }
     }
 
@@ -45,10 +46,11 @@ public class Player : UnitStatus {
         bool attackButtonDown = Input.GetButtonDown ("A");
         if (canAttack && attackButtonDown) {
             bool isOnGround = base.isOnGround (this.transform.position);
-            if (isOnGround && curerntBombId <= bombs.Count && bombs[curerntBombId] != null) {
+            if (bombPlaced < bombLimit && isOnGround && curerntBombId <= bombs.Count && bombs[curerntBombId] != null) {
                 Vector3Int bombCell = groundTiles.WorldToCell (transform.position);
                 GameObject bomb = Instantiate (bombs[curerntBombId], groundTiles.GetCellCenterWorld (bombCell), Quaternion.identity);
                 bomb.GetComponent<BombBehavior> ().SetLength (bombLength);
+                bombPlaced++;
             }
         }
     }
@@ -68,6 +70,5 @@ public class Player : UnitStatus {
                 break;
         }
     }
-
 
 }

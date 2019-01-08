@@ -8,18 +8,15 @@ public class StallStageLogic : MonoBehaviour {
     public string nextScene;
     Text timerUI;
     float timer;
-    void Awake () 
-    {
+    void Awake () {
         timer = timeInSeconds;
-        timerUI = GameObject.Find("Timer").GetComponent<Text>();
+        timerUI = GameObject.Find ("Timer").GetComponent<Text> ();
     }
-    void Update() 
-    {
-        if (timeInSeconds > 0)
-        {
+    void Update () {
+        if (timeInSeconds > 0) {
             timer -= Time.deltaTime;
-            timeInSeconds = Convert.ToInt32(timer % 60);
-            timerUI.text = timeInSeconds.ToString();
+            timeInSeconds = Convert.ToInt32 (timer % 60);
+            timerUI.text = timeInSeconds.ToString ();
         } else {
             SceneManager.LoadScene (nextScene);
         }

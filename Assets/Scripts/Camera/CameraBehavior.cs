@@ -18,10 +18,9 @@ public class CameraBehavior : MonoBehaviour {
     float currentRotationAngle;
     float currentHeight;
     Quaternion currentRotation;
-    
-    void Start()
-    {
-        target = GameObject.Find("Player").transform;
+
+    void Start () {
+        target = GameObject.Find ("Player").transform;
     }
     void LateUpdate () {
         if (target) {

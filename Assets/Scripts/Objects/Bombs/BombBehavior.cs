@@ -10,12 +10,13 @@ public class BombBehavior : MonoBehaviour {
     protected int maxLength = 2;
     public bool isTriggered = false;
     // Use this for initialization
+    GameObject player;
 
     protected virtual void Awake () { }
     protected void Start () { }
 
     // Update is called once per frame
-    protected void Update () {
+    protected virtual void Update () {
 
         if (countDown <= 0f && !isTriggered) {
             isTriggered = true;

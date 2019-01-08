@@ -10,12 +10,15 @@ public class BombLinear : BombBehavior {
             player.GetComponent<UnitStatus> ().direction.y,
             0);
     }
-
     public void setPlayer (GameObject value) {
         player = value;
     }
 
     public override void Explode (Vector2 position) {
+
+        if (player.GetComponent<Player> ().bombPlaced > 0) {
+            player.GetComponent<Player> ().bombPlaced--;
+        }
 
         this.maxLength = Constants.BOMB_LINEAR_LEN;
 

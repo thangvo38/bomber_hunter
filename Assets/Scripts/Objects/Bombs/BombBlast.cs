@@ -1,7 +1,19 @@
 using UnityEngine;
 
 public class BombBlast : BombBehavior {
+
+    GameObject player;
+
+    protected override void Awake () {
+        base.Awake ();
+        player = GameObject.Find ("Player");
+    }
+
     public override void Explode (Vector2 position) {
+        if (player.GetComponent<Player> ().bombPlaced > 0) {
+            player.GetComponent<Player> ().bombPlaced--;
+        }
+
         this.maxLength = Constants.BOMB_BLAST_LEN;
         ExplodeCell (Vector3Int.zero, 0);
         ExplodeCell (new Vector3Int (1, 0, 0));

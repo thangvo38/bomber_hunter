@@ -6,14 +6,13 @@ public class BombRespawnRandom : BombRespawn {
 
         if (isRespawing) {
             if (countDown >= respawnTime) {
-                
+
                 for (int i = 0; i < childCount && parent.childCount < childCount; i++) {
                     var newBomb = Instantiate (bombPrefab, childrenPositions[i], Quaternion.identity);
                     newBomb.transform.parent = parent;
                     newBomb.SetActive (true);
-                    if (newBomb.GetComponent<UnitStatus>() != null)
-                    {
-                        newBomb.GetComponent<UnitStatus>().enabled = true;
+                    if (newBomb.GetComponent<UnitStatus> () != null) {
+                        newBomb.GetComponent<UnitStatus> ().enabled = true;
                     }
                 }
 

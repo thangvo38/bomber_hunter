@@ -1419,6 +1419,25 @@ Prefab:
     - {fileID: 114903018441294080, guid: 9bdbb69eeb3a8ad4aba93d8cba9a5176, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 9bdbb69eeb3a8ad4aba93d8cba9a5176, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &568639318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1896140125060612, guid: 9bdbb69eeb3a8ad4aba93d8cba9a5176,
+    type: 2}
+  m_PrefabInternal: {fileID: 568639317}
+--- !u!114 &568639319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 568639318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd93a206aad93114da49f1d91f887d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 110127343}
+  nextScene: Stage09
 --- !u!4 &575504284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4581301485763196, guid: 4e180fa5e297d6e44be69827ac290fb1,
