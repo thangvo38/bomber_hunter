@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Menu_Load : MonoBehaviour {
-
+public class Menu_NewGame : MonoBehaviour
+{
     public Image[] arrImage = new Image[3];
     private int index = 0;
-    public GameObject MenuLoad;
-
-    // Use this for initialization
-    void Start () {
+    public GameObject MenuNewGame;
+    // Start is called before the first frame update
+    void Start()
+    {
         enableSpriteBoom();
         index = 0;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         handleKeyboard();
-	}
+    }
 
     private void handleKeyboard()
     {
@@ -36,24 +37,24 @@ public class Menu_Load : MonoBehaviour {
                 index = 2;
             enableSpriteBoom();
         }
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(index == 0)
+            if (index == 0)
             {
-                //Load game 1
+                //New game 1
             }
             if (index == 1)
             {
-                //Load game 2
+                //New game 2
             }
             if (index == 2)
             {
-                //Load Game 3
+                //New Game 3
             }
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            MenuLoad.SetActive(false);
+            MenuNewGame.SetActive(false);
         }
     }
 

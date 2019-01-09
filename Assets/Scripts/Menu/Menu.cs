@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour
     public GameObject ExitMenu;
     public GameObject MenuLoad;
     public GameObject MenuOptions;
+    public GameObject MenuNewGame;
 
     private int index = 0;
     // Use this for initialization
@@ -57,7 +58,7 @@ public class Menu : MonoBehaviour
             {
                 case 0:
                     {
-                        //New Game
+                        MenuNewGame.SetActive(true);
                     }   
                     break;
                 case 1:
@@ -95,6 +96,6 @@ public class Menu : MonoBehaviour
 
     private bool hasPopupOpen()
     {
-        return (ExitMenu.active || MenuLoad.active || MenuOptions.active);
+        return (ExitMenu.active || MenuLoad.active || MenuOptions.active || MenuNewGame.active);
     }
 }
