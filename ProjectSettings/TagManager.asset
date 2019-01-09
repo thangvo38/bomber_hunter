@@ -4,25 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Block
   - Bomb
   - Explosion
   - Destructable
+  - Block
   - Enemy
-<<<<<<< HEAD
-  - Lives
-  - BombOnly
-  - EnemyWall
-=======
+  - Undefined
   - NewGame
   - Load
   - Options
   - About
   - Exit
-  - Exit_yes
-  - Exit_no
-  - Exit_menu
->>>>>>> thanhtran/thanh
   layers:
   - Default
   - TransparentFX
@@ -32,12 +24,12 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - Wall
-  - Floor
-  - Destructable
-  - Bomnb
-  - BombOnly
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

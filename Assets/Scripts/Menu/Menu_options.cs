@@ -23,7 +23,7 @@ public class Menu_options : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             index += 1;
-            if (index > 1)
+            if (index > 2)
                 index = 0;
             enableSpriteBoom();
         }
@@ -31,31 +31,27 @@ public class Menu_options : MonoBehaviour {
         {
             index -= 1;
             if (index < 0)
-                index = 1;
+                index = 2;
             enableSpriteBoom();
         }
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(index == 0)
+            if (index == 0)
             {
-                //Load game 1
+                //On Music
             }
             if (index == 1)
             {
-                //Load game 2
-            }
-            if (index == 2)
-            {
-                //Load Game 3
+                //Off Music
             }
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
             MenuOptions.SetActive(false);
         }
     }
 
-    private void enableSpriteBoom()
+        private void enableSpriteBoom()
     {
         if (index == 0)
         {

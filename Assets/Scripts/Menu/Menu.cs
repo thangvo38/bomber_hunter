@@ -39,7 +39,6 @@ public class Menu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-
             index += 1;
             if (index > 4)
                 index = 0;

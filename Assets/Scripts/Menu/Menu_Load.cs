@@ -24,7 +24,7 @@ public class Menu_Load : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             index += 1;
-            if (index > 2)
+            if (index > 1)
                 index = 0;
             enableSpriteBoom();
         }
@@ -32,21 +32,25 @@ public class Menu_Load : MonoBehaviour {
         {
             index -= 1;
             if (index < 0)
-                index = 2;
+                index = 1;
             enableSpriteBoom();
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
-            if (index == 0)
+            if(index == 0)
             {
-                //On Music
+                //Load game 1
             }
             if (index == 1)
             {
-                //Off Music
+                //Load game 2
+            }
+            if (index == 2)
+            {
+                //Load Game 3
             }
         }
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             MenuLoad.SetActive(false);
         }
@@ -60,5 +64,7 @@ public class Menu_Load : MonoBehaviour {
         }
         arrImage[this.index].enabled = true;
     }
+
+
 
 }
