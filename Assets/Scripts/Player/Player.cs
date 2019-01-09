@@ -24,8 +24,7 @@ public class Player : UnitStatus {
             
             if (lives <= 0)
             {
-                var data = SaveSystem.LoadGame(Statics.currentFile);
-                SceneManager.LoadSceneAsync(data.stageName);
+                SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
             }
 
             SwitchBombControl ();
