@@ -12,14 +12,11 @@ TagManager:
   - Undefined
   - NewGame
   - Load
-  - Options
   - About
   - Exit
   layers:
   - Default
   - TransparentFX
-  - Ignore Raycast
-  - 
   - Water
   - UI
   - 
