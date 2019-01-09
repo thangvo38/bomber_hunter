@@ -37,10 +37,6 @@ public class GameFileStatusManager : MonoBehaviour {
 			loadText[i].GetComponent<TextMeshProUGUI>().text = status;
 			// newParent.GetChild(i).GetComponent<TextMeshPro>().text = status;
 		}
-
-		Debug.Log("Current File: " + Statics.currentFile);
-		Statics.currentFile = 2;
-		SceneManager.LoadScene("Stage01");
 	}
 	
 	void Update () {
