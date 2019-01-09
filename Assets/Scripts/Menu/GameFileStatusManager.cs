@@ -18,8 +18,7 @@ public class GameFileStatusManager : MonoBehaviour {
 		for (int i = 0; i < count ; i++)
 		{
 			loadText.Add(loadParent.GetChild(i));
-			Debug.Log(loadText[i]);
-			// newText.Add(loadParent.GetChild(i));
+			newText.Add(loadParent.GetChild(i));
 		}
 
 
@@ -35,7 +34,7 @@ public class GameFileStatusManager : MonoBehaviour {
 			}
 
 			loadText[i].GetComponent<TextMeshProUGUI>().text = status;
-			// newParent.GetChild(i).GetComponent<TextMeshPro>().text = status;
+			newParent.GetChild(i).GetComponent<TextMeshPro>().text = status;
 		}
 	}
 	
