@@ -209,6 +209,8 @@ MonoBehaviour:
   isMoving: 0
   moveSpeed: 6
   canAttack: 1
+  bombLimit: 3
+  bombPlaced: 0
   bombLength: 2
   bombs:
   - {fileID: 1768391296584416, guid: c795ef7462d07d14a9e74d0cdcdcbc78, type: 2}
@@ -249,7 +251,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f96e73457e494ec46a5926c681c5390d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
