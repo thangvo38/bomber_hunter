@@ -11,6 +11,7 @@ public class Menu_Exit : MonoBehaviour {
     // Use this for initialization
     void Start () {
         arrImage[1].enabled = false;
+        index = 0;
     }
 	
 	// Update is called once per frame
