@@ -3,12 +3,12 @@ using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
 public static class SaveSystem {
-    public static void SaveGame (Player player, string stageName, int fileNumber) {
+    public static void SaveGame (int lives, int bombs, string stageName, int fileNumber) {
         BinaryFormatter formatter = new BinaryFormatter ();
         string path = Application.persistentDataPath + "/" + fileNumber + ".save";
         FileStream stream = new FileStream (path, FileMode.Create);
 
-        SaveData data = new SaveData (player, stageName, fileNumber);
+        SaveData data = new SaveData (lives, bombs, stageName, fileNumber);
         formatter.Serialize (stream, data);
         stream.Close ();
     }
