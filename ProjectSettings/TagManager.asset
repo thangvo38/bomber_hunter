@@ -14,14 +14,18 @@ TagManager:
   - Load
   - About
   - Exit
+  - Lives
+  - EnemyWall
   layers:
   - Default
   - TransparentFX
+  - Ignore Raycast
+  - 
   - Water
   - UI
   - 
   - 
-  - 
+  - Wall
   - 
   - 
   - 

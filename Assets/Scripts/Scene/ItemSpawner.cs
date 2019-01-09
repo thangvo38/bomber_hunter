@@ -15,9 +15,8 @@ public class ItemSpawner : MonoBehaviour {
 
         int teleportIndex = -1;
         int childCount = destructableContainer.childCount;
-        
-        if (SpawnTeleport)
-        {
+
+        if (SpawnTeleport) {
             if (childCount > 0) {
                 int index = Random.Range (0, childCount);
                 Transform child = destructableContainer.GetChild (index);
@@ -29,17 +28,16 @@ public class ItemSpawner : MonoBehaviour {
             }
         }
 
-        for (int i = 0; i < childCount && items.Count > 0; i++)
-        {
-           if (i == teleportIndex)
+        for (int i = 0; i < childCount && items.Count > 0; i++) {
+            if (i == teleportIndex)
                 continue;
 
-            int itemIndex = Random.Range(0, items.Count);
+            int itemIndex = Random.Range (0, items.Count);
             Transform child = destructableContainer.GetChild (i);
             child.GetComponent<Destructable> ().dropItems = new List<GameObject> ();
             child.GetComponent<Destructable> ().dropItems.Add (items[itemIndex]);
-            child.GetComponent<Destructable> ().dropRate = Random.Range(0.1f, 0.4f);
+            child.GetComponent<Destructable> ().dropRate = Random.Range (0.1f, 0.4f);
         }
-       
+
     }
 }

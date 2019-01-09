@@ -29,17 +29,19 @@ public class MultiEnemy : UnitStatus {
 
     protected override void Update () {
         base.Update ();
+        if (!Statics.isPause) {
+            if (lives <= 0) {
+                //Add animation here
+                Destroy (this.gameObject);
+            }
 
-        if (lives <= 0) {
-            //Add animation here
-            Destroy (this.gameObject);
+            if (isMoving || Random.Range (0, stopChance) > 0) {
+                return;
+            }
+            isMoving = true;
+            MovementControl ();
         }
 
-        if (isMoving || Random.Range (0, stopChance) > 0) {
-            return;
-        }
-        isMoving = true;
-        MovementControl ();
     }
 
     protected override void MovementControl () {

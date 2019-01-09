@@ -8,12 +8,6 @@ public class Teleport : MonoBehaviour {
         if (other.gameObject.tag == "Player") {
             //Add animation here
 
-            //Save game
-            GameObject gameManager = GameObject.Find ("GameManager");
-            if (gameManager) {
-                // gameManager.GetComponent<GameManager>().Save();
-            }
-
             //Move to next scene
             if (!string.IsNullOrEmpty (nextScene)) {
                 SceneManager.LoadScene (nextScene);

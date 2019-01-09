@@ -12,24 +12,24 @@ public class BombBehavior : MonoBehaviour {
     // Use this for initialization
     GameObject player;
     AudioClip explosionSound;
-    protected virtual void Awake () { 
-        explosionSound = Resources.Load("Audio/Explosion6") as AudioClip;
+    protected virtual void Awake () {
+        explosionSound = Resources.Load ("Audio/Explosion6") as AudioClip;
     }
     protected void Start () { }
 
     // Update is called once per frame
     protected virtual void Update () {
-
-        if (countDown <= 0f && !isTriggered) {
-            isTriggered = true;
-            PlayAudio();
-            Explode (this.transform.position);
-            this.transform.gameObject.GetComponent<Collider2D> ().enabled = false;
-            this.transform.gameObject.GetComponent<SpriteRenderer> ().enabled = false;
-            // Destroy(gameObject);
+        if (!Statics.isPause) {
+            if (countDown <= 0f && !isTriggered) {
+                isTriggered = true;
+                PlayAudio ();
+                Explode (this.transform.position);
+                this.transform.gameObject.GetComponent<Collider2D> ().enabled = false;
+                this.transform.gameObject.GetComponent<SpriteRenderer> ().enabled = false;
+                // Destroy(gameObject);
+            }
+            countDown -= Time.deltaTime;
         }
-
-        countDown -= Time.deltaTime;
     }
 
     protected virtual bool ExplodeCell (Vector3Int direction, int currentLength = 1) {
@@ -90,14 +90,13 @@ public class BombBehavior : MonoBehaviour {
         }
     }
 
-    void PlayAudio()
-    {
-        AudioSource audioSource = GetComponent<AudioSource>();
+    void PlayAudio () {
+        AudioSource audioSource = GetComponent<AudioSource> ();
         // if (audioSource == null)
         //     audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
 
         // audioSource.clip = explosionSound;
         // audioSource.PlayOneShot(explosionSound, 1);
-        audioSource.Play();
+        audioSource.Play ();
     }
 }

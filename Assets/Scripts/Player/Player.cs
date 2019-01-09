@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 
 public class Player : UnitStatus {
@@ -19,12 +20,21 @@ public class Player : UnitStatus {
     }
     protected override void Update () {
         base.Update ();
-        SwitchBombControl ();
-        AttackControl ();
-        if (isMoving) {
-            return;
+        if (!Statics.isPause) {
+            
+            if (lives <= 0)
+            {
+                var data = SaveSystem.LoadGame(Statics.currentFile);
+                SceneManager.LoadSceneAsync(data.stageName);
+            }
+
+            SwitchBombControl ();
+            AttackControl ();
+            if (isMoving) {
+                return;
+            }
+            MovementControl ();
         }
-        MovementControl ();
     }
     protected override void MovementControl () {
         xDir = (int) (Input.GetAxisRaw ("Horizontal"));

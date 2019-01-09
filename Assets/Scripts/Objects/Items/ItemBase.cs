@@ -15,7 +15,8 @@ public class ItemBase : MonoBehaviour {
     }
 
     protected virtual void FixedUpdate () {
-        Rotate ();
+        if (!Statics.isPause)
+            Rotate ();
     }
 
     protected virtual void OnTriggerEnter2D (Collider2D other) {

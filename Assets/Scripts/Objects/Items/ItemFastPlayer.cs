@@ -11,16 +11,19 @@
      protected override void Update () {
          base.Update ();
 
-         if (isTriggered) {
-             if (effectCount >= 5f) {
-                 if (player != null) {
-                     player.GetComponent<Player> ().moveSpeed = baseSpeed;
+         if (!Statics.isPause) {
+
+             if (isTriggered) {
+                 if (effectCount >= 5f) {
+                     if (player != null) {
+                         player.GetComponent<Player> ().moveSpeed = baseSpeed;
+                     }
+                     Destroy (this.gameObject);
+                 } else if (player.GetComponent<Player> ().moveSpeed < 10f) {
+                     Destroy (this.gameObject);
                  }
-                 Destroy (this.gameObject);
-             } else if (player.GetComponent<Player> ().moveSpeed < 10f) {
-                 Destroy (this.gameObject);
+                 effectCount += Time.deltaTime;
              }
-             effectCount += Time.deltaTime;
          }
      }
 

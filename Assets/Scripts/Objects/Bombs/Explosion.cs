@@ -38,11 +38,13 @@ public class Explosion : MonoBehaviour {
 
     // Update is called once per frame
     protected virtual void Update () {
-        if (!isBlocked) {
-            duration -= Time.deltaTime;
-            if (duration <= 0f) {
-                //Put Fade out animation here
-                Destroy (this.transform.parent.gameObject);
+        if (!Statics.isPause) {
+            if (!isBlocked) {
+                duration -= Time.deltaTime;
+                if (duration <= 0f) {
+                    //Put Fade out animation here
+                    Destroy (this.transform.parent.gameObject);
+                }
             }
         }
     }

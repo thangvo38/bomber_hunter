@@ -24,8 +24,6 @@ public class Services {
     public static Transform GetObjectInCell (Tilemap tilemap, Vector3 position) {
         Transform parent = tilemap.transform;
         int childCount = parent.childCount;
-        Vector3 min = (Vector3) tilemap.WorldToCell (position);
-        Vector3 max = (Vector3) tilemap.WorldToCell (position + Vector3Int.one);
         Bounds bounds = new Bounds (position, Vector2.one);
 
         for (int i = 0; i < childCount; i++) {

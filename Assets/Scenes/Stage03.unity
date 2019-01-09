@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -191,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -258,6 +266,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -340,7 +352,7 @@ GameObject:
   - component: {fileID: 201098490}
   - component: {fileID: 201098489}
   - component: {fileID: 201098488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -15797,6 +15809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -15905,6 +15921,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16021,6 +16041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16089,6 +16113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16150,6 +16178,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16213,6 +16245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16268,6 +16304,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16337,6 +16377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16392,6 +16436,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16460,6 +16508,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16570,6 +16622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16631,6 +16687,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16741,6 +16801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16809,6 +16873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -16864,6 +16932,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -16926,6 +16998,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17030,6 +17106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17085,6 +17165,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17147,6 +17231,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17240,6 +17328,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
         type: 3}
+      propertyPath: bombs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114755569174043496, guid: a689958d4c634ea429597a314cc5033f,
+        type: 3}
       propertyPath: bombLength
       value: 2
       objectReference: {fileID: 0}
@@ -17313,6 +17406,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17388,6 +17485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17456,6 +17557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17512,6 +17617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17567,6 +17676,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17692,6 +17805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17753,6 +17870,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17822,6 +17943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -17889,6 +18014,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -17998,6 +18127,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18143,6 +18276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18217,6 +18354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18272,6 +18413,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18347,6 +18492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18402,6 +18551,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18459,6 +18612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18514,6 +18671,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18571,6 +18732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18627,6 +18792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18679,6 +18848,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1749284838}
     m_Modifications:
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18734,6 +18907,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18802,6 +18979,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -18889,6 +19070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -18944,6 +19129,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19001,6 +19190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19056,6 +19249,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19113,6 +19310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19168,6 +19369,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19225,6 +19430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19280,6 +19489,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19337,6 +19550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19392,6 +19609,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19467,9 +19688,9 @@ GameObject:
   - component: {fileID: 1749284838}
   - component: {fileID: 1749284840}
   - component: {fileID: 1749284839}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Destructable
-  m_TagString: Untagged
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19645,6 +19866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19707,6 +19932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19762,6 +19991,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -19872,6 +20105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -19927,6 +20164,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -20136,6 +20377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -20192,6 +20437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -20247,6 +20496,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -20350,6 +20603,10 @@ PrefabInstance:
     - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_Name
       value: Destrucable_01 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
@@ -23471,6 +23728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destrucable_01 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114065654866977804, guid: 4e180fa5e297d6e44be69827ac290fb1,
         type: 3}
       propertyPath: dropItems.Array.size
@@ -23516,6 +23777,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+--- !u!1001 &2074388279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6001440614123132378, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_Name
+      value: LoadSaveManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4501814
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7644796
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 89.19922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132380, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001440614123132379, guid: 61472fa40c36d0d4b8839a3511f8bea8,
+        type: 3}
+      propertyPath: setStartingLives
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61472fa40c36d0d4b8839a3511f8bea8, type: 3}
 --- !u!4 &2078585866 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4581301485763196, guid: 4e180fa5e297d6e44be69827ac290fb1,

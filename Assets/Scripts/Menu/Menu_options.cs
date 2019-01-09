@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,14 +13,12 @@ public class Menu_options : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        handleKeyboard();
-	}
+        handleKeyboard ();
+    }
 
-    private void handleKeyboard()
-    {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            MenuOptions.SetActive(false);
+    private void handleKeyboard () {
+        if (Input.GetKeyDown (KeyCode.Escape)) {
+            MenuOptions.SetActive (false);
         }
     }
 }

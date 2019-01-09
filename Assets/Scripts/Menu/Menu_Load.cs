@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,61 +12,52 @@ public class Menu_Load : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        enableSpriteBoom();
+        enableSpriteBoom ();
         index = 0;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        handleKeyboard();
-	}
+    }
 
-    private void handleKeyboard()
-    {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
+    // Update is called once per frame
+    void Update () {
+        handleKeyboard ();
+    }
+
+    private void handleKeyboard () {
+        if (Input.GetKeyDown (KeyCode.DownArrow)) {
             index += 1;
             if (index > 2)
                 index = 0;
-            enableSpriteBoom();
+            enableSpriteBoom ();
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
+        if (Input.GetKeyDown (KeyCode.UpArrow)) {
             index -= 1;
             if (index < 0)
                 index = 2;
-            enableSpriteBoom();
+            enableSpriteBoom ();
         }
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            switch(index)
-            {
+        if (Input.GetKeyDown (KeyCode.Space)) {
+            switch (index) {
                 case 0:
                 case 1:
                 case 2:
-                {
-                    SaveData file = SaveSystem.LoadGame(index + 1);
-                    if (file != null)
                     {
-                        Statics.currentFile = file.fileNumber;
-                        SceneManager.LoadScene(file.stageName);
+                        SaveData file = SaveSystem.LoadGame (index + 1);
+                        if (file != null) {
+                            Statics.currentFile = file.fileNumber;
+                            SceneManager.LoadScene (file.stageName);
+                        }
+                        break;
                     }
-                    break;
-                }
                 default:
                     break;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            MenuLoad.SetActive(false);
+        if (Input.GetKeyDown (KeyCode.Escape)) {
+            MenuLoad.SetActive (false);
         }
     }
 
-    private void enableSpriteBoom()
-    {
-        for (int i = 0; i < 3; i++)
-        {
+    private void enableSpriteBoom () {
+        for (int i = 0; i < 3; i++) {
             arrImage[i].enabled = false;
         }
         arrImage[this.index].enabled = true;
