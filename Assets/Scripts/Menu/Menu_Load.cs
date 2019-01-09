@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu_Load : MonoBehaviour {
@@ -38,17 +39,22 @@ public class Menu_Load : MonoBehaviour {
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if(index == 0)
+            switch(index)
             {
-                //Load game 1
-            }
-            if (index == 1)
-            {
-                //Load game 2
-            }
-            if (index == 2)
-            {
-                //Load Game 3
+                case 0:
+                case 1:
+                case 2:
+                {
+                    SaveData file = SaveSystem.LoadGame(index + 1);
+                    if (file != null)
+                    {
+                        Statics.currentFile = file.fileNumber;
+                        SceneManager.LoadScene(file.stageName);
+                    }
+                    break;
+                }
+                default:
+                    break;
             }
         }
         if (Input.GetKeyDown(KeyCode.Escape))

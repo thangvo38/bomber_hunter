@@ -21,14 +21,13 @@ public class GameFileStatusManager : MonoBehaviour {
 			newText.Add(loadParent.GetChild(i));
 		}
 
-
-
 		for (int i = 0; i < loadText.Count ; i++)
 		{
 			SaveData file = SaveSystem.LoadGame(i + 1);
 			string status = "";
+
 			if (file == null)
-				status = "0/12";
+				status = "Empty";
 			else {
 				status = file.stageName + "/" + "12";
 			}
