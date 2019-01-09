@@ -23,7 +23,6 @@ public class BombEnemy : UnitStatus {
         };
 
         previousDir = availableDirections.IndexOf (direction * -1);
-        Debug.Log ("Awake:" + previousDir);
     }
     protected override void Start () {
         base.Start ();
@@ -74,12 +73,12 @@ public class BombEnemy : UnitStatus {
             //If can't move 
             if (!isMoving) {
                 failAttempt++;
-                Debug.Log ("FailAttempt:" + failAttempt);
+                // Debug.Log ("FailAttempt:" + failAttempt);
 
                 if (failAttempt > 3) {
                     direction = availableDirections[previousDir];
                     previousDir = availableDirections.IndexOf (direction * -1);
-                    Debug.Log ("Fail 3 times: " + direction);
+                    // Debug.Log ("Fail 3 times: " + direction);
                 } else {
                     // Debug.Log(previousDir);
                     int newDir = Services.RandomExcept (0, 4, previousDir);
@@ -88,7 +87,7 @@ public class BombEnemy : UnitStatus {
                 }
             } else {
                 failAttempt = 0;
-                Debug.Log ("FailAttempt:" + failAttempt);
+                // Debug.Log ("FailAttempt:" + failAttempt);
                 previousDir = availableDirections.IndexOf (direction * -1);
                 // Debug.Log("Previos: " + availableDirections[previousDir]);
             }

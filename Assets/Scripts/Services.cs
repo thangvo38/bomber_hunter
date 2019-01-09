@@ -52,7 +52,6 @@ public class Services {
     public static bool CheckListAllNull (List<GameObject> list) {
         for (int i = 0; i < list.Count; i++) {
             if (list[i] != null) {
-                Debug.Log (list[i]);
                 return false;
             }
         }
@@ -62,7 +61,6 @@ public class Services {
     public static bool CheckListAllNull (List<Transform> list) {
         for (int i = 0; i < list.Count; i++) {
             if (list[i] != null) {
-                Debug.Log (list[i]);
                 return false;
             }
         }

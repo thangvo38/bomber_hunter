@@ -11,8 +11,10 @@ public class BombBehavior : MonoBehaviour {
     public bool isTriggered = false;
     // Use this for initialization
     GameObject player;
-
-    protected virtual void Awake () { }
+    AudioClip explosionSound;
+    protected virtual void Awake () { 
+        explosionSound = Resources.Load("Audio/Explosion6") as AudioClip;
+    }
     protected void Start () { }
 
     // Update is called once per frame
@@ -20,6 +22,7 @@ public class BombBehavior : MonoBehaviour {
 
         if (countDown <= 0f && !isTriggered) {
             isTriggered = true;
+            PlayAudio();
             Explode (this.transform.position);
             this.transform.gameObject.GetComponent<Collider2D> ().enabled = false;
             this.transform.gameObject.GetComponent<SpriteRenderer> ().enabled = false;
@@ -82,9 +85,19 @@ public class BombBehavior : MonoBehaviour {
         }
 
         if (other.gameObject.tag == "Explosion") {
-            Debug.Log ("AAAAA");
             countDown = 0f;
             // return;
         }
+    }
+
+    void PlayAudio()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        // if (audioSource == null)
+        //     audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+
+        // audioSource.clip = explosionSound;
+        // audioSource.PlayOneShot(explosionSound, 1);
+        audioSource.Play();
     }
 }
