@@ -16,6 +16,9 @@ public class StraightEnemy : UnitStatus {
     protected override void Update () {
         base.Update ();
 
+        if (Statics.isPause)
+            return;
+            
         if (lives <= 0) {
             //Add animation here
             Destroy (this.gameObject);

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu_NewGame : MonoBehaviour {
@@ -32,14 +33,10 @@ public class Menu_NewGame : MonoBehaviour {
             enableSpriteBoom ();
         }
         if (Input.GetKeyDown (KeyCode.Space)) {
-            if (index == 0) {
-                //New game 1
-            }
-            if (index == 1) {
-                //New game 2
-            }
-            if (index == 2) {
-                //New Game 3
+            if (index >= 0 && index <= 2)
+            {
+                Statics.currentFile = index + 1;
+                SceneManager.LoadScene("Stage01");
             }
         }
         if (Input.GetKeyDown (KeyCode.Escape)) {

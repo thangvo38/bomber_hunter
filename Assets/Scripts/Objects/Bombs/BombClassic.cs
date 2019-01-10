@@ -1,8 +1,6 @@
 using UnityEngine;
 
 public class BombClassic : BombBehavior {
-
-    GameObject player;
     public int length = 0;
 
     protected override void Awake () {

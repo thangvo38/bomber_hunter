@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -32,11 +33,12 @@ public class GameFileStatusManager : MonoBehaviour
                 status = "Empty";
             else
             {
-                status = file.stageName + "/" + "12";
+                string[] stageNumber = file.stageName.Split(new string[] {"Stage"}, System.StringSplitOptions.None);
+                status = Int32.Parse(String.Join("", stageNumber)).ToString() + "/" + "12";
             }
 
             loadText[i].GetComponent<TextMeshProUGUI>().text = status;
-            newParent.GetChild(i).GetComponent<TextMeshPro>().text = status;
+            newParent.GetChild(i).GetComponent<TextMeshProUGUI>().text = status;
         }
     }
 

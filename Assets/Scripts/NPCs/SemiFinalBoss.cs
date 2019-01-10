@@ -7,7 +7,6 @@ public class SemiFinalBoss : UnitStatus {
 
     public Vector3 startPos = new Vector3 (0.5f, 3.5f, 0f);
     GameObject player = null;
-    private Rigidbody2D rb2D;
     bool returnToStart = false;
     public Vector3 targetPos;
 
@@ -15,11 +14,13 @@ public class SemiFinalBoss : UnitStatus {
         base.Awake ();
         player = GameObject.Find ("Player");
         blockTiles = new List<Tilemap> ();
-        rb2D = gameObject.AddComponent<Rigidbody2D> ();
         targetPos = player.transform.position;
     }
 
     protected override void Update () {
+        if (Statics.isPause)
+            return;
+
         if (lives <= 0) {
             //Add animation here
         }

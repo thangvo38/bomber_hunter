@@ -67,7 +67,7 @@ public class Player : UnitStatus {
     void SwitchBombControl () {
         bool switchButtonDown = Input.GetButtonDown ("B");
         if (switchButtonDown) {
-            curerntBombId = curerntBombId == 2 ? 0 : curerntBombId + 1;
+            curerntBombId = curerntBombId + 1 >= bombs.Count ? 0 : curerntBombId + 1;
         }
     }
 

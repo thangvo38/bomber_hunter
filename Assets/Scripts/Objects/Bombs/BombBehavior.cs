@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class BombBehavior : MonoBehaviour {
+    protected GameObject player;
     public GameObject explosionPrefab;
     public float countDown = 2f;
     public int damage = 1;
     protected int maxLength = 2;
     public bool isTriggered = false;
     // Use this for initialization
-    GameObject player;
     AudioClip explosionSound;
     protected virtual void Awake () {
         explosionSound = Resources.Load ("Audio/Explosion6") as AudioClip;

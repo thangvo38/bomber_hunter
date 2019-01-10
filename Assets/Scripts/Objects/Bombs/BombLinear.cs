@@ -1,8 +1,6 @@
 using UnityEngine;
 
 public class BombLinear : BombBehavior {
-
-    GameObject player;
     Vector3Int playerDirection;
     protected override void Awake () {
         player = GameObject.Find ("Player");

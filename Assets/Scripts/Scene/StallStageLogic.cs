@@ -13,9 +13,12 @@ public class StallStageLogic : MonoBehaviour {
         timerUI = GameObject.Find ("Timer").GetComponent<Text> ();
     }
     void Update () {
+        if (Statics.isPause)
+            return;
+
         if (timeInSeconds > 0) {
             timer -= Time.deltaTime;
-            timeInSeconds = Convert.ToInt32 (timer % 60);
+            timeInSeconds = Convert.ToInt32 (timer);
             timerUI.text = timeInSeconds.ToString ();
         } else {
             SceneManager.LoadScene (nextScene);

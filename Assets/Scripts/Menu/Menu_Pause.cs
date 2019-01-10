@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu_Pause : MonoBehaviour
@@ -47,7 +48,7 @@ public class Menu_Pause : MonoBehaviour
             }
             if (index == 1)
             {
-                //SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene("Menu");
             }
         }
     }

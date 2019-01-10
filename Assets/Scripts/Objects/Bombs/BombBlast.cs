@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class BombBlast : BombBehavior {
 
-    GameObject player;
-
     protected override void Awake () {
         base.Awake ();
         player = GameObject.Find ("Player");
@@ -32,7 +30,7 @@ public class BombBlast : BombBehavior {
         }
 
         Vector3 pos = this.transform.position + direction;
-        GameObject explosion = (GameObject) Instantiate (explosionPrefab, pos, Quaternion.identity, this.transform);
+        Instantiate (explosionPrefab, pos, Quaternion.identity, this.transform);
         if (currentLength == 0) {
             return false;
         } else {
