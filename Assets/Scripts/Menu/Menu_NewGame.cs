@@ -8,6 +8,7 @@ public class Menu_NewGame : MonoBehaviour {
     public Image[] arrImage = new Image[3];
     private int index = 0;
     public GameObject MenuNewGame;
+    public GameObject Erased_Menu;
     // Start is called before the first frame update
     void Start () {
         enableSpriteBoom ();
@@ -35,12 +36,15 @@ public class Menu_NewGame : MonoBehaviour {
         if (Input.GetKeyDown (KeyCode.Space)) {
             if (index >= 0 && index <= 2)
             {
-                Statics.currentFile = index + 1;
-                SceneManager.LoadScene("Stage01");
+                //Xu ly kiem tra game do co du lieu chua
+                Erased_Menu.SetActive(true);
+                //Statics.currentFile = index + 1;
+                //SceneManager.LoadScene("Stage01");
             }
         }
         if (Input.GetKeyDown (KeyCode.Escape)) {
             MenuNewGame.SetActive (false);
+            Erased_Menu.SetActive(false);
         }
     }
 
