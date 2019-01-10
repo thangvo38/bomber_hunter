@@ -6,6 +6,7 @@ public class ItemBase : MonoBehaviour {
     float turn = 1f;
     public float turnSpeed = 3f;
 
+    protected float audioLength = 0f;
     void OnValidate () {
         turnSpeed = Mathf.Max (turnSpeed, 0f);
     }
@@ -21,6 +22,14 @@ public class ItemBase : MonoBehaviour {
 
     protected virtual void OnTriggerEnter2D (Collider2D other) {
         if (other.gameObject.tag == Constants.PLAYER_TAG) {
+            AudioSource audio = this.GetComponent<AudioSource>();
+            if (audio != null)
+            {
+                audio.volume = audio.volume * Statics.CurrentVolume;
+                audio.PlayOneShot(audio.clip);
+                audioLength = audio.clip.length;
+            }
+            
             GainEffect (other.transform);
         }
     }

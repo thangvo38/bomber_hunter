@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class BombBlast : BombBehavior {
@@ -20,8 +19,9 @@ public class BombBlast : BombBehavior {
         ExplodeCell (new Vector3Int (0, -1, 0));
         ExplodeCell (new Vector3Int (1, -1, 0));
 
-        StartCoroutine(Wait());
-        
+        if (player.GetComponent<Player> ().bombPlaced > 0) {
+            player.GetComponent<Player> ().bombPlaced--;
+        }
     }
 
     protected override bool ExplodeCell (Vector3Int direction, int currentLength = 1) {
@@ -37,12 +37,6 @@ public class BombBlast : BombBehavior {
             return ExplodeCell (Services.ToVectorOne (direction) * (currentLength + 1), currentLength + 1);
         }
     }
-
-    IEnumerator Wait () {
-        yield return new WaitForSeconds (0.5f);
-        if (player.GetComponent<Player> ().bombPlaced > 0) {
-            player.GetComponent<Player> ().bombPlaced--;
-        }
-    }
+    
 
 }

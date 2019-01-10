@@ -28,12 +28,12 @@ public class Player : UnitStatus {
             }
 
             SwitchBombControl ();
-            if (bombPlaced < bombLimit)
+            if (bombPlaced < bombLimit && canAttack)
                 AttackControl ();
-            
+ 
             if (isMoving)
                 return;
-                
+
             MovementControl ();
         }
     }
@@ -56,6 +56,7 @@ public class Player : UnitStatus {
     protected override void AttackControl () {
         bool attackButtonDown = Input.GetButtonDown ("A");
         if (bombPlaced < bombLimit && canAttack && attackButtonDown) {
+            canAttack = false;
             bool isOnGround = base.isOnGround (this.transform.position);
             if (bombPlaced < bombLimit && isOnGround && curerntBombId <= bombs.Count && bombs[curerntBombId] != null) {
                 Vector3Int bombCell = groundTiles.WorldToCell (transform.position);
@@ -63,6 +64,7 @@ public class Player : UnitStatus {
                 bomb.GetComponent<BombBehavior> ().SetLength (bombLength);
                 bombPlaced++;
             }
+            canAttack = true;
         }
     }
 

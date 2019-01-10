@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class BombLinear : BombBehavior {
@@ -18,12 +17,7 @@ public class BombLinear : BombBehavior {
 
         ExplodeCell (Vector3Int.zero, 0);
         ExplodeCell (playerDirection);
-            StartCoroutine(Wait());
-
-    }
-
-        IEnumerator Wait () {
-        yield return new WaitForSeconds (0.5f);
+    
         if (player.GetComponent<Player> ().bombPlaced > 0) {
             player.GetComponent<Player> ().bombPlaced--;
         }

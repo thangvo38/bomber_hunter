@@ -60,7 +60,7 @@ public class UnitStatus : MonoBehaviour {
 
     public virtual void Damage () {
         if (!isInvisible)
-            lives = lives <= 0 ? 0 : lives - 1;
+            lives = lives - 1 <= 0 ? 0 : lives - 1;
         isInvisible = true;
         StartCoroutine (Flash ());
     }

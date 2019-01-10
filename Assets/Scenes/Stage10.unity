@@ -480,9 +480,9 @@ GameObject:
   - component: {fileID: 112735407}
   - component: {fileID: 112735409}
   - component: {fileID: 112735408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pink
-  m_TagString: Untagged
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1402,6 +1402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 112735407}
     m_Modifications:
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4581301485763196, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -21978,7 +21982,7 @@ GameObject:
   - component: {fileID: 768934663}
   m_Layer: 8
   m_Name: Destructable
-  m_TagString: Untagged
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22217,6 +22221,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 112735407}
     m_Modifications:
+    - target: {fileID: 1038397142119190, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4581301485763196, guid: 4e180fa5e297d6e44be69827ac290fb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.5
