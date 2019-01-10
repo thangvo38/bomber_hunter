@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Pause_YesNo_Popup : MonoBehaviour
@@ -42,6 +43,7 @@ public class Pause_YesNo_Popup : MonoBehaviour
             if (index == 0)
             {
                 // Xu ly yes
+                SceneManager.LoadScene("Menu");
             }
             if (index == 1)
             {

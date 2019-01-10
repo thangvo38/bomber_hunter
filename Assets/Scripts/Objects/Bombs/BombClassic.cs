@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class BombClassic : BombBehavior {
@@ -8,10 +9,6 @@ public class BombClassic : BombBehavior {
         player = GameObject.Find ("Player");
     }
     public override void Explode (Vector2 position) {
-        if (player.GetComponent<Player> ().bombPlaced > 0) {
-            player.GetComponent<Player> ().bombPlaced--;
-        }
-
         if (length > 0) {
             maxLength = length;
         }
@@ -20,5 +17,15 @@ public class BombClassic : BombBehavior {
         ExplodeCell (new Vector3Int (0, 1, 0));
         ExplodeCell (new Vector3Int (-1, 0, 0));
         ExplodeCell (new Vector3Int (0, -1, 0));
+    
+                StartCoroutine(Wait());
+ 
+    }
+
+        IEnumerator Wait () {
+        yield return new WaitForSeconds (0.75f);
+        if (player.GetComponent<Player> ().bombPlaced > 0) {
+            player.GetComponent<Player> ().bombPlaced--;
+        }
     }
 }

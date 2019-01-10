@@ -49,7 +49,6 @@ public class Menu_Pause : MonoBehaviour
             }
             if (index == 1)
             {
-                //SceneManager.LoadScene("Menu");
                 YesNoPopup.SetActive(true);
             }
         }

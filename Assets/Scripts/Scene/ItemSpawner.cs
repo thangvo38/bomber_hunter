@@ -36,7 +36,7 @@ public class ItemSpawner : MonoBehaviour {
             Transform child = destructableContainer.GetChild (i);
             child.GetComponent<Destructable> ().dropItems = new List<GameObject> ();
             child.GetComponent<Destructable> ().dropItems.Add (items[itemIndex]);
-            child.GetComponent<Destructable> ().dropRate = Random.Range (0.1f, 0.4f);
+            child.GetComponent<Destructable> ().dropRate = Random.Range (10f, 20f);
         }
 
     }

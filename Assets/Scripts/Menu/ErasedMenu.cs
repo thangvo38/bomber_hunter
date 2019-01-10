@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ErasedMenu : MonoBehaviour
@@ -42,6 +43,8 @@ public class ErasedMenu : MonoBehaviour
             if (index == 0)
             {
                 // Xu ly yes
+                Statics.currentFile = index + 1;
+                SceneManager.LoadScene("Stage01");
             }
             if (index == 1)
             {

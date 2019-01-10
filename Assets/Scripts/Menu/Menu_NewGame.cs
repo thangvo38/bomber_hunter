@@ -38,8 +38,6 @@ public class Menu_NewGame : MonoBehaviour {
             {
                 //Xu ly kiem tra game do co du lieu chua
                 Erased_Menu.SetActive(true);
-                //Statics.currentFile = index + 1;
-                //SceneManager.LoadScene("Stage01");
             }
         }
         if (Input.GetKeyDown (KeyCode.Escape)) {
