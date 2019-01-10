@@ -45,7 +45,7 @@ public class Menu : MonoBehaviour {
                 index = 4;
             enableSpriteBoom ();
         }
-        if (Input.GetKeyDown (KeyCode.Space)) {
+        if (Input.GetButtonDown ("Submit")) {
             switch (this.index) {
                 case 0:
                     {

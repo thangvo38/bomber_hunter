@@ -8,6 +8,12 @@ public class Stage12Logic : UnlockDoorLogic {
     protected override void Update () {
         base.Update ();
         if (clearFirstPhrase) {
+            if (Boss == null)
+            {
+                SceneManager.LoadScene (Constants.SCENE_END_GAME);
+                return;
+            }
+
             if (Boss.activeSelf == false)
                 Boss.SetActive (true);
 
@@ -15,6 +21,7 @@ public class Stage12Logic : UnlockDoorLogic {
             if (hp <= 0) {
                 //Move to End game screen 
                 SceneManager.LoadScene (Constants.SCENE_END_GAME);
+                return;
             }
         }
     }

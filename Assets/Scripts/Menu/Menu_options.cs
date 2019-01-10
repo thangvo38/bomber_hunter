@@ -18,7 +18,7 @@ public class Menu_options : MonoBehaviour {
     }
 
     private void handleKeyboard () {
-        if (Input.GetKeyDown (KeyCode.Escape)) {
+        if (Input.GetButtonDown ("Cancel")) {
             MenuOptions.SetActive (false);
         }       
     }

@@ -20,7 +20,7 @@ public class ManagerMenuPause : MonoBehaviour
 
     private void handleKeyboard()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Cancel"))
         {
             MenuPause.SetActive(!MenuPause.active);
             YesNoPopup.SetActive(false);

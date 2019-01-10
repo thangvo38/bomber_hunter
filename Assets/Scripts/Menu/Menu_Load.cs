@@ -34,7 +34,7 @@ public class Menu_Load : MonoBehaviour {
                 index = 2;
             enableSpriteBoom ();
         }
-        if (Input.GetKeyDown (KeyCode.Space)) {
+        if (Input.GetButtonDown ("Submit")) {
             switch (index) {
                 case 0:
                 case 1:
@@ -51,7 +51,7 @@ public class Menu_Load : MonoBehaviour {
                     break;
             }
         }
-        if (Input.GetKeyDown (KeyCode.Escape)) {
+        if (Input.GetButtonDown ("Cancel")) {
             MenuLoad.SetActive (false);
         }
     }

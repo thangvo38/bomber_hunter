@@ -32,7 +32,7 @@ public class Menu_Exit : MonoBehaviour {
                 index = 1;
             enableSpriteBoom ();
         }
-        if (Input.GetKeyDown (KeyCode.Space)) {
+        if (Input.GetButtonDown ("Submit")) {
             if (index == 0) {
                Application.Quit();
             }

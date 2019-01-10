@@ -33,14 +33,14 @@ public class Menu_NewGame : MonoBehaviour {
                 index = 2;
             enableSpriteBoom ();
         }
-        if (Input.GetKeyDown (KeyCode.Space)) {
+        if (Input.GetButtonDown ("Submit")) {
             if (index >= 0 && index <= 2)
             {
                 //Xu ly kiem tra game do co du lieu chua
                 Erased_Menu.SetActive(true);
             }
         }
-        if (Input.GetKeyDown (KeyCode.Escape)) {
+        if (Input.GetButtonDown ("Cancel")) {
             MenuNewGame.SetActive (false);
             Erased_Menu.SetActive(false);
         }
