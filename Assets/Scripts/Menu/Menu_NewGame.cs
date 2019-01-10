@@ -41,6 +41,7 @@ public class Menu_NewGame : MonoBehaviour {
             }
         }
         if (Input.GetButtonDown ("Cancel")) {
+            Debug.Log("aaa");
             MenuNewGame.SetActive (false);
             Erased_Menu.SetActive(false);
         }

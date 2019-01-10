@@ -38,7 +38,7 @@ public class ErasedMenu : MonoBehaviour
                 index = 1;
             enableSpriteBoom();
         }
-        if (Input.GetButtonDown("A"))
+        if (Input.GetButtonDown("Submit"))
         {
             if (index == 0)
             {
