@@ -92,11 +92,7 @@ public class BombBehavior : MonoBehaviour {
 
     void PlayAudio () {
         AudioSource audioSource = GetComponent<AudioSource> ();
-        // if (audioSource == null)
-        //     audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
-
-        // audioSource.clip = explosionSound;
-        // audioSource.PlayOneShot(explosionSound, 1);
+        audioSource.volume = audioSource.volume * Statics.CurrentVolume;
         audioSource.Play ();
     }
 }

@@ -34,7 +34,7 @@ public class Menu_Exit : MonoBehaviour {
         }
         if (Input.GetKeyDown (KeyCode.Space)) {
             if (index == 0) {
-                //End Game
+               Application.Quit();
             }
             if (index == 1) {
                 MenuExit.SetActive (false);

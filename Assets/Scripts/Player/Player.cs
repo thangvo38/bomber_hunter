@@ -80,4 +80,10 @@ public class Player : UnitStatus {
         }
     }
 
+    public override void Damage()
+    {
+        base.Damage();
+        GetComponent<AudioSource>().Play();
+    }
+
 }
