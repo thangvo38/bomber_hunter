@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour {
     public GameObject MenuLoad;
     public GameObject MenuOptions;
     public GameObject MenuNewGame;
+    public GameObject MenuAbout;
 
     private int index = 0;
     // Use this for initialization
@@ -63,7 +64,7 @@ public class Menu : MonoBehaviour {
                     break;
                 case 3:
                     {
-                        //About
+                        MenuAbout.SetActive(true);
                     }
                     break;
                 case 4:

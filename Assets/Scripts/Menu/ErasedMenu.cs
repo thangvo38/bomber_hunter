@@ -1,15 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Menu_Pause : MonoBehaviour
+public class ErasedMenu : MonoBehaviour
 {
     public Image[] arrImage = new Image[2];
     private int index = 0;
-    public GameObject MenuPause;
-    public GameObject YesNoPopup;
+    public GameObject thisPopup;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,14 +41,12 @@ public class Menu_Pause : MonoBehaviour
         {
             if (index == 0)
             {
-                //Resume
-                MenuPause.SetActive(false);
-                Statics.isPause = false;
+                // Xu ly yes
             }
             if (index == 1)
             {
-                //SceneManager.LoadScene("Menu");
-                YesNoPopup.SetActive(true);
+                //Xu ly no
+                thisPopup.SetActive(false);
             }
         }
     }
